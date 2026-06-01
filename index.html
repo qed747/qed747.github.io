@@ -104,6 +104,7 @@
                   <option value="year">Year</option>
                   <option value="agency">Agency</option>
                   <option value="country">Destination country / route</option>
+                  <option value="vsd">Voluntary self-disclosure</option>
                 </select>
               </label>
               <label>
@@ -115,7 +116,7 @@
               </label>
             </div>
             <div id="penaltyExplorerChart"></div>
-            <p class="field-note">Country breakdown uses fully coded cases because source-index rows do not yet contain normalized destination-country fields.</p>
+            <p class="field-note">Country and voluntary-disclosure breakdowns use fully coded cases because source-index rows do not yet contain normalized country or disclosure fields.</p>
           </div>
           <div id="caseList" class="case-list"></div>
           <div id="sourceIndexSection" class="source-index-section"></div>
@@ -273,7 +274,7 @@ posterior_probability = posterior_odds / (1 + posterior_odds)</code></pre>
     <script src="data/cases.js?v=13"></script>
     <script src="data/sourceCoverage.js?v=13"></script>
     <script src="data/sourceIndex.js?v=13"></script>
-    <script src="data/countries.js?v=20"></script>
-    <script src="app.js?v=20"></script>
+    <script src="data/countries.js?v=24"></script>
+    <script src="app.js?v=24"></script>
   </body>
 </html>

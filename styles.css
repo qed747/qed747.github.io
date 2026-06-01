@@ -343,12 +343,19 @@ select {
 
 .bar-row {
   display: grid;
-  grid-template-columns: 110px minmax(0, 1fr) 36px;
+  grid-template-columns: minmax(88px, 120px) minmax(120px, 1fr) minmax(92px, max-content);
   align-items: center;
   gap: 8px;
   margin: 8px 0;
   color: var(--muted);
   font-size: 0.86rem;
+}
+
+.bar-row b {
+  justify-self: end;
+  max-width: 140px;
+  overflow-wrap: anywhere;
+  text-align: right;
 }
 
 .bar {
@@ -431,6 +438,33 @@ select {
 .case-card a {
   color: var(--accent);
   font-weight: 700;
+}
+
+.factor-table {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  display: grid;
+  margin: 12px 0;
+  overflow: hidden;
+}
+
+.factor-row {
+  display: grid;
+  grid-template-columns: 170px minmax(0, 1fr);
+  gap: 10px;
+  padding: 9px 10px;
+}
+
+.factor-row + .factor-row {
+  border-top: 1px solid var(--line);
+}
+
+.factor-row strong {
+  color: var(--ink);
+}
+
+.factor-row span {
+  color: var(--muted);
 }
 
 .risk-form {
@@ -606,6 +640,10 @@ pre {
   .form-grid,
   .stats-grid,
   .score-top {
+    grid-template-columns: 1fr;
+  }
+
+  .factor-row {
     grid-template-columns: 1fr;
   }
 
