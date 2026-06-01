@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sanctions Risk Bayesian Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Sanctions and export control analytics</p>
+        <h1>Bayesian Enforcement Risk Explorer</h1>
+      </div>
+      <div class="source-note">
+        Public-record prototype. Not legal advice.
+      </div>
+    </header>
+
+    <main>
+      <section class="panel intro">
+        <div>
+          <h2>Historical patterns and prospective transaction risk</h2>
+          <p>
+            Explore enforcement cases, then score a proposed transaction using case-derived likelihood ratios and policy-guideline modifiers.
+          </p>
+        </div>
+        <div class="stats-grid" id="statsGrid"></div>
+      </section>
+
+      <section class="panel coverage-panel">
+        <div class="section-head">
+          <div>
+            <h2>Corpus Coverage</h2>
+            <p>This prototype now separates fully coded exemplar cases from the larger official-source corpus that should be ingested for production modeling.</p>
+          </div>
+        </div>
+        <div class="coverage-grid" id="coverageGrid"></div>
+      </section>
+
+      <nav class="tabs" aria-label="Tool sections">
+        <button class="tab active" data-tab="historical">Historical Explorer</button>
+        <button class="tab" data-tab="patterns">Pattern Analysis</button>
+        <button class="tab" data-tab="prospective">Prospective Risk</button>
+        <button class="tab" data-tab="methodology">Methodology</button>
+      </nav>
+
+      <section id="historical" class="tab-panel active">
+        <aside class="filters" aria-label="Historical filters">
+          <label>
+            Search
+            <input id="searchInput" type="search" placeholder="Try FedEx, DHL, Haas, Interactive Brokers, GVA Capital">
+            <small class="field-note">Free text across loaded cases and source-index rows.</small>
+          </label>
+          <label>
+            Company
+            <select id="companyFilter"></select>
+            <small class="field-note">Dropdown contains companies already loaded into the local index.</small>
+          </label>
+          <label>
+            Agency
+            <select id="agencyFilter"></select>
+          </label>
+          <label>
+            Country or route
+            <select id="countryFilter"></select>
+          </label>
+          <label>
+            Product category
+            <select id="productFilter"></select>
+          </label>
+          <label>
+            Disclosure status
+            <select id="disclosureFilter"></select>
+          </label>
+          <button id="runSearch" class="secondary" type="button">Search</button>
+          <button id="resetFilters" class="secondary">Reset filters</button>
+        </aside>
+
+        <div class="results">
+          <div class="section-head">
+            <div>
+              <h2>Historical Records</h2>
+              <p id="resultSummary"></p>
+            </div>
+            <button id="exportCsv" class="secondary">Export CSV</button>
+          </div>
+          <div class="chart-row">
+            <div class="mini-chart">
+              <h3>By agency</h3>
+              <div id="agencyChart"></div>
+            </div>
+            <div class="mini-chart">
+              <h3>By product or record type</h3>
+              <div id="productChart"></div>
+            </div>
+          </div>
+          <div class="mini-chart interactive-chart">
+            <div class="chart-controls">
+              <h3>Interactive Penalty Chart</h3>
+              <label>
+                Break down by
+                <select id="penaltyBreakdown">
+                  <option value="year">Year</option>
+                  <option value="agency">Agency</option>
+                  <option value="country">Destination country / route</option>
+                </select>
+              </label>
+              <label>
+                Measure
+                <select id="penaltyMeasure">
+                  <option value="penalty">Penalty amount</option>
+                  <option value="count">Record count</option>
+                </select>
+              </label>
+            </div>
+            <div id="penaltyExplorerChart"></div>
+            <p class="field-note">Country breakdown uses fully coded cases because source-index rows do not yet contain normalized destination-country fields.</p>
+          </div>
+          <div id="caseList" class="case-list"></div>
+          <div id="sourceIndexSection" class="source-index-section"></div>
+        </div>
+      </section>
+
+      <section id="patterns" class="tab-panel">
+        <div class="results pattern-results">
+          <div class="section-head">
+            <div>
+              <h2>Pattern Recognition Across Coded Cases</h2>
+              <p id="patternSummary"></p>
+            </div>
+          </div>
+
+          <div class="pattern-grid">
+            <div class="mini-chart">
+              <h3>Penalty by Country or Route</h3>
+              <div id="countryPenaltyChart"></div>
+            </div>
+            <div class="mini-chart">
+              <h3>Penalty by Product Category</h3>
+              <div id="productPenaltyChart"></div>
+            </div>
+            <div class="mini-chart">
+              <h3>Disclosure Comparison</h3>
+              <div id="disclosurePenaltyChart"></div>
+            </div>
+            <div class="mini-chart">
+              <h3>Penalty by Risk Factor</h3>
+              <div id="factorPenaltyChart"></div>
+            </div>
+          </div>
+        </div>
+
+        <aside class="filters pattern-tools" aria-label="Case similarity tools">
+          <label>
+            Compare from case
+            <select id="similarityCase"></select>
+          </label>
+          <label>
+            Similarity basis
+            <select id="similarityBasis">
+              <option value="all">Countries, products, posture, factors</option>
+              <option value="factors">Risk factors only</option>
+              <option value="commercial">Countries and products</option>
+            </select>
+          </label>
+          <button id="runSimilarity" class="secondary" type="button">Find similar cases</button>
+          <div id="similarityOutput" class="similarity-output"></div>
+        </aside>
+      </section>
+
+      <section id="prospective" class="tab-panel">
+        <form id="riskForm" class="risk-form">
+          <div class="form-grid">
+            <label>
+              Transaction archetype
+              <select id="archetype">
+                <option value="routine">Routine commercial transaction</option>
+                <option value="dual_use">Controlled dual-use export/reexport</option>
+                <option value="sanctions_services">Sanctions-sensitive services or payment</option>
+                <option value="defense_tech">Defense, military, aerospace, AI, or semiconductor technology</option>
+              </select>
+            </label>
+            <label>
+              Destination country
+              <select id="destination"></select>
+            </label>
+            <label>
+              Intermediary / transshipment country
+              <select id="intermediary"></select>
+            </label>
+            <label>
+              Product or service category
+              <select id="product">
+                <option value="general_goods">General goods</option>
+                <option value="semiconductors_ai">Semiconductors, AI, advanced computing</option>
+                <option value="aerospace_aviation">Aerospace or aviation</option>
+                <option value="defense_services">Defense services or military training</option>
+                <option value="oil_gas_energy">Oil, gas, petrochemical, or energy</option>
+                <option value="financial_services">Financial, securities, or payment services</option>
+                <option value="maritime_logistics">Maritime, freight forwarding, or logistics</option>
+                <option value="encryption_electronics">Electronics, encryption, sensors, or telecom</option>
+              </select>
+            </label>
+            <label>
+              Estimated value (USD)
+              <input id="valueUsd" type="number" min="0" step="1000" value="250000">
+            </label>
+            <label>
+              Export classification posture
+              <select id="classification">
+                <option value="unknown">Unknown or not yet classified</option>
+                <option value="ear99">EAR99 / no known listed control</option>
+                <option value="eccn">ECCN-controlled item</option>
+                <option value="itar">ITAR/defense article or service</option>
+              </select>
+            </label>
+          </div>
+
+          <fieldset>
+            <legend>Risk factors</legend>
+            <div class="checks">
+              <label><input type="checkbox" value="restricted_party"> Restricted party or ownership concern</label>
+              <label><input type="checkbox" value="military_end_use"> Military, intelligence, WMD, or defense end use</label>
+              <label><input type="checkbox" value="red_flags"> Red flags, evasive behavior, or inconsistent documentation</label>
+              <label><input type="checkbox" value="transshipment"> Intermediary route or unusual logistics path</label>
+              <label><input type="checkbox" value="no_license"> License likely required or license status unresolved</label>
+              <label><input type="checkbox" value="us_origin"> U.S.-origin goods, technology, software, or U.S. person services</label>
+              <label><input type="checkbox" value="management_awareness"> Management knew or ignored warning signs</label>
+              <label><input type="checkbox" value="weak_controls"> Weak screening, classification, or compliance controls</label>
+              <label><input type="checkbox" value="voluntary_disclosure"> Voluntary self-disclosure planned or made</label>
+              <label><input type="checkbox" value="remediation"> Remediation, hold, or license escalation in place</label>
+            </div>
+          </fieldset>
+
+          <button type="submit">Score transaction</button>
+        </form>
+
+        <div class="risk-output" id="riskOutput">
+          <div class="empty-state">Enter a transaction profile to generate a posterior risk estimate and analogous enforcement cases.</div>
+        </div>
+      </section>
+
+      <section id="methodology" class="tab-panel methodology">
+        <h2>Bayesian framework</h2>
+        <p>
+          The prototype starts with a prior probability by transaction archetype, converts it to odds, then multiplies by feature likelihood ratios derived from the public-record case set. Smoothing keeps rare features from overpowering the estimate.
+        </p>
+        <pre><code>posterior_odds = prior_odds x LR(country) x LR(product) x LR(route) x LR(red_flags) x policy_modifiers
+posterior_probability = posterior_odds / (1 + posterior_odds)</code></pre>
+        <h3>Interpretation guardrails</h3>
+        <p>
+          The score is not a legal conclusion and not a true violation rate. In plain English, it asks: how much does this proposed transaction look like public sanctions and export-control matters that agencies have penalized, charged, or prosecuted?
+        </p>
+        <h3>Risk factor sources</h3>
+        <p>
+          Risk factors are analyst-coded from public agency enforcement frameworks and case documents, not from a single government data field. The tags reflect recurring factors in OFAC enforcement guidelines, BIS enforcement and red-flag materials, DOJ National Security Division voluntary-disclosure policy, DDTC consent agreements, and the linked public settlement, charging, plea, sentencing, or penalty records.
+        </p>
+        <h3>Pattern analysis</h3>
+        <p>
+          The Pattern Analysis tab compares normalized coded cases by countries, products, disclosure posture, agencies, enforcement posture, and risk-factor tags. Its penalty summaries are descriptive associations, not causal estimates; source-index rows are excluded until normalized into model-ready fields.
+        </p>
+        <h3>Production upgrades</h3>
+        <ul>
+          <li>Add denominator data: shipment counts, license approvals/denials, internal alerts, screening dispositions, and business-line transaction volumes.</li>
+          <li>Separate models for OFAC civil penalties, BIS administrative enforcement, DOJ criminal prosecution, and DDTC/ITAR matters.</li>
+          <li>Use hierarchical priors by country, product class, agency, disclosure status, industry, transaction value, and compliance program maturity.</li>
+          <li>Track temporal drift because sanctions programs and export-control priorities change materially year to year.</li>
+        </ul>
+      </section>
+    </main>
+
+    <script src="data/cases.js?v=13"></script>
+    <script src="data/sourceCoverage.js?v=13"></script>
+    <script src="data/sourceIndex.js?v=13"></script>
+    <script src="data/countries.js?v=20"></script>
+    <script src="app.js?v=20"></script>
+  </body>
+</html>
