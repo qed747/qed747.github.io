@@ -59,6 +59,17 @@
   };
 
   const sensitiveCountries = new Set(["Russia", "China", "Iran", "Syria", "Cuba", "North Korea", "Belarus"]);
+  const aggravatingFactorKeys = [
+    "restricted_party",
+    "military_end_use",
+    "red_flags",
+    "transshipment",
+    "no_license",
+    "us_origin",
+    "management_awareness",
+    "weak_controls"
+  ];
+  const mitigatingFactorKeys = ["voluntary_disclosure", "remediation"];
   const countryAliases = {
     "United Arab Emirates": ["United Arab Emirates", "UAE", "U.A.E.", "Dubai", "Abu Dhabi"],
     "China": ["China", "Chinese", "Hong Kong", "PRC"],
@@ -299,12 +310,13 @@
 
   function sourceIndexFilterMatches(item, filters) {
     const productOk = filters.product === "All";
-    const disclosureOk = filters.disclosure === "All";
+    const disclosureOk = filters.disclosure === "All" || sourceIndexDisclosureMatches(item, filters.disclosure);
     const countryOk = filters.country === "All" || sourceIndexCountryMatches(item, filters.country);
     return countryOk && productOk && disclosureOk;
   }
 
   function sourceIndexCountryMatches(item, country) {
+    if ((item.countries || []).includes(country)) return true;
     const aliases = countryAliases[country] || [country];
     const haystack = [
       item.name,
@@ -314,6 +326,15 @@
       item.sourceUrl
     ].join(" ").toLowerCase();
     return aliases.some((alias) => haystack.includes(alias.toLowerCase()));
+  }
+
+  function sourceIndexDisclosureMatches(item, disclosure) {
+    const itemDisclosure = String(item.disclosure || "").toLowerCase();
+    const selected = String(disclosure || "").toLowerCase();
+    if (!itemDisclosure) return false;
+    if (selected.includes("voluntary")) return itemDisclosure.includes("voluntary");
+    if (selected.includes("not specified")) return itemDisclosure.includes("not specified");
+    return itemDisclosure === selected;
   }
 
   function productMatches(item, selectedProduct) {
@@ -360,7 +381,7 @@
     if (!elements.penaltyExplorerChart) return;
     const breakdown = elements.penaltyBreakdown.value;
     const measure = elements.penaltyMeasure.value;
-    const rows = breakdown === "country" ? codedRows : combinedHistoricalRows(codedRows, sourceRows);
+    const rows = penaltyExplorerRows(codedRows, sourceRows, breakdown);
     const groups = new Map();
 
     rows.forEach((item) => {
@@ -400,7 +421,15 @@
   function breakdownKeys(item, breakdown) {
     if (breakdown === "year") return [String(item.date || "").slice(0, 4) || "Unknown"];
     if (breakdown === "agency") return [item.agency || "Unknown"];
-    return item.countries && item.countries.length ? item.countries : ["Country not coded"];
+    if (breakdown === "vsd") return [voluntaryDisclosureStatus(item)];
+    return item.countries && item.countries.length ? item.countries : [];
+  }
+
+  function penaltyExplorerRows(codedRows, sourceRows, breakdown) {
+    const rows = combinedHistoricalRows(codedRows, sourceRows);
+    if (breakdown === "country") return rows.filter((item) => item.countries && item.countries.length);
+    if (breakdown === "vsd") return rows.filter((item) => item.disclosure || item.factors);
+    return rows;
   }
 
   function renderPatterns() {
@@ -567,6 +596,7 @@
             <div class="amount">${item.amountUsd == null ? "Amount N/A" : formatMoney(item.amountUsd)}</div>
           </div>
           <p>This match comes from an official source index. It confirms a public penalty-chart record, but may not yet include normalized countries, products, disclosure posture, or risk-factor tags. Company-name matches can appear even when other filters are set.</p>
+          ${sourceFactorTable(item)}
           <p><a href="${escapeAttribute(item.sourceUrl)}" target="_blank" rel="noreferrer">${escapeHtml(item.sourceTitle)}</a></p>
         </article>
       `).join("")}
@@ -598,6 +628,7 @@
             ${item.countries.map((country) => `<span class="pill">${escapeHtml(country)}</span>`).join("")}
             ${item.factors.map((factor) => `<span class="pill">${escapeHtml(labels[factor] || factor)}</span>`).join("")}
           </div>
+          ${factorTable(item)}
           <p><a href="${escapeAttribute(item.sourceUrl)}" target="_blank" rel="noreferrer">${escapeHtml(item.sourceTitle)}</a></p>
         </article>
       `).join("")}
@@ -640,6 +671,63 @@
         </article>
       `).join("")}
     `;
+  }
+
+  function factorTable(item) {
+    const aggravating = factorLabels(item, aggravatingFactorKeys);
+    const mitigating = factorLabels(item, mitigatingFactorKeys);
+    return `
+      <div class="factor-table" aria-label="Case factors">
+        <div class="factor-row">
+          <strong>Voluntary disclosure</strong>
+          <span>${escapeHtml(voluntaryDisclosureStatus(item))}</span>
+        </div>
+        <div class="factor-row">
+          <strong>Aggravating factors</strong>
+          <span>${escapeHtml(aggravating.length ? aggravating.join("; ") : "None coded")}</span>
+        </div>
+        <div class="factor-row">
+          <strong>Mitigating factors</strong>
+          <span>${escapeHtml(mitigating.length ? mitigating.join("; ") : "None coded")}</span>
+        </div>
+      </div>
+    `;
+  }
+
+  function sourceFactorTable(item) {
+    const aggravating = item.aggravatingFactors || [];
+    const mitigating = item.mitigatingFactors || [];
+    const disclosure = item.disclosure || "Not factor-coded yet";
+    return `
+      <div class="factor-table" aria-label="Source-index coding status">
+        <div class="factor-row">
+          <strong>Voluntary disclosure</strong>
+          <span>${escapeHtml(disclosure)}</span>
+        </div>
+        <div class="factor-row">
+          <strong>Aggravating factors</strong>
+          <span>${escapeHtml(aggravating.length ? aggravating.join("; ") : "Not factor-coded yet")}</span>
+        </div>
+        <div class="factor-row">
+          <strong>Mitigating factors</strong>
+          <span>${escapeHtml(mitigating.length ? mitigating.join("; ") : "Not factor-coded yet")}</span>
+        </div>
+      </div>
+    `;
+  }
+
+  function factorLabels(item, allowedKeys) {
+    return (item.factors || [])
+      .filter((factor) => allowedKeys.includes(factor))
+      .map((factor) => labels[factor] || factor);
+  }
+
+  function voluntaryDisclosureStatus(item) {
+    const disclosure = String(item.disclosure || "").toLowerCase();
+    if (disclosure.includes("no voluntary")) return "No voluntary self-disclosure";
+    if ((item.factors || []).includes("voluntary_disclosure") || disclosure.includes("voluntary")) return "Voluntary self-disclosure";
+    if (disclosure.includes("not specified")) return "Not specified";
+    return item.disclosure || "Not specified";
   }
 
   function readTransaction() {
@@ -830,7 +918,7 @@
 
   function exportCurrentCsv() {
     const rows = combinedHistoricalRows(currentFilteredCases(), currentSourceIndexMatches());
-    const header = ["date", "agency", "name", "countries", "productCategory", "recordType", "posture", "codingStatus", "amountUsd", "factors", "sourceUrl"];
+    const header = ["date", "agency", "name", "countries", "productCategory", "recordType", "posture", "codingStatus", "disclosure", "amountUsd", "factors", "aggravatingFactors", "mitigatingFactors", "sourceUrl"];
     const csv = [header.join(",")]
       .concat(rows.map((item) => header.map((key) => csvCell(Array.isArray(item[key]) ? item[key].join("; ") : item[key])).join(",")))
       .join("\n");
