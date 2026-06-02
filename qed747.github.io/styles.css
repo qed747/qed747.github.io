@@ -305,6 +305,10 @@ select {
   align-self: start;
 }
 
+.combo-panel {
+  margin-top: 14px;
+}
+
 .similarity-output {
   display: grid;
   gap: 10px;
@@ -313,6 +317,48 @@ select {
 .similarity-score {
   color: var(--bad);
   font-weight: 900;
+}
+
+.table-scroll {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.metric-table {
+  border-collapse: collapse;
+  font-size: 0.82rem;
+  min-width: 560px;
+  width: 100%;
+}
+
+.metric-table th,
+.metric-table td {
+  border-bottom: 1px solid var(--line);
+  padding: 8px 6px;
+  text-align: right;
+  vertical-align: top;
+}
+
+.metric-table th:first-child,
+.metric-table td:first-child {
+  min-width: 180px;
+  text-align: left;
+}
+
+.metric-table th:not(:first-child),
+.metric-table td:not(:first-child) {
+  min-width: 92px;
+  white-space: nowrap;
+}
+
+.combo-table {
+  min-width: 760px;
+}
+
+.metric-table th {
+  color: var(--ink);
+  font-size: 0.76rem;
+  text-transform: uppercase;
 }
 
 .mini-chart {
@@ -343,12 +389,19 @@ select {
 
 .bar-row {
   display: grid;
-  grid-template-columns: 110px minmax(0, 1fr) 36px;
+  grid-template-columns: minmax(88px, 120px) minmax(120px, 1fr) minmax(92px, max-content);
   align-items: center;
   gap: 8px;
   margin: 8px 0;
   color: var(--muted);
   font-size: 0.86rem;
+}
+
+.bar-row b {
+  justify-self: end;
+  max-width: 140px;
+  overflow-wrap: anywhere;
+  text-align: right;
 }
 
 .bar {
@@ -431,6 +484,33 @@ select {
 .case-card a {
   color: var(--accent);
   font-weight: 700;
+}
+
+.factor-table {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  display: grid;
+  margin: 12px 0;
+  overflow: hidden;
+}
+
+.factor-row {
+  display: grid;
+  grid-template-columns: 170px minmax(0, 1fr);
+  gap: 10px;
+  padding: 9px 10px;
+}
+
+.factor-row + .factor-row {
+  border-top: 1px solid var(--line);
+}
+
+.factor-row strong {
+  color: var(--ink);
+}
+
+.factor-row span {
+  color: var(--muted);
 }
 
 .risk-form {
@@ -606,6 +686,10 @@ pre {
   .form-grid,
   .stats-grid,
   .score-top {
+    grid-template-columns: 1fr;
+  }
+
+  .factor-row {
     grid-template-columns: 1fr;
   }
 

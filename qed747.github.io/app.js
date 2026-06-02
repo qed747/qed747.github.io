@@ -59,6 +59,17 @@
   };
 
   const sensitiveCountries = new Set(["Russia", "China", "Iran", "Syria", "Cuba", "North Korea", "Belarus"]);
+  const aggravatingFactorKeys = [
+    "restricted_party",
+    "military_end_use",
+    "red_flags",
+    "transshipment",
+    "no_license",
+    "us_origin",
+    "management_awareness",
+    "weak_controls"
+  ];
+  const mitigatingFactorKeys = ["voluntary_disclosure", "remediation"];
   const countryAliases = {
     "United Arab Emirates": ["United Arab Emirates", "UAE", "U.A.E.", "Dubai", "Abu Dhabi"],
     "China": ["China", "Chinese", "Hong Kong", "PRC"],
@@ -107,6 +118,7 @@
       "productPenaltyChart",
       "disclosurePenaltyChart",
       "factorPenaltyChart",
+      "comboPatternTable",
       "similarityCase",
       "similarityBasis",
       "runSimilarity",
@@ -299,12 +311,13 @@
 
   function sourceIndexFilterMatches(item, filters) {
     const productOk = filters.product === "All";
-    const disclosureOk = filters.disclosure === "All";
+    const disclosureOk = filters.disclosure === "All" || sourceIndexDisclosureMatches(item, filters.disclosure);
     const countryOk = filters.country === "All" || sourceIndexCountryMatches(item, filters.country);
     return countryOk && productOk && disclosureOk;
   }
 
   function sourceIndexCountryMatches(item, country) {
+    if ((item.countries || []).includes(country)) return true;
     const aliases = countryAliases[country] || [country];
     const haystack = [
       item.name,
@@ -314,6 +327,15 @@
       item.sourceUrl
     ].join(" ").toLowerCase();
     return aliases.some((alias) => haystack.includes(alias.toLowerCase()));
+  }
+
+  function sourceIndexDisclosureMatches(item, disclosure) {
+    const itemDisclosure = String(item.disclosure || "").toLowerCase();
+    const selected = String(disclosure || "").toLowerCase();
+    if (!itemDisclosure) return false;
+    if (selected.includes("voluntary")) return itemDisclosure.includes("voluntary");
+    if (selected.includes("not specified")) return itemDisclosure.includes("not specified");
+    return itemDisclosure === selected;
   }
 
   function productMatches(item, selectedProduct) {
@@ -360,7 +382,7 @@
     if (!elements.penaltyExplorerChart) return;
     const breakdown = elements.penaltyBreakdown.value;
     const measure = elements.penaltyMeasure.value;
-    const rows = breakdown === "country" ? codedRows : combinedHistoricalRows(codedRows, sourceRows);
+    const rows = penaltyExplorerRows(codedRows, sourceRows, breakdown);
     const groups = new Map();
 
     rows.forEach((item) => {
@@ -400,17 +422,30 @@
   function breakdownKeys(item, breakdown) {
     if (breakdown === "year") return [String(item.date || "").slice(0, 4) || "Unknown"];
     if (breakdown === "agency") return [item.agency || "Unknown"];
-    return item.countries && item.countries.length ? item.countries : ["Country not coded"];
+    if (breakdown === "vsd") return [voluntaryDisclosureStatus(item)];
+    return item.countries && item.countries.length ? item.countries : [];
+  }
+
+  function penaltyExplorerRows(codedRows, sourceRows, breakdown) {
+    const rows = combinedHistoricalRows(codedRows, sourceRows);
+    if (breakdown === "country") return rows.filter((item) => item.countries && item.countries.length);
+    if (breakdown === "vsd") return rows.filter((item) => item.disclosure || item.factors);
+    return rows;
   }
 
   function renderPatterns() {
     if (!elements.patternSummary) return;
     const penaltyCases = cases.filter((item) => item.amountUsd != null && item.amountUsd > 0);
-    elements.patternSummary.textContent = `Pattern analysis compares a selected current coded case against other coded cases and summarizes cross-case penalty patterns. It uses ${cases.length} fully coded cases, including ${penaltyCases.length} with penalty amounts. The ${sourceIndex.length} source-index rows are searchable but excluded until coded into normalized features.`;
-    elements.countryPenaltyChart.innerHTML = metricChart(groupPenalty(cases, (item) => item.countries));
-    elements.productPenaltyChart.innerHTML = metricChart(groupPenalty(cases, (item) => [labels[item.productCategory] || item.productCategory]));
-    elements.disclosurePenaltyChart.innerHTML = metricChart(groupPenalty(cases, (item) => [item.disclosure || "Unknown"]));
-    elements.factorPenaltyChart.innerHTML = metricChart(groupPenalty(cases, (item) => item.factors.map((factor) => labels[factor] || factor)));
+    elements.patternSummary.innerHTML = `
+      <strong>What this shows:</strong> each table groups the fully coded enforcement cases by one feature and reports how many coded cases fall in that group (<b>n</b>), plus the median, average, and total listed penalties for those cases.
+      <br><strong>How to read it:</strong> higher <b>n</b> means the feature appears more often in the coded sample; higher median/average/total penalties show penalty patterns within that sample.
+      <br><strong>Limit:</strong> these are descriptive patterns, not causal findings. Small groups, especially n below 3, should be treated as directional only.
+    `;
+    elements.countryPenaltyChart.innerHTML = metricTable(groupPenalty(cases, (item) => item.countries));
+    elements.productPenaltyChart.innerHTML = metricTable(groupPenalty(cases, (item) => [labels[item.productCategory] || item.productCategory]));
+    elements.disclosurePenaltyChart.innerHTML = metricTable(groupPenalty(cases, (item) => [item.disclosure || "Unknown"]));
+    elements.factorPenaltyChart.innerHTML = metricTable(groupPenalty(cases, (item) => item.factors.map((factor) => labels[factor] || factor)));
+    elements.comboPatternTable.innerHTML = combinationPatternTable();
     renderSimilarity();
   }
 
@@ -426,25 +461,125 @@
     return Array.from(groups.entries()).map(([key, values]) => ({
       key,
       count: values.length,
+      total: values.reduce((sum, value) => sum + value, 0),
       average: values.reduce((sum, value) => sum + value, 0) / values.length,
       median: median(values)
-    })).sort((a, b) => b.average - a.average).slice(0, 8);
+    })).sort((a, b) => b.count - a.count || b.total - a.total).slice(0, 8);
   }
 
-  function metricChart(rows) {
+  function metricTable(rows) {
     if (!rows.length) return `<p class="field-note">No penalty data available.</p>`;
-    const max = Math.max(...rows.map((row) => row.average));
-    return rows.map((row) => {
-      const width = Math.max(6, Math.round((row.average / max) * 100));
-      return `
-        <div class="bar-row">
-          <span>${escapeHtml(row.key)}</span>
-          <div class="bar"><span style="width:${width}%"></span></div>
-          <b>${row.count}</b>
-        </div>
-        <p class="field-note">Avg ${formatMoney(row.average)} | median ${formatMoney(row.median)}</p>
-      `;
-    }).join("");
+    return `
+      <div class="table-scroll">
+      <table class="metric-table">
+        <thead>
+          <tr>
+            <th>Group</th>
+            <th>n</th>
+            <th>Median</th>
+            <th>Average</th>
+            <th>Total</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${rows.map((row) => `
+            <tr>
+              <td>${escapeHtml(row.key)}</td>
+              <td>${row.count}</td>
+              <td>${formatMoney(row.median)}</td>
+              <td>${formatMoney(row.average)}</td>
+              <td>${formatMoney(row.total)}</td>
+            </tr>
+          `).join("")}
+        </tbody>
+      </table>
+      </div>
+    `;
+  }
+
+  function combinationPatternTable() {
+    const penaltyCases = cases.filter((item) => item.amountUsd != null && item.amountUsd > 0);
+    const combos = new Map();
+
+    penaltyCases.forEach((item) => {
+      const features = combinationFeatures(item);
+      featureCombos(features, 2).concat(featureCombos(features, 3)).forEach((combo) => {
+        const key = combo.join(" + ");
+        if (!combos.has(key)) combos.set(key, []);
+        combos.get(key).push(item);
+      });
+    });
+
+    const rows = Array.from(combos.entries()).map(([key, comboCases]) => {
+      const comboIds = new Set(comboCases.map((item) => item.id));
+      const comparison = penaltyCases.filter((item) => !comboIds.has(item.id));
+      const comboPenalties = comboCases.map((item) => item.amountUsd);
+      const comparisonPenalties = comparison.map((item) => item.amountUsd);
+      return {
+        key,
+        count: comboCases.length,
+        median: median(comboPenalties),
+        comparisonMedian: comparisonPenalties.length ? median(comparisonPenalties) : 0,
+        lift: comparisonPenalties.length ? median(comboPenalties) / Math.max(1, median(comparisonPenalties)) : 0,
+        cases: comboCases.map((item) => item.name).slice(0, 3).join("; ")
+      };
+    }).filter((row) => row.count >= 2)
+      .sort((a, b) => b.lift - a.lift || b.count - a.count)
+      .slice(0, 10);
+
+    if (!rows.length) return `<p class="field-note">Not enough repeated feature combinations in coded penalty cases yet.</p>`;
+
+    return `
+      <div class="table-scroll">
+      <table class="metric-table combo-table">
+        <thead>
+          <tr>
+            <th>Shared features</th>
+            <th>n</th>
+            <th>Median with combo</th>
+            <th>Median without combo</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${rows.map((row) => `
+            <tr>
+              <td>${escapeHtml(row.key)}<br><span class="field-note">${escapeHtml(row.cases)}</span></td>
+              <td>${row.count}</td>
+              <td>${formatMoney(row.median)}</td>
+              <td>${formatMoney(row.comparisonMedian)}</td>
+              <td>${row.lift.toFixed(1)}x</td>
+            </tr>
+          `).join("")}
+        </tbody>
+      </table>
+      </div>
+    `;
+  }
+
+  function combinationFeatures(item) {
+    return unique([
+      ...(item.countries || []).map((country) => `country: ${country}`),
+      `product: ${labels[item.productCategory] || item.productCategory}`,
+      `agency: ${item.agency}`,
+      `disclosure: ${voluntaryDisclosureStatus(item)}`,
+      ...(item.factors || []).map((factor) => `factor: ${labels[factor] || factor}`)
+    ]).filter(Boolean);
+  }
+
+  function featureCombos(features, size) {
+    const output = [];
+    const walk = (start, combo) => {
+      if (combo.length === size) {
+        output.push(combo);
+        return;
+      }
+      for (let index = start; index < features.length; index += 1) {
+        walk(index + 1, [...combo, features[index]]);
+      }
+    };
+    walk(0, []);
+    return output;
   }
 
   function renderSimilarity() {
@@ -567,6 +702,7 @@
             <div class="amount">${item.amountUsd == null ? "Amount N/A" : formatMoney(item.amountUsd)}</div>
           </div>
           <p>This match comes from an official source index. It confirms a public penalty-chart record, but may not yet include normalized countries, products, disclosure posture, or risk-factor tags. Company-name matches can appear even when other filters are set.</p>
+          ${sourceFactorTable(item)}
           <p><a href="${escapeAttribute(item.sourceUrl)}" target="_blank" rel="noreferrer">${escapeHtml(item.sourceTitle)}</a></p>
         </article>
       `).join("")}
@@ -598,6 +734,7 @@
             ${item.countries.map((country) => `<span class="pill">${escapeHtml(country)}</span>`).join("")}
             ${item.factors.map((factor) => `<span class="pill">${escapeHtml(labels[factor] || factor)}</span>`).join("")}
           </div>
+          ${factorTable(item)}
           <p><a href="${escapeAttribute(item.sourceUrl)}" target="_blank" rel="noreferrer">${escapeHtml(item.sourceTitle)}</a></p>
         </article>
       `).join("")}
@@ -640,6 +777,63 @@
         </article>
       `).join("")}
     `;
+  }
+
+  function factorTable(item) {
+    const aggravating = factorLabels(item, aggravatingFactorKeys);
+    const mitigating = factorLabels(item, mitigatingFactorKeys);
+    return `
+      <div class="factor-table" aria-label="Case factors">
+        <div class="factor-row">
+          <strong>Voluntary disclosure</strong>
+          <span>${escapeHtml(voluntaryDisclosureStatus(item))}</span>
+        </div>
+        <div class="factor-row">
+          <strong>Aggravating factors</strong>
+          <span>${escapeHtml(aggravating.length ? aggravating.join("; ") : "None coded")}</span>
+        </div>
+        <div class="factor-row">
+          <strong>Mitigating factors</strong>
+          <span>${escapeHtml(mitigating.length ? mitigating.join("; ") : "None coded")}</span>
+        </div>
+      </div>
+    `;
+  }
+
+  function sourceFactorTable(item) {
+    const aggravating = item.aggravatingFactors || [];
+    const mitigating = item.mitigatingFactors || [];
+    const disclosure = item.disclosure || "Not factor-coded yet";
+    return `
+      <div class="factor-table" aria-label="Source-index coding status">
+        <div class="factor-row">
+          <strong>Voluntary disclosure</strong>
+          <span>${escapeHtml(disclosure)}</span>
+        </div>
+        <div class="factor-row">
+          <strong>Aggravating factors</strong>
+          <span>${escapeHtml(aggravating.length ? aggravating.join("; ") : "Not factor-coded yet")}</span>
+        </div>
+        <div class="factor-row">
+          <strong>Mitigating factors</strong>
+          <span>${escapeHtml(mitigating.length ? mitigating.join("; ") : "Not factor-coded yet")}</span>
+        </div>
+      </div>
+    `;
+  }
+
+  function factorLabels(item, allowedKeys) {
+    return (item.factors || [])
+      .filter((factor) => allowedKeys.includes(factor))
+      .map((factor) => labels[factor] || factor);
+  }
+
+  function voluntaryDisclosureStatus(item) {
+    const disclosure = String(item.disclosure || "").toLowerCase();
+    if (disclosure.includes("no voluntary")) return "No voluntary self-disclosure";
+    if ((item.factors || []).includes("voluntary_disclosure") || disclosure.includes("voluntary")) return "Voluntary self-disclosure";
+    if (disclosure.includes("not specified")) return "Not specified";
+    return item.disclosure || "Not specified";
   }
 
   function readTransaction() {
@@ -830,7 +1024,7 @@
 
   function exportCurrentCsv() {
     const rows = combinedHistoricalRows(currentFilteredCases(), currentSourceIndexMatches());
-    const header = ["date", "agency", "name", "countries", "productCategory", "recordType", "posture", "codingStatus", "amountUsd", "factors", "sourceUrl"];
+    const header = ["date", "agency", "name", "countries", "productCategory", "recordType", "posture", "codingStatus", "disclosure", "amountUsd", "factors", "aggravatingFactors", "mitigatingFactors", "sourceUrl"];
     const csv = [header.join(",")]
       .concat(rows.map((item) => header.map((key) => csvCell(Array.isArray(item[key]) ? item[key].join("; ") : item[key])).join(",")))
       .join("\n");

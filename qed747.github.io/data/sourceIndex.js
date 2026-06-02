@@ -8146,9 +8146,25 @@ window.SOURCE_INDEX = [
     "name": "Apple, Inc",
     "amountUsd": 466912,
     "recordType": "Penalty chart row",
-    "codingStatus": "Indexed; not yet factor-coded",
+    "codingStatus": "Source-index row with factor notes",
+    "countries": [
+      "Slovenia"
+    ],
+    "disclosure": "Voluntary self-disclosure",
+    "aggravatingFactors": [
+      "Reckless disregard based on number of apparent violations, duration, and multiple compliance-program failures",
+      "Economic benefit conferred to SIS and its owner",
+      "Large and sophisticated global organization with international transaction experience",
+      "Failure to take timely corrective action after identifying SIS as an SDNTK"
+    ],
+    "mitigatingFactors": [
+      "Payment volume and total amount were not significant relative to Apple's annual transaction volume",
+      "No OFAC penalty notice or Finding of Violation in prior five years",
+      "Prompt responses to OFAC information requests",
+      "Terminated conduct and implemented compliance enhancements"
+    ],
     "sourceTitle": "OFAC 2019 Civil Penalties Information Chart",
-    "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information/2019-enforcement-information"
+    "sourceUrl": "https://ofac.treasury.gov/recent-actions/20191125"
   },
   {
     "id": "doj-index-2019-11-14-iranian-businessman-sentenced-to-46-months-in-prison-for-violating-u-s-sanctions-by-export",
@@ -10214,9 +10230,27 @@ window.SOURCE_INDEX = [
     "name": "American International Group, Inc.",
     "amountUsd": 148698,
     "recordType": "Penalty chart row",
-    "codingStatus": "Indexed; not yet factor-coded",
+    "codingStatus": "Source-index row with factor notes",
+    "countries": [
+      "Iran",
+      "Sudan",
+      "Cuba"
+    ],
+    "disclosure": "Voluntary self-disclosure",
+    "aggravatingFactors": [
+      "Pattern or practice spanning multiple years",
+      "Apparent violations of multiple sanctions programs",
+      "Economic benefit to sanctioned countries or blocked persons",
+      "Large and commercially sophisticated financial institution"
+    ],
+    "mitigatingFactors": [
+      "No OFAC penalty notice or Finding of Violation in prior five years",
+      "OFAC compliance program existed, including sanctions exclusion clauses",
+      "Remedial action",
+      "Cooperation with OFAC, including organized submissions and tolling agreements"
+    ],
     "sourceTitle": "OFAC 2017 Civil Penalties Information Chart",
-    "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information/2017-enforcement-information"
+    "sourceUrl": "https://ofac.treasury.gov/recent-actions/20170626_33"
   },
   {
     "id": "bis-index-e2500",
@@ -12370,9 +12404,24 @@ window.SOURCE_INDEX = [
     "name": "American International Group, Inc.",
     "amountUsd": 279038,
     "recordType": "Penalty chart row",
-    "codingStatus": "Indexed; not yet factor-coded",
+    "codingStatus": "Source-index row with factor notes",
+    "countries": [
+      "Cuba",
+      "Canada"
+    ],
+    "disclosure": "Voluntary self-disclosure",
+    "aggravatingFactors": [
+      "Actual knowledge by AIG, including certain management members",
+      "Harm to U.S. sanctions program objectives",
+      "Inadequate compliance programs at two Canadian subsidiaries"
+    ],
+    "mitigatingFactors": [
+      "No OFAC penalty notice or Finding of Violation in prior five years",
+      "Remedial action",
+      "Cooperation with OFAC"
+    ],
     "sourceTitle": "OFAC 2014 Civil Penalties Information Chart",
-    "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information/2014-enforcement-information"
+    "sourceUrl": "https://ofac.treasury.gov/media/13501/download?inline="
   },
   {
     "id": "bis-index-e2372",
