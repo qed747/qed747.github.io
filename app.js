@@ -118,6 +118,7 @@
       "productPenaltyChart",
       "disclosurePenaltyChart",
       "factorPenaltyChart",
+      "comboPatternTable",
       "similarityCase",
       "similarityBasis",
       "runSimilarity",
@@ -435,11 +436,16 @@
   function renderPatterns() {
     if (!elements.patternSummary) return;
     const penaltyCases = cases.filter((item) => item.amountUsd != null && item.amountUsd > 0);
-    elements.patternSummary.textContent = `Pattern analysis compares a selected current coded case against other coded cases and summarizes cross-case penalty patterns. It uses ${cases.length} fully coded cases, including ${penaltyCases.length} with penalty amounts. The ${sourceIndex.length} source-index rows are searchable but excluded until coded into normalized features.`;
-    elements.countryPenaltyChart.innerHTML = metricChart(groupPenalty(cases, (item) => item.countries));
-    elements.productPenaltyChart.innerHTML = metricChart(groupPenalty(cases, (item) => [labels[item.productCategory] || item.productCategory]));
-    elements.disclosurePenaltyChart.innerHTML = metricChart(groupPenalty(cases, (item) => [item.disclosure || "Unknown"]));
-    elements.factorPenaltyChart.innerHTML = metricChart(groupPenalty(cases, (item) => item.factors.map((factor) => labels[factor] || factor)));
+    elements.patternSummary.innerHTML = `
+      <strong>What this shows:</strong> each table groups the fully coded enforcement cases by one feature and reports how many coded cases fall in that group (<b>n</b>), plus the median, average, and total listed penalties for those cases.
+      <br><strong>How to read it:</strong> higher <b>n</b> means the feature appears more often in the coded sample; higher median/average/total penalties show penalty patterns within that sample.
+      <br><strong>Limit:</strong> these are descriptive patterns, not causal findings. Small groups, especially n below 3, should be treated as directional only.
+    `;
+    elements.countryPenaltyChart.innerHTML = metricTable(groupPenalty(cases, (item) => item.countries));
+    elements.productPenaltyChart.innerHTML = metricTable(groupPenalty(cases, (item) => [labels[item.productCategory] || item.productCategory]));
+    elements.disclosurePenaltyChart.innerHTML = metricTable(groupPenalty(cases, (item) => [item.disclosure || "Unknown"]));
+    elements.factorPenaltyChart.innerHTML = metricTable(groupPenalty(cases, (item) => item.factors.map((factor) => labels[factor] || factor)));
+    elements.comboPatternTable.innerHTML = combinationPatternTable();
     renderSimilarity();
   }
 
@@ -455,25 +461,121 @@
     return Array.from(groups.entries()).map(([key, values]) => ({
       key,
       count: values.length,
+      total: values.reduce((sum, value) => sum + value, 0),
       average: values.reduce((sum, value) => sum + value, 0) / values.length,
       median: median(values)
-    })).sort((a, b) => b.average - a.average).slice(0, 8);
+    })).sort((a, b) => b.count - a.count || b.total - a.total).slice(0, 8);
   }
 
-  function metricChart(rows) {
+  function metricTable(rows) {
     if (!rows.length) return `<p class="field-note">No penalty data available.</p>`;
-    const max = Math.max(...rows.map((row) => row.average));
-    return rows.map((row) => {
-      const width = Math.max(6, Math.round((row.average / max) * 100));
-      return `
-        <div class="bar-row">
-          <span>${escapeHtml(row.key)}</span>
-          <div class="bar"><span style="width:${width}%"></span></div>
-          <b>${row.count}</b>
-        </div>
-        <p class="field-note">Avg ${formatMoney(row.average)} | median ${formatMoney(row.median)}</p>
-      `;
-    }).join("");
+    return `
+      <table class="metric-table">
+        <thead>
+          <tr>
+            <th>Group</th>
+            <th>n</th>
+            <th>Median</th>
+            <th>Average</th>
+            <th>Total</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${rows.map((row) => `
+            <tr>
+              <td>${escapeHtml(row.key)}</td>
+              <td>${row.count}</td>
+              <td>${formatMoney(row.median)}</td>
+              <td>${formatMoney(row.average)}</td>
+              <td>${formatMoney(row.total)}</td>
+            </tr>
+          `).join("")}
+        </tbody>
+      </table>
+    `;
+  }
+
+  function combinationPatternTable() {
+    const penaltyCases = cases.filter((item) => item.amountUsd != null && item.amountUsd > 0);
+    const combos = new Map();
+
+    penaltyCases.forEach((item) => {
+      const features = combinationFeatures(item);
+      featureCombos(features, 2).concat(featureCombos(features, 3)).forEach((combo) => {
+        const key = combo.join(" + ");
+        if (!combos.has(key)) combos.set(key, []);
+        combos.get(key).push(item);
+      });
+    });
+
+    const rows = Array.from(combos.entries()).map(([key, comboCases]) => {
+      const comboIds = new Set(comboCases.map((item) => item.id));
+      const comparison = penaltyCases.filter((item) => !comboIds.has(item.id));
+      const comboPenalties = comboCases.map((item) => item.amountUsd);
+      const comparisonPenalties = comparison.map((item) => item.amountUsd);
+      return {
+        key,
+        count: comboCases.length,
+        median: median(comboPenalties),
+        comparisonMedian: comparisonPenalties.length ? median(comparisonPenalties) : 0,
+        lift: comparisonPenalties.length ? median(comboPenalties) / Math.max(1, median(comparisonPenalties)) : 0,
+        cases: comboCases.map((item) => item.name).slice(0, 3).join("; ")
+      };
+    }).filter((row) => row.count >= 2)
+      .sort((a, b) => b.lift - a.lift || b.count - a.count)
+      .slice(0, 10);
+
+    if (!rows.length) return `<p class="field-note">Not enough repeated feature combinations in coded penalty cases yet.</p>`;
+
+    return `
+      <table class="metric-table">
+        <thead>
+          <tr>
+            <th>Shared features</th>
+            <th>n</th>
+            <th>Median with combo</th>
+            <th>Median without combo</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${rows.map((row) => `
+            <tr>
+              <td>${escapeHtml(row.key)}<br><span class="field-note">${escapeHtml(row.cases)}</span></td>
+              <td>${row.count}</td>
+              <td>${formatMoney(row.median)}</td>
+              <td>${formatMoney(row.comparisonMedian)}</td>
+              <td>${row.lift.toFixed(1)}x</td>
+            </tr>
+          `).join("")}
+        </tbody>
+      </table>
+    `;
+  }
+
+  function combinationFeatures(item) {
+    return unique([
+      ...(item.countries || []).map((country) => `country: ${country}`),
+      `product: ${labels[item.productCategory] || item.productCategory}`,
+      `agency: ${item.agency}`,
+      `disclosure: ${voluntaryDisclosureStatus(item)}`,
+      ...(item.factors || []).map((factor) => `factor: ${labels[factor] || factor}`)
+    ]).filter(Boolean);
+  }
+
+  function featureCombos(features, size) {
+    const output = [];
+    const walk = (start, combo) => {
+      if (combo.length === size) {
+        output.push(combo);
+        return;
+      }
+      for (let index = start; index < features.length; index += 1) {
+        walk(index + 1, [...combo, features[index]]);
+      }
+    };
+    walk(0, []);
+    return output;
   }
 
   function renderSimilarity() {

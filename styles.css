@@ -305,6 +305,10 @@ select {
   align-self: start;
 }
 
+.combo-panel {
+  margin-top: 14px;
+}
+
 .similarity-output {
   display: grid;
   gap: 10px;
@@ -313,6 +317,32 @@ select {
 .similarity-score {
   color: var(--bad);
   font-weight: 900;
+}
+
+.metric-table {
+  border-collapse: collapse;
+  font-size: 0.82rem;
+  min-width: 100%;
+  width: 100%;
+}
+
+.metric-table th,
+.metric-table td {
+  border-bottom: 1px solid var(--line);
+  padding: 8px 6px;
+  text-align: right;
+  vertical-align: top;
+}
+
+.metric-table th:first-child,
+.metric-table td:first-child {
+  text-align: left;
+}
+
+.metric-table th {
+  color: var(--ink);
+  font-size: 0.76rem;
+  text-transform: uppercase;
 }
 
 .mini-chart {
