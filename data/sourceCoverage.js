@@ -1,42 +1,42 @@
 window.SOURCE_COVERAGE = [
   {
-    agency: "OFAC",
-    source: "Civil Penalties and Enforcement Information",
-    scope: "Yearly enforcement charts, 2003-2026",
-    indexedRecords: 1052,
-    indexedPeriod: "Official OFAC civil-penalty rows fetched from yearly pages where parsable",
-    status: "Indexed; needs matter-level coding",
-    notes: "OFAC yearly pages list names, dates, number of actions, and penalty/settlement totals. Detailed settlement PDFs should be parsed next for countries, sanctions programs, disclosure posture, root causes, and compliance factors.",
-    sourceUrl: "https://ofac.treasury.gov/civil-penalties-and-enforcement-information"
+    "agency": "OFAC",
+    "source": "Workbook OFAC sheet",
+    "scope": "OFAC civil penalties and settlements through workbook update",
+    "indexedRecords": 294,
+    "indexedPeriod": "Workbook updated 2026-07-22",
+    "status": "Loaded and normalized for Bayesian scoring",
+    "notes": "Rows mapped from workbook fields including penalty, regime, VSD, countries, items, SDN flag, and egregious-case flag.",
+    "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information"
   },
   {
-    agency: "DOJ",
-    source: "NSD Export Control and Sanctions News",
-    scope: "Export-control and sanctions criminal press releases",
-    indexedRecords: 274,
-    indexedPeriod: "Official DOJ NSD export-control/sanctions news pages fetched from justice.gov",
-    status: "Indexed; source rows loaded",
-    notes: "DOJ provides a searchable corpus of criminal matters with year, component, topic, title, and press-release text. These records should feed a separate prosecution-probability model.",
-    sourceUrl: "https://www.justice.gov/nsd/export-control-news"
+    "agency": "BIS/DDTC/DOJ",
+    "source": "Workbook EAR-ITAR sheet",
+    "scope": "Export-control, ITAR, administrative, civil, and criminal enforcement actions",
+    "indexedRecords": 725,
+    "indexedPeriod": "Workbook updated 2026-07-22",
+    "status": "Loaded and normalized for Bayesian scoring",
+    "notes": "Rows mapped from workbook fields including agency, case ID, goods, description, source URL, country nexus from notes, VSD, and penalty amount.",
+    "sourceUrl": ""
   },
   {
-    agency: "BIS",
-    source: "Export Enforcement news, charging letters, settlements, denial orders",
-    scope: "BIS administrative export-control enforcement",
-    indexedRecords: 1118,
-    indexedPeriod: "Official BIS export-violations index fetched from bis.gov",
-    status: "Indexed; source rows loaded",
-    notes: "BIS public pages expose administrative export-violation case IDs, recent settlement and administrative documents, and charging letters. The prototype now treats this as an indexed source family and uses coded exemplars for scoring.",
-    sourceUrl: "https://www.bis.gov/enforcement"
+    "agency": "Logistics",
+    "source": "Workbook Logistics sheet",
+    "scope": "Logistics-specific enforcement rows",
+    "indexedRecords": 19,
+    "indexedPeriod": "Workbook updated 2026-07-22",
+    "status": "Loaded and normalized for Bayesian scoring",
+    "notes": "Rows mapped as logistics/freight/shipping cases.",
+    "sourceUrl": ""
   },
   {
-    agency: "DDTC",
-    source: "Consent agreements and AECA/ITAR enforcement records",
-    scope: "Defense articles, technical data, brokering, and defense services",
-    indexedRecords: 18,
-    indexedPeriod: "Consent-agreement corpus seeded from public DDTC records and DTAG-reviewed agreements",
-    status: "Indexed; seed matters coded",
-    notes: "DDTC public records and DTAG materials identify consent agreements and proposed charging letters. The app now includes representative ITAR matters while keeping DDTC as a distinct model family.",
-    sourceUrl: "https://www.pmddtc.state.gov/"
+    "agency": "DOJ",
+    "source": "Recent official DOJ export-control feed",
+    "scope": "Post-workbook DOJ export-control and sanctions news checked against justice.gov",
+    "indexedRecords": 2,
+    "indexedPeriod": "Official DOJ feed checked 2026-08-14",
+    "status": "Loaded and normalized for Bayesian scoring",
+    "notes": "Recent post-workbook DOJ matters are normalized as overlay records so the scoring model includes the latest official entries identified after the July 22 workbook update.",
+    "sourceUrl": "https://www.justice.gov/nsd/export-control-news"
   }
 ];

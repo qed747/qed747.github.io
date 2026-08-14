@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sanctions Risk Bayesian Explorer</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=32">
   </head>
   <body>
     <header class="topbar">
@@ -13,11 +13,19 @@
         <h1>Bayesian Enforcement Risk Explorer</h1>
       </div>
       <div class="source-note">
-        Public-record prototype. Not legal advice.
+        Public-record enforcement workbook. Not legal advice.
       </div>
     </header>
 
     <main>
+      <nav class="tabs" aria-label="Tool sections">
+        <button class="tab active" data-tab="historical">Historical Explorer</button>
+        <button class="tab" data-tab="patterns">Pattern Analysis</button>
+        <button class="tab" data-tab="prospective">Prospective Risk</button>
+        <button class="tab" data-tab="methodology">Methodology</button>
+      </nav>
+      <div class="active-view" id="activeView">Viewing: Historical Explorer</div>
+
       <section class="panel intro">
         <div>
           <h2>Historical patterns and prospective transaction risk</h2>
@@ -32,25 +40,18 @@
         <div class="section-head">
           <div>
             <h2>Corpus Coverage</h2>
-            <p>This prototype now separates fully coded exemplar cases from the larger official-source corpus that should be ingested for production modeling.</p>
+            <p>The enforcement universe is loaded from the July 22, 2026 workbook, supplemented with recent official DOJ export-control entries, and normalized for historical exploration, pattern analysis, and Bayesian scoring.</p>
           </div>
         </div>
         <div class="coverage-grid" id="coverageGrid"></div>
       </section>
-
-      <nav class="tabs" aria-label="Tool sections">
-        <button class="tab active" data-tab="historical">Historical Explorer</button>
-        <button class="tab" data-tab="patterns">Pattern Analysis</button>
-        <button class="tab" data-tab="prospective">Prospective Risk</button>
-        <button class="tab" data-tab="methodology">Methodology</button>
-      </nav>
 
       <section id="historical" class="tab-panel active">
         <aside class="filters" aria-label="Historical filters">
           <label>
             Search
             <input id="searchInput" type="search" placeholder="Try FedEx, DHL, Haas, Interactive Brokers, GVA Capital">
-            <small class="field-note">Free text across loaded cases and source-index rows.</small>
+            <small class="field-note">Free text across the normalized enforcement-action universe.</small>
           </label>
           <label>
             Company
@@ -116,7 +117,7 @@
               </label>
             </div>
             <div id="penaltyExplorerChart"></div>
-            <p class="field-note">Country and voluntary-disclosure breakdowns use fully coded cases because source-index rows do not yet contain normalized country or disclosure fields.</p>
+            <p class="field-note">Penalty chart uses normalized workbook and recent official DOJ records. Country and VSD breakdowns depend on fields available in each row.</p>
           </div>
           <div id="caseList" class="case-list"></div>
           <div id="sourceIndexSection" class="source-index-section"></div>
@@ -127,7 +128,7 @@
         <div class="results pattern-results">
           <div class="section-head">
             <div>
-              <h2>Pattern Recognition Across Coded Cases</h2>
+            <h2>Pattern Recognition Across Enforcement Cases</h2>
               <p id="patternSummary"></p>
             </div>
           </div>
@@ -152,7 +153,7 @@
           </div>
           <div class="mini-chart combo-panel">
             <h3>Feature Combination Patterns</h3>
-            <p class="field-note">Combinations identify cases sharing multiple coded features and compare their penalties against coded cases without that combination.</p>
+            <p class="field-note">Combinations identify cases sharing multiple normalized features and compare their penalties against records without that combination.</p>
             <div id="comboPatternTable"></div>
           </div>
         </div>
@@ -250,10 +251,21 @@
       <section id="methodology" class="tab-panel methodology">
         <h2>Bayesian framework</h2>
         <p>
-          The prototype starts with a prior probability by transaction archetype, converts it to odds, then multiplies by feature likelihood ratios derived from the public-record case set. Smoothing keeps rare features from overpowering the estimate.
+          The model starts with a prior probability by transaction archetype, converts it to odds, then multiplies by feature likelihood ratios derived from the normalized enforcement-action workbook. Smoothing keeps rare features from overpowering the estimate.
         </p>
         <pre><code>posterior_odds = prior_odds x LR(country) x LR(product) x LR(route) x LR(red_flags) x policy_modifiers
 posterior_probability = posterior_odds / (1 + posterior_odds)</code></pre>
+        <h3>Why Bayesian analysis</h3>
+        <p>
+          Sanctions and export-control risk is a classic evidence-updating problem. A proposed transaction starts with a baseline risk based on its general type. Each fact then changes the odds: destination, intermediary route, product, restricted-party nexus, licensing posture, military/end-use concerns, voluntary disclosure, remediation, and control weaknesses. Bayesian analysis is appropriate because it lets the tool combine incomplete but meaningful evidence without pretending that any single factor is determinative.
+        </p>
+        <h3>How the model works</h3>
+        <p>
+          The app estimates likelihood ratios from the loaded enforcement universe by asking whether a feature appears more often in higher-severity matters than in lower-severity matters. Higher-severity currently means a criminal posture or a listed penalty of at least $1 million. The model then multiplies those likelihood ratios with policy modifiers based on enforcement guidance, such as aggravation for restricted-party involvement or mitigation for voluntary self-disclosure and remediation.
+        </p>
+        <p>
+          The output is an enforcement-pattern score: a measure of similarity to public cases that agencies have charged, settled, prosecuted, or penalized. It is most useful for triage, escalation, and documenting why a transaction does or does not resemble prior enforcement matters.
+        </p>
         <h3>Interpretation guardrails</h3>
         <p>
           The score is not a legal conclusion and not a true violation rate. In plain English, it asks: how much does this proposed transaction look like public sanctions and export-control matters that agencies have penalized, charged, or prosecuted?
@@ -264,7 +276,7 @@ posterior_probability = posterior_odds / (1 + posterior_odds)</code></pre>
         </p>
         <h3>Pattern analysis</h3>
         <p>
-          The Pattern Analysis tab compares normalized coded cases by countries, products, disclosure posture, agencies, enforcement posture, and risk-factor tags. Its penalty summaries are descriptive associations, not causal estimates; source-index rows are excluded until normalized into model-ready fields.
+          The Pattern Analysis tab compares normalized workbook records by countries, products, disclosure posture, agencies, enforcement posture, risk-factor tags, and recurring feature combinations. Its penalty summaries are descriptive associations, not causal estimates.
         </p>
         <h3>Production upgrades</h3>
         <ul>
@@ -276,10 +288,10 @@ posterior_probability = posterior_odds / (1 + posterior_odds)</code></pre>
       </section>
     </main>
 
-    <script src="data/cases.js?v=13"></script>
-    <script src="data/sourceCoverage.js?v=13"></script>
-    <script src="data/sourceIndex.js?v=13"></script>
-    <script src="data/countries.js?v=27"></script>
-    <script src="app.js?v=27"></script>
+    <script src="data/cases.js?v=32"></script>
+    <script src="data/sourceCoverage.js?v=32"></script>
+    <script src="data/sourceIndex.js?v=32"></script>
+    <script src="data/countries.js?v=32"></script>
+    <script src="app.js?v=32"></script>
   </body>
 </html>

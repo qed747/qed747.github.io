@@ -18,6 +18,16 @@ python -m http.server 8080
 
 Then visit `http://localhost:8080`.
 
+## Import Enforcement Workbook
+
+The app data is generated from the July 22, 2026 enforcement-action workbook:
+
+```powershell
+python scripts\import-enforcement-workbook.py
+```
+
+The importer normalizes the OFAC, EAR-ITAR, and Logistics sheets into `data/cases.js`, adds a small recent DOJ official-source overlay for post-workbook export-control entries, refreshes `data/sourceCoverage.js`, and leaves `data/sourceIndex.js` empty because the records are now model-ready cases rather than uncoded search-only rows.
+
 ## Ingest OFAC Source Index
 
 The historical explorer can be expanded from official OFAC yearly civil-penalty pages:

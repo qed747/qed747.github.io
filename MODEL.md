@@ -4,13 +4,11 @@
 
 The model estimates how closely a proposed transaction resembles matters that U.S. agencies have historically penalized, charged, settled, or prosecuted. It should be treated as a triage and escalation aid, not as a legal conclusion.
 
-## Current Prototype
+## Current App
 
-The current app has two layers:
+The current app uses the July 22, 2026 enforcement-action workbook as the normalized enforcement universe, supplemented by a recent official DOJ export-control overlay for post-workbook entries. The importer reads the OFAC, EAR-ITAR, and Logistics sheets and writes model-ready records to `data/cases.js`.
 
-- Fully coded exemplar cases in `data/cases.js`. These are usable by the scoring model today because they contain countries, product categories, disclosure posture, enforcement posture, risk factors, summaries, and source links.
-- Source-index coverage in `data/sourceCoverage.js`. These are official corpora identified for ingestion, with OFAC, DOJ, BIS, and DDTC now represented. Not every indexed record is model-ready until normalized into the full case schema.
-- Searchable source-index rows in `data/sourceIndex.js`. These let the historical explorer return company-name matches from official penalty charts even when the matter has not yet been fully coded into risk factors.
+The scoring version uses:
 
 The first scoring version uses:
 
@@ -69,11 +67,11 @@ For production, each factor should carry evidence provenance: source URL, suppor
 
 ## Pattern Analysis
 
-The app includes descriptive pattern recognition across fully coded cases:
+The app includes descriptive pattern recognition across normalized workbook records:
 
 - Similar-case matching with Jaccard overlap across countries, products, agencies, posture, disclosure status, and risk factors.
 - Average and median penalty summaries by country, product category, disclosure status, and risk factor.
-- Clear separation between searchable source-index rows and model-ready coded cases.
+- Clear separation between any searchable source-index fallback rows and model-ready normalized records.
 
 These summaries are exploratory. They should not be read causally without controlling for transaction value, statutory maximums, agency, year, cooperation, compliance commitments, company size, and whether the record is civil, administrative, or criminal.
 
@@ -95,7 +93,7 @@ Recommended official-source ingestion order:
 4. DDTC consent agreements and AECA/ITAR enforcement announcements.
 5. Federal Register penalty and enforcement-guideline updates.
 
-The dashboard should never treat source-index rows as model-ready until they have been normalized into the case schema. They can support coverage reporting, but feature likelihood ratios should be trained only on records that have enough facts coded for the relevant model.
+Rows should be treated as model-ready only after they have enough normalized facts for the relevant model: agency, date, actor, penalty, country nexus, product/service category, disclosure posture, posture/outcome, and risk-factor tags.
 
 ## Production Calibration
 

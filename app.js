@@ -95,6 +95,7 @@
   function bindElements() {
     [
       "statsGrid",
+      "activeView",
       "coverageGrid",
       "searchInput",
       "companyFilter",
@@ -172,12 +173,20 @@
   }
 
   function selectTab(tabName) {
+    const selectedTab = document.querySelector(`.tab[data-tab="${tabName}"]`);
     document.querySelectorAll(".tab").forEach((tab) => {
       tab.classList.toggle("active", tab.dataset.tab === tabName);
     });
     document.querySelectorAll(".tab-panel").forEach((panel) => {
       panel.classList.toggle("active", panel.id === tabName);
     });
+    if (elements.activeView && selectedTab) {
+      elements.activeView.textContent = `Viewing: ${selectedTab.textContent}`;
+    }
+    const panel = document.getElementById(tabName);
+    if (panel) {
+      requestAnimationFrame(() => panel.scrollIntoView({ behavior: "smooth", block: "start" }));
+    }
   }
 
   function hydrateFilters() {
@@ -209,13 +218,13 @@
     const totalPenalty = cases.reduce((sum, item) => sum + (item.amountUsd || 0), 0);
     const indexedRecords = sourceCoverage.reduce((sum, item) => sum + (item.indexedRecords || 0), 0);
     const sourceFamilies = sourceCoverage.length || unique(cases.map((item) => item.agency)).length;
-    const agencies = unique(cases.map((item) => item.agency)).join(", ");
+    const agencies = unique(cases.map((item) => item.agency));
 
     elements.statsGrid.innerHTML = [
-      stat(cases.length, "fully coded exemplar cases"),
-      stat(`${indexedRecords}+`, `${sourceIndex.length} searchable source-index rows`),
-      stat(formatMoney(totalPenalty), "penalties in coded exemplars"),
-      stat(sourceFamilies, `source families covering ${agencies}`)
+      stat(cases.length, "workbook-normalized enforcement records"),
+      stat(indexedRecords, "records loaded from workbook and recent DOJ overlay"),
+      stat(formatMoney(totalPenalty), "listed penalties in loaded universe"),
+      stat(sourceFamilies, `${agencies.length} agencies/source groupings represented`)
     ].join("");
 
     renderSourceCoverage();
@@ -230,7 +239,7 @@
         <p>${escapeHtml(item.scope)}</p>
         <p><span class="pill">${escapeHtml(item.status)}</span></p>
         <p>${escapeHtml(item.notes)}</p>
-        <a href="${escapeAttribute(item.sourceUrl)}" target="_blank" rel="noreferrer">Official source</a>
+        ${item.sourceUrl ? `<a href="${escapeAttribute(item.sourceUrl)}" target="_blank" rel="noreferrer">Official source</a>` : ""}
       </article>
     `).join("");
   }
@@ -245,7 +254,7 @@
     const historicalRows = combinedHistoricalRows(filtered, sourceMatches);
     const totalPenalty = historicalRows.reduce((sum, item) => sum + (item.amountUsd || 0), 0);
     const q = activeSearchLabel();
-    elements.resultSummary.textContent = `${historicalRows.length} historical records match${q ? ` "${q}"` : " the current filters"}: ${filtered.length} fully coded and ${sourceMatches.length} source-index. Listed penalties in matching records: ${formatMoney(totalPenalty)}.`;
+    elements.resultSummary.textContent = `${historicalRows.length} normalized enforcement records match${q ? ` "${q}"` : " the current filters"}. Listed penalties in matching records: ${formatMoney(totalPenalty)}.`;
     renderCharts(filtered, sourceMatches);
     renderPenaltyExplorer(filtered, sourceMatches);
     renderCaseList(filtered, sourceMatches);
@@ -437,8 +446,8 @@
     if (!elements.patternSummary) return;
     const penaltyCases = cases.filter((item) => item.amountUsd != null && item.amountUsd > 0);
     elements.patternSummary.innerHTML = `
-      <strong>What this shows:</strong> each table groups the fully coded enforcement cases by one feature and reports how many coded cases fall in that group (<b>n</b>), plus the median, average, and total listed penalties for those cases.
-      <br><strong>How to read it:</strong> higher <b>n</b> means the feature appears more often in the coded sample; higher median/average/total penalties show penalty patterns within that sample.
+      <strong>What this shows:</strong> each table groups the normalized workbook enforcement records by one feature and reports how many records fall in that group (<b>n</b>), plus the median, average, and total listed penalties for those cases.
+      <br><strong>How to read it:</strong> higher <b>n</b> means the feature appears more often in the loaded enforcement universe; higher median/average/total penalties show penalty patterns within that universe.
       <br><strong>Limit:</strong> these are descriptive patterns, not causal findings. Small groups, especially n below 3, should be treated as directional only.
     `;
     elements.countryPenaltyChart.innerHTML = metricTable(groupPenalty(cases, (item) => item.countries));
@@ -470,6 +479,7 @@
   function metricTable(rows) {
     if (!rows.length) return `<p class="field-note">No penalty data available.</p>`;
     return `
+      <div class="table-scroll">
       <table class="metric-table">
         <thead>
           <tr>
@@ -492,6 +502,7 @@
           `).join("")}
         </tbody>
       </table>
+      </div>
     `;
   }
 
@@ -525,10 +536,11 @@
       .sort((a, b) => b.lift - a.lift || b.count - a.count)
       .slice(0, 10);
 
-    if (!rows.length) return `<p class="field-note">Not enough repeated feature combinations in coded penalty cases yet.</p>`;
+    if (!rows.length) return `<p class="field-note">Not enough repeated feature combinations in normalized penalty records yet.</p>`;
 
     return `
-      <table class="metric-table">
+      <div class="table-scroll">
+      <table class="metric-table combo-table">
         <thead>
           <tr>
             <th>Shared features</th>
@@ -550,6 +562,7 @@
           `).join("")}
         </tbody>
       </table>
+      </div>
     `;
   }
 
@@ -582,7 +595,7 @@
     if (!elements.similarityOutput) return;
     const selected = cases.find((item) => item.id === elements.similarityCase.value) || cases[0];
     if (!selected) {
-      elements.similarityOutput.innerHTML = `<div class="empty-state">No coded cases loaded.</div>`;
+      elements.similarityOutput.innerHTML = `<div class="empty-state">No normalized records loaded.</div>`;
       return;
     }
     const matches = cases.filter((item) => item.id !== selected.id)
@@ -594,7 +607,7 @@
     elements.similarityOutput.innerHTML = `
       <div class="source-index-head">
         <h3>Most Similar To ${escapeHtml(selected.name)}</h3>
-        <p>The selected current case is compared against other coded cases using overlap in normalized features.</p>
+        <p>The selected current case is compared against other normalized workbook records using overlap in countries, products, agencies, disclosure posture, and risk-factor tags.</p>
       </div>
       ${matches.map(({ item, score }) => `
         <article class="case-card">
@@ -605,7 +618,7 @@
           <p>${escapeHtml(similarityExplanation(selected, item, elements.similarityBasis.value))}</p>
           <p>${item.amountUsd ? formatMoney(item.amountUsd) : item.posture}</p>
         </article>
-      `).join("") || `<div class="empty-state">No similar coded cases found.</div>`}
+      `).join("") || `<div class="empty-state">No similar normalized records found.</div>`}
     `;
   }
 
@@ -671,7 +684,7 @@
         <div class="empty-state">
           <div>
             <h3>No loaded match${q ? ` for "${escapeHtml(q)}"` : ""}</h3>
-            <p>The current local prototype searches ${cases.length} fully coded cases and ${sourceIndex.length} indexed source rows. The company may be in the broader official corpus but not yet loaded into this local index.</p>
+            <p>The app searches ${cases.length} normalized enforcement records from the July 22, 2026 workbook plus recent official DOJ overlay records. This filter combination may not exist in the loaded fields.</p>
             <p><a href="https://ofac.treasury.gov/civil-penalties-and-enforcement-information" target="_blank" rel="noreferrer">Search OFAC civil penalties</a> | <a href="https://www.bis.gov/enforcement" target="_blank" rel="noreferrer">Search BIS enforcement</a> | <a href="https://www.justice.gov/nsd/export-control-news" target="_blank" rel="noreferrer">Search DOJ NSD matters</a></p>
           </div>
         </div>`;
@@ -704,10 +717,10 @@
       `).join("")}
     ` : "";
 
-    const codedHtml = items.length ? `
+      const codedHtml = items.length ? `
       <div class="source-index-head">
-        <h2>Fully Coded Cases</h2>
-        <p>These records include normalized model fields and are used by the Bayesian scoring prototype.</p>
+        <h2>Workbook-Normalized Enforcement Records</h2>
+        <p>These records include normalized model fields and are used by the Bayesian scoring model.</p>
       </div>
       ${items
       .sort((a, b) => b.date.localeCompare(a.date))
@@ -899,7 +912,9 @@
   }
 
   function isSevereCase(item) {
-    return (item.amountUsd || 0) >= 1000000 || item.posture.toLowerCase().includes("criminal");
+    return (item.amountUsd || 0) >= 1000000 ||
+      String(item.posture || "").toLowerCase().includes("criminal") ||
+      String(item.civilCriminal || "").toLowerCase().includes("criminal");
   }
 
   function caseHasFeature(item, feature) {
@@ -982,7 +997,7 @@
               <p>${escapeHtml(item.summary)}</p>
               <a href="${escapeAttribute(item.sourceUrl)}" target="_blank" rel="noreferrer">${escapeHtml(item.sourceTitle)}</a>
             </article>
-          `).join("") : `<p>No strong analogs in the current seed dataset.</p>`}
+          `).join("") : `<p>No strong analogs in the loaded enforcement universe.</p>`}
         </section>
       </div>
     `;
@@ -996,12 +1011,12 @@
 
   function scoreMeaning(result) {
     if (result.band === "High") {
-      return "Plain English: this transaction resembles higher-concern enforcement matters in the coded public record. It should normally be paused for legal/compliance review, license analysis, and restricted-party/end-use escalation before proceeding.";
+      return "Plain English: this transaction resembles higher-concern matters in the normalized public enforcement records. It should normally be paused for legal/compliance review, license analysis, and restricted-party/end-use escalation before proceeding.";
     }
     if (result.band === "Elevated") {
       return "Plain English: this transaction has several features that appear in enforcement matters. It likely needs enhanced diligence, documentation, and review before release.";
     }
-    return "Plain English: based on the facts entered, this transaction has limited similarity to the coded enforcement matters. It still needs normal screening, classification, and sanctions/export-control checks.";
+    return "Plain English: based on the facts entered, this transaction has limited similarity to the loaded enforcement matters. It still needs normal screening, classification, and sanctions/export-control checks.";
   }
 
   function median(values) {
