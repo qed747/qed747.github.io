@@ -50,8 +50,13 @@ Each case record should preserve:
 - `amountUsd`
 - `factors`
 - `summary`
+- `legalStatus` or a reproducible status derived from the official procedural posture
 - `sourceTitle`
 - `sourceUrl`
+
+Case summaries must be source-grounded narratives, not conclusions inferred from country, product, or risk-factor tags. They should identify the transaction or conduct, relevant actors, goods/services/funds, origin and destination, intermediary routing, required or missing authorization, procedural posture, outcome, and material facts the public source does not state. Sparse source records must be labeled limited-detail rather than silently completed by inference.
+
+Historical legal status must remain separate from prospective risk. A guilty plea, conviction, or sentencing supports an admitted/adjudicated label; a settlement or consent order is a final agency resolution but does not imply an admission unless the source says so; a charge or indictment remains alleged. A prospective enforcement-pattern score is never a determination of illegality.
 
 ## Risk Factor Sources
 

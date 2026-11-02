@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sanctions Risk Bayesian Explorer</title>
-    <link rel="stylesheet" href="styles.css?v=32">
+  <link rel="stylesheet" href="styles.css?v=71">
   </head>
   <body>
     <header class="topbar">
@@ -22,6 +22,8 @@
         <button class="tab active" data-tab="historical">Historical Explorer</button>
         <button class="tab" data-tab="patterns">Pattern Analysis</button>
         <button class="tab" data-tab="prospective">Prospective Risk</button>
+        <button class="tab" data-tab="advisor">Risk Advisor</button>
+        <button class="tab" data-tab="review">Review Queue</button>
         <button class="tab" data-tab="methodology">Methodology</button>
       </nav>
       <div class="active-view" id="activeView">Viewing: Historical Explorer</div>
@@ -40,19 +42,44 @@
         <div class="section-head">
           <div>
             <h2>Corpus Coverage</h2>
-            <p>The enforcement universe is loaded from the July 22, 2026 workbook, supplemented with recent official DOJ export-control entries, and normalized for historical exploration, pattern analysis, and Bayesian scoring.</p>
+            <p>The enforcement universe is loaded from the July 22, 2026 workbook, supplemented with recent official agency overlays, and normalized for historical exploration, pattern analysis, and Bayesian scoring.</p>
           </div>
         </div>
         <div class="coverage-grid" id="coverageGrid"></div>
       </section>
 
       <section id="historical" class="tab-panel active">
+        <div class="interpretation-callout">
+          <strong>Historical legal status is not prospective legality.</strong>
+          <span>Each model-ready record is labeled as admitted/adjudicated, settled, alleged, or undetermined from the official disposition. A proposed transaction's score measures similarity to enforcement patterns; it does not decide whether the transaction is lawful.</span>
+        </div>
         <aside class="filters" aria-label="Historical filters">
           <label>
             Search
             <input id="searchInput" type="search" placeholder="Try FedEx, DHL, Haas, Interactive Brokers, GVA Capital">
-            <small class="field-note">Free text across the normalized enforcement-action universe.</small>
+            <small class="field-note">Free text across fully coded records and source-index rows.</small>
           </label>
+          <div class="filter-group">
+            <h3>Category search</h3>
+            <label>
+              Search within
+              <select id="categoryField">
+                <option value="all">All searchable categories</option>
+                <option value="company">Company</option>
+                <option value="agency">Agency</option>
+                <option value="country">Country or route</option>
+                <option value="product">Product or service</option>
+                <option value="disclosure">Disclosure posture</option>
+                <option value="factor">Risk factor</option>
+                <option value="recordType">Record type</option>
+                <option value="year">Year</option>
+              </select>
+            </label>
+            <label>
+              Category term
+              <input id="categoryTerm" type="search" placeholder="e.g., China, DDTC, voluntary, 2026">
+            </label>
+          </div>
           <label>
             Company
             <select id="companyFilter"></select>
@@ -74,6 +101,18 @@
             Disclosure status
             <select id="disclosureFilter"></select>
           </label>
+          <label>
+            Risk factor
+            <select id="factorFilter"></select>
+          </label>
+          <label>
+            Record type
+            <select id="recordTypeFilter"></select>
+          </label>
+          <label>
+            Year
+            <select id="yearFilter"></select>
+          </label>
           <button id="runSearch" class="secondary" type="button">Search</button>
           <button id="resetFilters" class="secondary">Reset filters</button>
         </aside>
@@ -84,7 +123,10 @@
               <h2>Historical Records</h2>
               <p id="resultSummary"></p>
             </div>
-            <button id="exportCsv" class="secondary">Export CSV</button>
+            <div class="export-actions" aria-label="Download filtered data">
+              <button id="exportCsv" class="secondary" type="button">Download CSV</button>
+              <button id="exportJson" class="secondary" type="button">Download JSON</button>
+            </div>
           </div>
           <div class="chart-row">
             <div class="mini-chart">
@@ -117,7 +159,7 @@
               </label>
             </div>
             <div id="penaltyExplorerChart"></div>
-            <p class="field-note">Penalty chart uses normalized workbook and recent official DOJ records. Country and VSD breakdowns depend on fields available in each row.</p>
+            <p class="field-note">Penalty chart uses normalized workbook and recent official agency-overlay records. Country and VSD breakdowns depend on fields available in each row.</p>
           </div>
           <div id="caseList" class="case-list"></div>
           <div id="sourceIndexSection" class="source-index-section"></div>
@@ -211,7 +253,7 @@
             </label>
             <label>
               Estimated value (USD)
-              <input id="valueUsd" type="number" min="0" step="1000" value="250000">
+              <input id="valueUsd" type="number" min="0" step="1000" placeholder="e.g., 250000">
             </label>
             <label>
               Export classification posture
@@ -248,6 +290,72 @@
         </div>
       </section>
 
+      <section id="advisor" class="tab-panel">
+        <form id="advisorForm" class="advisor-form">
+          <div>
+            <h2>Risk Advisor</h2>
+            <p class="field-note">
+              Ask a risk-management question. The advisor uses the current transaction facts, loaded enforcement records, and cited agency guidance; it does not replace legal advice.
+            </p>
+          </div>
+          <label>
+            Question
+            <textarea id="advisorQuestion" rows="7" placeholder="Example: What should we do before approving this transaction, and should we consider a voluntary disclosure?"></textarea>
+          </label>
+          <label>
+            Advisory focus
+            <select id="advisorFocus">
+              <option value="triage">Triage and management steps</option>
+              <option value="sanctions">Sanctions screening and OFAC issues</option>
+              <option value="export_controls">Export controls, classification, and licensing</option>
+              <option value="disclosure">Voluntary disclosure and remediation</option>
+              <option value="controls">Compliance controls and documentation</option>
+              <option value="case_patterns">Similar cases and enforcement patterns</option>
+            </select>
+          </label>
+          <label class="inline-check">
+            <input id="advisorUseTransaction" type="checkbox" checked>
+            Use current Prospective Risk transaction facts
+          </label>
+          <button type="submit">Ask advisor</button>
+          <button id="downloadAdvisorMemo" class="secondary" type="button">Download memo</button>
+        </form>
+
+        <div class="advisor-output" id="advisorOutput">
+          <div class="empty-state">Ask a question to generate a cited risk-management response.</div>
+        </div>
+      </section>
+
+      <section id="review" class="tab-panel">
+        <div class="results review-panel">
+          <div class="section-head">
+            <div>
+              <h2>Case Coding Review Queue</h2>
+              <p>
+                Triage searchable records that are not yet model-ready. Official agency/index records need field coding; news/feed items need primary-source verification before they can affect Bayesian likelihoods.
+              </p>
+            </div>
+            <button id="exportReviewQueue" class="secondary" type="button">Download queue CSV</button>
+          </div>
+          <div class="review-controls">
+            <label>
+              Queue type
+              <select id="reviewQueueType"></select>
+            </label>
+            <label>
+              Jurisdiction
+              <select id="reviewJurisdiction"></select>
+            </label>
+            <label>
+              Agency/source
+              <select id="reviewAgency"></select>
+            </label>
+          </div>
+          <div id="reviewQueueSummary" class="review-summary-grid"></div>
+          <div id="reviewQueueList" class="review-queue-list"></div>
+        </div>
+      </section>
+
       <section id="methodology" class="tab-panel methodology">
         <h2>Bayesian framework</h2>
         <p>
@@ -270,6 +378,9 @@ posterior_probability = posterior_odds / (1 + posterior_odds)</code></pre>
         <p>
           The score is not a legal conclusion and not a true violation rate. In plain English, it asks: how much does this proposed transaction look like public sanctions and export-control matters that agencies have penalized, charged, or prosecuted?
         </p>
+        <p>
+          Historical records are separately labeled as admitted or adjudicated violations, final agency resolutions or settled apparent violations, alleged violations, and dispositions requiring source review. Charges and allegations are not presented as proven conduct. Settlements do not imply an admission unless the linked official record says so.
+        </p>
         <h3>Risk factor sources</h3>
         <p>
           Risk factors are analyst-coded from public agency enforcement frameworks and case documents, not from a single government data field. The tags reflect recurring factors in OFAC enforcement guidelines, BIS enforcement and red-flag materials, DOJ National Security Division voluntary-disclosure policy, DDTC consent agreements, and the linked public settlement, charging, plea, sentencing, or penalty records.
@@ -277,6 +388,21 @@ posterior_probability = posterior_odds / (1 + posterior_odds)</code></pre>
         <h3>Pattern analysis</h3>
         <p>
           The Pattern Analysis tab compares normalized workbook records by countries, products, disclosure posture, agencies, enforcement posture, risk-factor tags, and recurring feature combinations. Its penalty summaries are descriptive associations, not causal estimates.
+        </p>
+        <h3>Update cadence</h3>
+        <p>
+          The workbook is the baseline corpus. Recent official agency releases from DOJ, State/DDTC, BIS, and OFAC should be checked on a scheduled basis and added as coded overlay records so new cases affect historical search, pattern analysis, and Bayesian scoring without waiting for the next workbook refresh.
+        </p>
+        <p>
+          The source index also includes Sanctions Expert feed briefs covering U.S. and non-U.S. sanctions/export-control developments. Those feed rows are used for horizon scanning and category search; they are not used in Bayesian likelihood calculations until the underlying official source is reviewed and the matter is normalized into the full case schema.
+        </p>
+        <h3>Confidence labels and review queue</h3>
+        <p>
+          Records marked as model-ready are normalized and used in the Bayesian scoring model. Official source-index records are searchable and downloadable, but they remain outside the likelihood calculations until the key fields are coded. Third-party feed briefs are horizon-scanning items; the app links to their primary/open source where available and queues them for official-source review before promotion into the model-ready corpus.
+        </p>
+        <h3>Risk Advisor</h3>
+        <p>
+          The Risk Advisor is a grounded decision-support layer. It maps transaction facts and user questions to cited public guidance, the current enforcement-pattern score, analogous cases, and practical management steps. It is intentionally conservative: when facts are missing, it asks for them; when a source does not answer a question, it says so rather than inventing legal conclusions.
         </p>
         <h3>Production upgrades</h3>
         <ul>
@@ -288,10 +414,10 @@ posterior_probability = posterior_odds / (1 + posterior_odds)</code></pre>
       </section>
     </main>
 
-    <script src="data/cases.js?v=32"></script>
-    <script src="data/sourceCoverage.js?v=32"></script>
-    <script src="data/sourceIndex.js?v=32"></script>
-    <script src="data/countries.js?v=32"></script>
-    <script src="app.js?v=32"></script>
+    <script src="data/cases.js?v=93"></script>
+    <script src="data/sourceCoverage.js?v=93"></script>
+    <script src="data/sourceIndex.js?v=93"></script>
+    <script src="data/countries.js?v=65"></script>
+    <script src="app.js?v=93"></script>
   </body>
 </html>

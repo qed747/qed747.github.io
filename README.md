@@ -64,6 +64,8 @@ The script fetches the paginated DOJ NSD listing and adds each press-release tit
 
 Public enforcement records are not a denominator for all transactions. They are a selected sample of detected, investigated, settled, charged, or prosecuted matters. The current model therefore estimates an "enforcement-analogy risk" rather than a true legal violation probability. A production model should add denominators such as export volumes, license application statistics, screening hits, internal alert volumes, shipment counts, and confirmed false-positive outcomes.
 
+Every model-ready case is displayed with a procedural legal-status label and a source-grounded case summary. The labels distinguish admitted/adjudicated violations, final agency resolutions or settled apparent violations, allegations, and records whose disposition requires source review. Limited public-source detail is shown as unknown rather than inferred. These historical labels do not convert a prospective risk score into a legal opinion.
+
 ## Suggested Data Sources
 
 - OFAC Civil Penalties and Enforcement Information
