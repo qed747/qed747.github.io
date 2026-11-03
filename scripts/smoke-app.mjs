@@ -9,6 +9,7 @@ function makeElement(id) {
   return {
     id,
     value: id === "companyFilter" || id.endsWith("Filter") ? "All" : "",
+    checked: false,
     dataset: {},
     style: {},
     children: [],
@@ -18,6 +19,9 @@ function makeElement(id) {
     },
     appendChild(child) {
       this.children.push(child);
+    },
+    querySelectorAll() {
+      return [];
     },
     click() {
       if (this.listeners.click) this.listeners.click({ preventDefault() {} });
@@ -91,3 +95,23 @@ store.get("companyFilter").value = "Air Jamaica Ltd.";
 store.get("searchInput").value = "Seagate";
 vm.runInContext("document.getElementById('runSearch').click()", context);
 console.log("stale-company-override-ok", store.get("caseList").innerHTML.includes("Seagate"));
+store.get("companyFilter").value = "All";
+store.get("searchInput").value = "Andrei Samuilovski";
+vm.runInContext("document.getElementById('runSearch').click()", context);
+console.log("legal-status-ok", store.get("caseList").innerHTML.includes("legal-status") && store.get("caseList").innerHTML.includes("Case summary"));
+console.log("summary-provenance-ok", store.get("caseList").innerHTML.includes("Source-grounded") || store.get("caseList").innerHTML.includes("Limited-detail record"));
+
+store.get("archetype").value = "dual_use";
+store.get("destination").value = "China";
+store.get("intermediary").value = "United Arab Emirates";
+store.get("product").value = "semiconductors_ai";
+store.get("classification").value = "eccn";
+store.get("valueUsd").value = "";
+store.get("advisorQuestion").value = "Can I export a TV from the US to Russia?";
+store.get("advisorFocus").value = "triage";
+store.get("advisorUseTransaction").checked = true;
+store.get("advisorForm").dispatch("submit");
+console.log("advisor-ok", store.get("advisorOutput").innerHTML.includes("Recommended Risk Management Response"));
+console.log("advisor-russia-ok", store.get("advisorOutput").innerHTML.includes("High concern") && store.get("advisorOutput").innerHTML.includes("Russia"));
+console.log("advisor-no-invented-value-ok", store.get("advisorOutput").innerHTML.includes("Not stated") && !store.get("advisorOutput").innerHTML.includes("$250,000"));
+console.log("advisor-direct-answer-ok", store.get("advisorOutput").innerHTML.includes("Do not ship or approve as stated"));

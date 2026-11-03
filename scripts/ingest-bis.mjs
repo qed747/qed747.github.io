@@ -92,13 +92,13 @@ function mergeRows(existing, generated) {
 
 async function updateCoverage(count) {
   let text = await fs.readFile(sourceCoveragePath, "utf8");
-  text = text.replace(/(agency: "BIS",[\s\S]*?indexedRecords: )\d+/, `$1${count}`);
+  text = text.replace(/("?agency"?: "BIS",[\s\S]*?"?indexedRecords"?: )\d+/, `$1${count}`);
   text = text.replace(
-    /(agency: "BIS",[\s\S]*?indexedPeriod: ")[^"]+(")/,
-    `$1Official BIS export-violations index fetched from bis.gov$2`
+    /("?agency"?: "BIS",[\s\S]*?"?indexedPeriod"?: ")[^"]+(")/,
+    `$1Official BIS index fetched ${new Date().toISOString().slice(0, 10)}$2`
   );
   text = text.replace(
-    /(agency: "BIS",[\s\S]*?status: ")[^"]+(")/,
+    /("?agency"?: "BIS",[\s\S]*?"?status"?: ")[^"]+(")/,
     `$1Indexed; source rows loaded$2`
   );
   await fs.writeFile(sourceCoveragePath, text, "utf8");

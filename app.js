@@ -165,7 +165,10 @@
   ];
 
   const elements = {};
+  const HISTORICAL_RENDER_LIMIT = 25;
+  const REVIEW_RENDER_LIMIT = 40;
   let lastAdvisorMemo = "";
+  let reviewQueueRendered = false;
 
   document.addEventListener("DOMContentLoaded", () => {
     bindElements();
@@ -174,7 +177,6 @@
     renderStats();
     renderHistorical();
     renderPatterns();
-    renderReviewQueue();
   });
 
   function bindElements() {
@@ -241,10 +243,13 @@
       tab.addEventListener("click", () => selectTab(tab.dataset.tab));
     });
 
-    ["searchInput", "categoryField", "categoryTerm", "companyFilter", "agencyFilter", "countryFilter", "productFilter", "disclosureFilter", "factorFilter", "recordTypeFilter", "yearFilter"].forEach((id) => {
-      ["input", "change", "search", "keyup"].forEach((eventName) => {
-        addListener(elements[id], eventName, renderHistorical);
-      });
+    const debouncedHistoricalSearch = debounce(renderHistorical, 200);
+    ["searchInput", "categoryTerm"].forEach((id) => {
+      addListener(elements[id], "input", debouncedHistoricalSearch);
+      addListener(elements[id], "search", debouncedHistoricalSearch);
+    });
+    ["categoryField", "companyFilter", "agencyFilter", "countryFilter", "productFilter", "disclosureFilter", "factorFilter", "recordTypeFilter", "yearFilter"].forEach((id) => {
+      addListener(elements[id], "change", renderHistorical);
     });
 
     addListener(elements.runSearch, "click", renderHistorical);
@@ -294,6 +299,14 @@
     }
   }
 
+  function debounce(handler, delay) {
+    let timeoutId;
+    return (...args) => {
+      clearTimeout(timeoutId);
+      timeoutId = setTimeout(() => handler(...args), delay);
+    };
+  }
+
   function selectTab(tabName) {
     const selectedTab = document.querySelector(`.tab[data-tab="${tabName}"]`);
     document.querySelectorAll(".tab").forEach((tab) => {
@@ -304,6 +317,10 @@
     });
     if (elements.activeView && selectedTab) {
       elements.activeView.textContent = `Viewing: ${selectedTab.textContent}`;
+    }
+    if (tabName === "review" && !reviewQueueRendered) {
+      renderReviewQueue();
+      reviewQueueRendered = true;
     }
     const panel = document.getElementById(tabName);
     if (panel) {
@@ -367,7 +384,8 @@
   }
 
   function renderStats() {
-    const totalPenalty = cases.reduce((sum, item) => sum + (item.amountUsd || 0), 0);
+    const totalPenalty = combinedHistoricalRows(cases, sourceIndex)
+      .reduce((sum, item) => sum + (item.amountUsd || 0), 0);
     const indexedRecords = sourceCoverage.reduce((sum, item) => sum + (item.indexedRecords || 0), 0);
     const sourceFamilies = sourceCoverage.length || unique(cases.map((item) => item.agency)).length;
     const agencies = unique(cases.map((item) => item.agency));
@@ -375,7 +393,7 @@
     elements.statsGrid.innerHTML = [
       stat(cases.length, "workbook-normalized enforcement records"),
       stat(indexedRecords, "records loaded from workbook and recent agency overlays"),
-      stat(formatMoney(totalPenalty), "listed penalties in loaded universe", "money"),
+      stat(formatMoney(totalPenalty), "available listed penalties across normalized and indexed records", "money"),
       stat(sourceFamilies, `${agencies.length} agencies/source groupings represented`)
     ].join("");
 
@@ -977,12 +995,19 @@
       return;
     }
 
+      const visibleSourceMatches = [...sourceMatches]
+        .sort((a, b) => b.date.localeCompare(a.date))
+        .slice(0, HISTORICAL_RENDER_LIMIT);
+      const visibleItems = [...items]
+        .sort((a, b) => b.date.localeCompare(a.date))
+        .slice(0, HISTORICAL_RENDER_LIMIT);
+
       const sourceHtml = sourceMatches.length ? `
         <div class="source-index-head">
         <h2>Source-Index Historical Records</h2>
-        <p>These source-index rows are searchable/exportable immediately. Official rows and third-party feed briefs are kept separate from Bayesian likelihoods until normalized into the full case schema.</p>
+        <p>Showing ${visibleSourceMatches.length} of ${sourceMatches.length} matching source-index records. Refine the filters to narrow the on-screen list; downloads include every match. Official rows and third-party feed briefs are kept separate from Bayesian likelihoods until normalized into the full case schema.</p>
       </div>
-      ${sourceMatches.sort((a, b) => b.date.localeCompare(a.date)).map((item) => `
+      ${visibleSourceMatches.map((item) => `
         <article class="case-card">
           <div class="case-title">
             <div>
@@ -1010,10 +1035,9 @@
       const codedHtml = items.length ? `
       <div class="source-index-head">
         <h2>Workbook-Normalized Enforcement Records</h2>
-        <p>These records include normalized model fields and are used by the Bayesian scoring model. Their legal-status labels distinguish proven or admitted violations, agency settlements, allegations, and records whose disposition requires source review.</p>
+        <p>Showing ${visibleItems.length} of ${items.length} matching normalized records. Refine the filters to narrow the on-screen list; downloads include every match. These records are used by the Bayesian scoring model.</p>
       </div>
-      ${items
-      .sort((a, b) => b.date.localeCompare(a.date))
+      ${visibleItems
       .map((item) => `
         <article class="case-card">
           <div class="case-title">
@@ -1103,7 +1127,10 @@
       return;
     }
 
-    elements.reviewQueueList.innerHTML = rows.map((item) => {
+    const visibleRows = rows.slice(0, REVIEW_RENDER_LIMIT);
+    elements.reviewQueueList.innerHTML = `
+      <p class="field-note">Showing ${visibleRows.length} of ${rows.length} queued records. Use the queue filters to narrow the list; CSV export includes every match.</p>
+      ${visibleRows.map((item) => {
       const meta = confidenceMeta(item);
       return `
         <article class="case-card review-card">
@@ -1131,7 +1158,7 @@
           </div>
         </article>
       `;
-    }).join("");
+    }).join("")}`;
   }
 
   function filteredReviewQueue() {

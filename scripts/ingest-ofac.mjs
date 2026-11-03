@@ -142,6 +142,12 @@ function dedupe(rows) {
   return Array.from(seen.values());
 }
 
+function dedupeById(rows) {
+  const seen = new Map();
+  for (const row of rows) seen.set(row.id || `${row.date}|${row.name}|${row.amountUsd}`, row);
+  return Array.from(seen.values());
+}
+
 async function readExistingSourceIndex() {
   try {
     const text = await fs.readFile(sourceIndexPath, "utf8");
@@ -161,10 +167,11 @@ async function writeSourceIndex(records) {
 
 async function updateCoverage(ofacCount) {
   let text = await fs.readFile(sourceCoveragePath, "utf8");
-  text = text.replace(/(agency: "OFAC",[\s\S]*?indexedRecords: )\d+/, `$1${ofacCount}`);
+  const officialRow = /("?source"?: "Official OFAC civil-penalty index",[\s\S]*?"?indexedRecords"?: )\d+/;
+  text = text.replace(officialRow, `$1${ofacCount}`);
   text = text.replace(
-    /(agency: "OFAC",[\s\S]*?indexedPeriod: ")[^"]+(")/,
-    `$1Official OFAC civil-penalty rows fetched from yearly pages where parsable$2`
+    /("?source"?: "Official OFAC civil-penalty index",[\s\S]*?"?indexedPeriod"?: ")[^"]+(")/,
+    `$1Official OFAC pages fetched ${new Date().toISOString().slice(0, 10)}$2`
   );
   await fs.writeFile(sourceCoveragePath, text, "utf8");
 }
@@ -187,7 +194,7 @@ for (const year of years) {
 
 const existing = await readExistingSourceIndex();
 const manual = existing.filter((record) => !String(record.id || "").startsWith("ofac-index-"));
-const combined = dedupe([...manual, ...generated])
+const combined = dedupeById([...manual, ...generated])
   .sort((a, b) => b.date.localeCompare(a.date) || a.name.localeCompare(b.name));
 
 await writeSourceIndex(combined);

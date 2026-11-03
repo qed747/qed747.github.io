@@ -1,5 +1,20 @@
 window.SOURCE_INDEX = [
   {
+    "id": "sanctionsexpert-323-doj-announces-guilty-plea-for-attempting-to-provide-funds-and-weapons-to-isis",
+    "date": "2026-10-30",
+    "agency": "DOJ",
+    "jurisdiction": "United States",
+    "actionType": "Enforcement Action",
+    "name": "DOJ Announces Guilty Plea for Attempting to Provide Funds and Weapons to ISIS",
+    "amountUsd": null,
+    "recordType": "Sanctions Expert feed brief",
+    "codingStatus": "Third-party feed index; official-source review needed",
+    "sourceTitle": "DOJ Announces Guilty Plea for Attempting to Provide Funds and Weapons to ISIS",
+    "sourceUrl": "https://www.justice.gov/opa/pr/california-man-pleads-guilty-attempting-provide-material-support-islamic-state-iraq-and-al",
+    "tags": [],
+    "primarySourceUrl": "https://www.justice.gov/opa/pr/california-man-pleads-guilty-attempting-provide-material-support-islamic-state-iraq-and-al"
+  },
+  {
     "id": "sanctionsexpert-320-fatf-removes-four-jurisdictions-from-gray-list-and-updates-high-risk-jurisdiction-statements",
     "date": "2026-10-30",
     "agency": "FATF",
@@ -28,6 +43,36 @@ window.SOURCE_INDEX = [
     "sourceUrl": "https://www.fincen.gov/system/files/2026-10/FinCEN-Alert-Foreign-Agent-Directed-Transactions.pdf",
     "tags": [],
     "primarySourceUrl": "https://www.fincen.gov/system/files/2026-10/FinCEN-Alert-Foreign-Agent-Directed-Transactions.pdf"
+  },
+  {
+    "id": "sanctionsexpert-324-dhs-adds-three-chinese-biotechnology-entities-to-the-uflpa-entity-list",
+    "date": "2026-10-29",
+    "agency": "DHS",
+    "jurisdiction": "Other / non-U.S.",
+    "actionType": "Addition of an entry to a list",
+    "name": "DHS Adds Three Chinese Biotechnology Entities to the UFLPA Entity List",
+    "amountUsd": null,
+    "recordType": "Sanctions Expert feed brief",
+    "codingStatus": "Third-party feed index; official-source review needed",
+    "sourceTitle": "DHS Adds Three Chinese Biotechnology Entities to the UFLPA Entity List",
+    "sourceUrl": "https://www.govinfo.gov/content/pkg/FR-2026-10-29/html/2026-22094.htm",
+    "tags": [],
+    "primarySourceUrl": "https://www.govinfo.gov/content/pkg/FR-2026-10-29/html/2026-22094.htm"
+  },
+  {
+    "id": "sanctionsexpert-319-mofcom-clarifies-proposed-technology-export-controls-and-interim-registration",
+    "date": "2026-10-29",
+    "agency": "MOFCOM",
+    "jurisdiction": "Other / non-U.S.",
+    "actionType": "Guidance",
+    "name": "MOFCOM Clarifies Proposed Technology Export Controls and Interim Registration",
+    "amountUsd": null,
+    "recordType": "Sanctions Expert feed brief",
+    "codingStatus": "Third-party feed index; official-source review needed",
+    "sourceTitle": "MOFCOM Clarifies Proposed Technology Export Controls and Interim Registration",
+    "sourceUrl": "https://exportcontrol.mofcom.gov.cn/article/gndt/202610/1329.html",
+    "tags": [],
+    "primarySourceUrl": "https://exportcontrol.mofcom.gov.cn/article/gndt/202610/1329.html"
   },
   {
     "id": "sanctionsexpert-316-ofac-revises-iran-general-license-for-iraq-development-bank-wind-down",
@@ -357,7 +402,9 @@ window.SOURCE_INDEX = [
     "codingStatus": "Third-party feed index; official-source review needed",
     "sourceTitle": "EU Renews Transnistria Sanctions Until October 31, 2027",
     "sourceUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32026D2397",
-    "tags": [],
+    "tags": [
+      "EU: Moldova"
+    ],
     "primarySourceUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32026D2397"
   },
   {
