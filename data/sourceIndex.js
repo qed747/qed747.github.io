@@ -1,5 +1,91 @@
 window.SOURCE_INDEX = [
   {
+    "id": "sanctionsexpert-330-eu-council-agrees-position-on-drug-precursor-trade-controls",
+    "date": "2026-11-04",
+    "agency": "EU Council",
+    "jurisdiction": "European Union",
+    "actionType": "Regulatory Development",
+    "name": "EU Council Agrees Position on Drug-Precursor Trade Controls",
+    "amountUsd": null,
+    "recordType": "Sanctions Expert feed brief",
+    "codingStatus": "Third-party feed index; official-source review needed",
+    "sourceTitle": "EU Council Agrees Position on Drug-Precursor Trade Controls",
+    "sourceUrl": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/04/fight-against-illicit-drugs-council-backs-new-rules-for-chemicals-used-to-make-illegal-drugs/",
+    "tags": [
+      "Regulatory Developent",
+      "Import/Export"
+    ],
+    "primarySourceUrl": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/04/fight-against-illicit-drugs-council-backs-new-rules-for-chemicals-used-to-make-illegal-drugs/"
+  },
+  {
+    "id": "sanctionsexpert-327-ofac-adds-five-individuals-and-ten-entities-under-iran-related-sanctions",
+    "date": "2026-11-04",
+    "agency": "OFAC",
+    "jurisdiction": "United States",
+    "actionType": "Designation",
+    "name": "OFAC Adds Five Individuals and Ten Entities Under Iran-Related Sanctions",
+    "amountUsd": null,
+    "recordType": "Sanctions Expert feed brief",
+    "codingStatus": "Third-party feed index; official-source review needed",
+    "sourceTitle": "OFAC Adds Five Individuals and Ten Entities Under Iran-Related Sanctions",
+    "sourceUrl": "https://ofac.treasury.gov/recent-actions/20261104",
+    "tags": [
+      "U.S.: Iran Sanctions"
+    ],
+    "primarySourceUrl": "https://ofac.treasury.gov/recent-actions/20261104"
+  },
+  {
+    "id": "sanctionsexpert-329-ofac-delays-pdvsa-bond-authorization-until-december-18-and-updates-faq-595",
+    "date": "2026-11-04",
+    "agency": "OFAC",
+    "jurisdiction": "United States",
+    "actionType": "Revised General License",
+    "name": "OFAC Delays PDVSA Bond Authorization Until December 18 and Updates FAQ 595",
+    "amountUsd": null,
+    "recordType": "Sanctions Expert feed brief",
+    "codingStatus": "Third-party feed index; official-source review needed",
+    "sourceTitle": "OFAC Delays PDVSA Bond Authorization Until December 18 and Updates FAQ 595",
+    "sourceUrl": "https://ofac.treasury.gov/media/937321/download?inline=",
+    "tags": [
+      "U.S.: Venezuela-Related Sanctions"
+    ],
+    "primarySourceUrl": "https://ofac.treasury.gov/media/937321/download?inline="
+  },
+  {
+    "id": "sanctionsexpert-328-ofac-warns-maritime-service-providers-about-iranian-shadow-fleet-false-flags",
+    "date": "2026-11-04",
+    "agency": "OFAC",
+    "jurisdiction": "United States",
+    "actionType": "Advisory",
+    "name": "OFAC Warns Maritime Service Providers About Iranian Shadow Fleet False Flags",
+    "amountUsd": null,
+    "recordType": "Sanctions Expert feed brief",
+    "codingStatus": "Third-party feed index; official-source review needed",
+    "sourceTitle": "OFAC Warns Maritime Service Providers About Iranian Shadow Fleet False Flags",
+    "sourceUrl": "https://ofac.treasury.gov/media/937316/download?inline=",
+    "tags": [
+      "U.S.: Iran Sanctions"
+    ],
+    "primarySourceUrl": "https://ofac.treasury.gov/media/937316/download?inline="
+  },
+  {
+    "id": "sanctionsexpert-326-eu-announces-eight-countries-alignment-with-russia-related-sanctions-decisions",
+    "date": "2026-11-03",
+    "agency": "EU Council",
+    "jurisdiction": "European Union",
+    "actionType": "Update",
+    "name": "EU Announces Eight Countries’ Alignment With Russia-Related Sanctions Decisions",
+    "amountUsd": null,
+    "recordType": "Sanctions Expert feed brief",
+    "codingStatus": "Third-party feed index; official-source review needed",
+    "sourceTitle": "EU Announces Eight Countries’ Alignment With Russia-Related Sanctions Decisions",
+    "sourceUrl": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/03/statement-by-the-hr-on-behalf-of-the-eu-on-the-alignment-of-certain-third-countries-concerning-restrictive-measures-in-respect-of-actions-undermining-or-threatening-the-territorial-integrity-sovereignty-and-independence-of-ukraine/",
+    "tags": [
+      "EU: Ukraine (Asset freeze)"
+    ],
+    "primarySourceUrl": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/03/statement-by-the-hr-on-behalf-of-the-eu-on-the-alignment-of-certain-third-countries-concerning-restrictive-measures-in-respect-of-actions-undermining-or-threatening-the-territorial-integrity-sovereignty-and-independence-of-ukraine/"
+  },
+  {
     "id": "sanctionsexpert-323-doj-announces-guilty-plea-for-attempting-to-provide-funds-and-weapons-to-isis",
     "date": "2026-10-30",
     "agency": "DOJ",
@@ -45,6 +131,23 @@ window.SOURCE_INDEX = [
     "primarySourceUrl": "https://www.fincen.gov/system/files/2026-10/FinCEN-Alert-Foreign-Agent-Directed-Transactions.pdf"
   },
   {
+    "id": "sanctionsexpert-325-mofcom-consults-on-draft-dual-use-export-control-investigation-and-enforcement-measures",
+    "date": "2026-10-30",
+    "agency": "MOFCOM",
+    "jurisdiction": "Other / non-U.S.",
+    "actionType": "Regulatory Development",
+    "name": "MOFCOM Consults on Draft Dual-Use Export-Control Investigation and Enforcement Measures",
+    "amountUsd": null,
+    "recordType": "Sanctions Expert feed brief",
+    "codingStatus": "Third-party feed index; official-source review needed",
+    "sourceTitle": "MOFCOM Consults on Draft Dual-Use Export-Control Investigation and Enforcement Measures",
+    "sourceUrl": "https://aqygzj.mofcom.gov.cn/zhxx/art/2026/art_426eb88f2a27400694987f4d8e078473.html",
+    "tags": [
+      "Regulatory Developent"
+    ],
+    "primarySourceUrl": "https://aqygzj.mofcom.gov.cn/zhxx/art/2026/art_426eb88f2a27400694987f4d8e078473.html"
+  },
+  {
     "id": "sanctionsexpert-324-dhs-adds-three-chinese-biotechnology-entities-to-the-uflpa-entity-list",
     "date": "2026-10-29",
     "agency": "DHS",
@@ -58,21 +161,6 @@ window.SOURCE_INDEX = [
     "sourceUrl": "https://www.govinfo.gov/content/pkg/FR-2026-10-29/html/2026-22094.htm",
     "tags": [],
     "primarySourceUrl": "https://www.govinfo.gov/content/pkg/FR-2026-10-29/html/2026-22094.htm"
-  },
-  {
-    "id": "sanctionsexpert-319-mofcom-clarifies-proposed-technology-export-controls-and-interim-registration",
-    "date": "2026-10-29",
-    "agency": "MOFCOM",
-    "jurisdiction": "Other / non-U.S.",
-    "actionType": "Guidance",
-    "name": "MOFCOM Clarifies Proposed Technology Export Controls and Interim Registration",
-    "amountUsd": null,
-    "recordType": "Sanctions Expert feed brief",
-    "codingStatus": "Third-party feed index; official-source review needed",
-    "sourceTitle": "MOFCOM Clarifies Proposed Technology Export Controls and Interim Registration",
-    "sourceUrl": "https://exportcontrol.mofcom.gov.cn/article/gndt/202610/1329.html",
-    "tags": [],
-    "primarySourceUrl": "https://exportcontrol.mofcom.gov.cn/article/gndt/202610/1329.html"
   },
   {
     "id": "sanctionsexpert-316-ofac-revises-iran-general-license-for-iraq-development-bank-wind-down",
@@ -786,6 +874,21 @@ window.SOURCE_INDEX = [
       "Import/Export"
     ],
     "primarySourceUrl": "https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html"
+  },
+  {
+    "id": "sanctionsexpert-319-mofcom-clarifies-proposed-technology-export-controls-and-interim-registration",
+    "date": "2026-10-29",
+    "agency": "MOFCOM",
+    "jurisdiction": "Other / non-U.S.",
+    "actionType": "Guidance",
+    "name": "MOFCOM Clarifies Proposed Technology Export Controls and Interim Registration",
+    "amountUsd": null,
+    "recordType": "Sanctions Expert feed brief",
+    "codingStatus": "Third-party feed index; official-source review needed",
+    "sourceTitle": "MOFCOM Clarifies Proposed Technology Export Controls and Interim Registration",
+    "sourceUrl": "https://exportcontrol.mofcom.gov.cn/article/gndt/202610/1329.html",
+    "tags": [],
+    "primarySourceUrl": "https://exportcontrol.mofcom.gov.cn/article/gndt/202610/1329.html"
   },
   {
     "id": "sanctionsexpert-264-ofac-issues-venezuela-general-license-60a-for-earthquake-relief",
