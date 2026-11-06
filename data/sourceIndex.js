@@ -1,5 +1,72 @@
 window.SOURCE_INDEX = [
   {
+    "id": "sanctionsexpert-337-bis-extends-suspension-of-affiliates-rule-through-january-10-2027",
+    "date": "2026-11-05",
+    "agency": "BIS",
+    "jurisdiction": "United States",
+    "actionType": "Final Rule",
+    "name": "BIS Extends Suspension of Affiliates Rule Through January 10, 2027",
+    "amountUsd": null,
+    "recordType": "Sanctions Expert feed brief",
+    "codingStatus": "Third-party feed index; official-source review needed",
+    "sourceTitle": "BIS Extends Suspension of Affiliates Rule Through January 10, 2027",
+    "sourceUrl": "https://www.federalregister.gov/public-inspection/2026-22793/extension-of-the-suspension-of-expansion-of-end-user-controls-for-affiliates-of-certain-listed",
+    "tags": [
+      "Export Controls"
+    ],
+    "primarySourceUrl": "https://www.federalregister.gov/public-inspection/2026-22793/extension-of-the-suspension-of-expansion-of-end-user-controls-for-affiliates-of-certain-listed"
+  },
+  {
+    "id": "sanctionsexpert-334-doj-announces-unsealed-tren-de-aragua-indictment-and-50-million-in-reward-offers",
+    "date": "2026-11-05",
+    "agency": "DOJ",
+    "jurisdiction": "United States",
+    "actionType": "Enforcement Action",
+    "name": "DOJ Announces Unsealed Tren de Aragua Indictment and $50 Million in Reward Offers",
+    "amountUsd": null,
+    "recordType": "Sanctions Expert feed brief",
+    "codingStatus": "Third-party feed index; official-source review needed",
+    "sourceTitle": "DOJ Announces Unsealed Tren de Aragua Indictment and $50 Million in Reward Offers",
+    "sourceUrl": "https://www.justice.gov/opa/pr/reward-offers-50m-information-leading-arrests-andor-convictions-foreign-terrorist",
+    "tags": [],
+    "primarySourceUrl": "https://www.justice.gov/opa/pr/reward-offers-50m-information-leading-arrests-andor-convictions-foreign-terrorist"
+  },
+  {
+    "id": "sanctionsexpert-333-ofac-adds-cuba-sanctions-targets-and-expands-sectoral-designation-authority",
+    "date": "2026-11-05",
+    "agency": "OFAC",
+    "jurisdiction": "United States",
+    "actionType": "Designation",
+    "name": "OFAC Adds Cuba Sanctions Targets and Expands Sectoral Designation Authority",
+    "amountUsd": null,
+    "recordType": "Sanctions Expert feed brief",
+    "codingStatus": "Third-party feed index; official-source review needed",
+    "sourceTitle": "OFAC Adds Cuba Sanctions Targets and Expands Sectoral Designation Authority",
+    "sourceUrl": "https://ofac.treasury.gov/recent-actions/20261105",
+    "tags": [
+      "U.S.: Cuba Sanctions"
+    ],
+    "primarySourceUrl": "https://ofac.treasury.gov/recent-actions/20261105"
+  },
+  {
+    "id": "sanctionsexpert-332-ofac-sanctions-five-individuals-and-41-entities-supporting-global-scam-networks",
+    "date": "2026-11-05",
+    "agency": "OFAC",
+    "jurisdiction": "United States",
+    "actionType": "Designation",
+    "name": "OFAC Sanctions Five Individuals and 41 Entities Supporting Global Scam Networks",
+    "amountUsd": null,
+    "recordType": "Sanctions Expert feed brief",
+    "codingStatus": "Third-party feed index; official-source review needed",
+    "sourceTitle": "OFAC Sanctions Five Individuals and 41 Entities Supporting Global Scam Networks",
+    "sourceUrl": "https://ofac.treasury.gov/recent-actions/20261105",
+    "tags": [
+      "U.S.: Cyber-Related Sanctions",
+      "U.S.: Transnational Criminal Organizations"
+    ],
+    "primarySourceUrl": "https://ofac.treasury.gov/recent-actions/20261105"
+  },
+  {
     "id": "sanctionsexpert-330-eu-council-agrees-position-on-drug-precursor-trade-controls",
     "date": "2026-11-04",
     "agency": "EU Council",
@@ -69,6 +136,21 @@ window.SOURCE_INDEX = [
     "primarySourceUrl": "https://ofac.treasury.gov/media/937316/download?inline="
   },
   {
+    "id": "sanctionsexpert-335-bis-renews-rossiya-airlines-export-denial-order-for-one-year",
+    "date": "2026-11-03",
+    "agency": "BIS",
+    "jurisdiction": "United States",
+    "actionType": "Enforcement Action",
+    "name": "BIS Renews Rossiya Airlines Export Denial Order for One Year",
+    "amountUsd": null,
+    "recordType": "Sanctions Expert feed brief",
+    "codingStatus": "Third-party feed index; official-source review needed",
+    "sourceTitle": "BIS Renews Rossiya Airlines Export Denial Order for One Year",
+    "sourceUrl": "https://public-inspection.federalregister.gov/2026-22598.pdf",
+    "tags": [],
+    "primarySourceUrl": "https://public-inspection.federalregister.gov/2026-22598.pdf"
+  },
+  {
     "id": "sanctionsexpert-326-eu-announces-eight-countries-alignment-with-russia-related-sanctions-decisions",
     "date": "2026-11-03",
     "agency": "EU Council",
@@ -84,6 +166,26 @@ window.SOURCE_INDEX = [
       "EU: Ukraine (Asset freeze)"
     ],
     "primarySourceUrl": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/03/statement-by-the-hr-on-behalf-of-the-eu-on-the-alignment-of-certain-third-countries-concerning-restrictive-measures-in-respect-of-actions-undermining-or-threatening-the-territorial-integrity-sovereignty-and-independence-of-ukraine/"
+  },
+  {
+    "id": "sanctionsexpert-336-president-continues-four-national-emergencies-underpinning-sanctions-authorities",
+    "date": "2026-11-03",
+    "agency": "The White House",
+    "jurisdiction": "United States",
+    "actionType": "Notice",
+    "name": "President Continues Four National Emergencies Underpinning Sanctions Authorities",
+    "amountUsd": null,
+    "recordType": "Sanctions Expert feed brief",
+    "codingStatus": "Third-party feed index; official-source review needed",
+    "sourceTitle": "President Continues Four National Emergencies Underpinning Sanctions Authorities",
+    "sourceUrl": "https://public-inspection.federalregister.gov/2026-22685.pdf",
+    "tags": [
+      "Nicaragua EO-13851",
+      "U.S.: Chinese Military Companies Sanctions",
+      "U.S.: Iran Sanctions",
+      "U.S.: Non-Proliferation Sanctions"
+    ],
+    "primarySourceUrl": "https://public-inspection.federalregister.gov/2026-22685.pdf"
   },
   {
     "id": "sanctionsexpert-323-doj-announces-guilty-plea-for-attempting-to-provide-funds-and-weapons-to-isis",
@@ -161,6 +263,21 @@ window.SOURCE_INDEX = [
     "sourceUrl": "https://www.govinfo.gov/content/pkg/FR-2026-10-29/html/2026-22094.htm",
     "tags": [],
     "primarySourceUrl": "https://www.govinfo.gov/content/pkg/FR-2026-10-29/html/2026-22094.htm"
+  },
+  {
+    "id": "sanctionsexpert-319-mofcom-clarifies-proposed-technology-export-controls-and-interim-registration",
+    "date": "2026-10-29",
+    "agency": "MOFCOM",
+    "jurisdiction": "Other / non-U.S.",
+    "actionType": "Guidance",
+    "name": "MOFCOM Clarifies Proposed Technology Export Controls and Interim Registration",
+    "amountUsd": null,
+    "recordType": "Sanctions Expert feed brief",
+    "codingStatus": "Third-party feed index; official-source review needed",
+    "sourceTitle": "MOFCOM Clarifies Proposed Technology Export Controls and Interim Registration",
+    "sourceUrl": "https://exportcontrol.mofcom.gov.cn/article/gndt/202610/1329.html",
+    "tags": [],
+    "primarySourceUrl": "https://exportcontrol.mofcom.gov.cn/article/gndt/202610/1329.html"
   },
   {
     "id": "sanctionsexpert-316-ofac-revises-iran-general-license-for-iraq-development-bank-wind-down",
@@ -874,21 +991,6 @@ window.SOURCE_INDEX = [
       "Import/Export"
     ],
     "primarySourceUrl": "https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html"
-  },
-  {
-    "id": "sanctionsexpert-319-mofcom-clarifies-proposed-technology-export-controls-and-interim-registration",
-    "date": "2026-10-29",
-    "agency": "MOFCOM",
-    "jurisdiction": "Other / non-U.S.",
-    "actionType": "Guidance",
-    "name": "MOFCOM Clarifies Proposed Technology Export Controls and Interim Registration",
-    "amountUsd": null,
-    "recordType": "Sanctions Expert feed brief",
-    "codingStatus": "Third-party feed index; official-source review needed",
-    "sourceTitle": "MOFCOM Clarifies Proposed Technology Export Controls and Interim Registration",
-    "sourceUrl": "https://exportcontrol.mofcom.gov.cn/article/gndt/202610/1329.html",
-    "tags": [],
-    "primarySourceUrl": "https://exportcontrol.mofcom.gov.cn/article/gndt/202610/1329.html"
   },
   {
     "id": "sanctionsexpert-264-ofac-issues-venezuela-general-license-60a-for-earthquake-relief",
@@ -29225,5 +29327,22 @@ window.SOURCE_INDEX = [
     "codingStatus": "Indexed; not yet factor-coded",
     "sourceTitle": "OFAC 2003 Civil Penalties Information Chart",
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information/2003-enforcement-information"
+  },
+  {
+    "id": "bis-fr-2026-22598-rossiya-renewal",
+    "date": "2026-11-03",
+    "agency": "BIS",
+    "jurisdiction": "United States",
+    "actionType": "Temporary denial order renewal",
+    "name": "Rossiya Airlines — sixth temporary denial order renewal",
+    "amountUsd": null,
+    "recordType": "Official agency source index",
+    "codingStatus": "Official source verified; renewal retained outside Bayesian likelihoods pending full coding",
+    "sourceTitle": "Order Renewing Temporary Denial of Export Privileges (scheduled publication November 5, 2026)",
+    "sourceUrl": "https://public-inspection.federalregister.gov/2026-22598.pdf",
+    "tags": [
+      "Russia",
+      "Export Controls"
+    ]
   }
 ];
