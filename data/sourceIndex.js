@@ -1,5 +1,93 @@
 window.SOURCE_INDEX = [
   {
+    "id": "fincen-2026-11-06-mexc-global-section-9714",
+    "date": "2026-11-06",
+    "agency": "FinCEN",
+    "jurisdiction": "United States",
+    "actionType": "Funds transfer restriction order",
+    "name": "MEXC Global",
+    "amountUsd": null,
+    "recordType": "Official FinCEN special measure",
+    "codingStatus": "Official source index only; no Bayesian coding",
+    "sourceTitle": "FinCEN order prohibiting certain transmittals of funds involving MEXC Global",
+    "sourceUrl": "https://www.fincen.gov/system/files/2026-11/MEXC-Section-9714.pdf",
+    "tags": [
+      "Crypto",
+      "Section 9714"
+    ]
+  },
+  {
+    "id": "sanctionsexpert-340-fincen-and-federal-reserve-announce-withdrawal-of-recordkeeping-and-travel-rule-proposal",
+    "date": "2026-11-06",
+    "agency": "FinCEN",
+    "jurisdiction": "United States",
+    "actionType": "Regulatory Development",
+    "name": "FinCEN and Federal Reserve Announce Withdrawal of Recordkeeping and Travel Rule Proposal",
+    "amountUsd": null,
+    "recordType": "Sanctions Expert feed brief",
+    "codingStatus": "Third-party feed index; official-source review needed",
+    "sourceTitle": "FinCEN and Federal Reserve Announce Withdrawal of Recordkeeping and Travel Rule Proposal",
+    "sourceUrl": "https://public-inspection.federalregister.gov/2026-22809.pdf",
+    "tags": [
+      "Regulatory Developent"
+    ],
+    "primarySourceUrl": "https://public-inspection.federalregister.gov/2026-22809.pdf"
+  },
+  {
+    "id": "sanctionsexpert-339-fincen-issues-order-restricting-funds-transfers-involving-mexc-global",
+    "date": "2026-11-06",
+    "agency": "FinCEN",
+    "jurisdiction": "United States",
+    "actionType": "Regulatory Development",
+    "name": "FinCEN Issues Order Restricting Funds Transfers Involving MEXC Global",
+    "amountUsd": null,
+    "recordType": "Sanctions Expert feed brief",
+    "codingStatus": "Third-party feed index; official-source review needed",
+    "sourceTitle": "FinCEN Issues Order Restricting Funds Transfers Involving MEXC Global",
+    "sourceUrl": "https://www.fincen.gov/system/files/2026-11/MEXC-Section-9714.pdf",
+    "tags": [
+      "Crypto",
+      "Regulatory Developent"
+    ],
+    "primarySourceUrl": "https://www.fincen.gov/system/files/2026-11/MEXC-Section-9714.pdf"
+  },
+  {
+    "id": "sanctionsexpert-338-ofac-sanctions-eight-canadian-money-services-businesses-under-iran-authorities",
+    "date": "2026-11-06",
+    "agency": "OFAC",
+    "jurisdiction": "United States",
+    "actionType": "Designation",
+    "name": "OFAC Sanctions Eight Canadian Money Services Businesses Under Iran Authorities",
+    "amountUsd": null,
+    "recordType": "Sanctions Expert feed brief",
+    "codingStatus": "Third-party feed index; official-source review needed",
+    "sourceTitle": "OFAC Sanctions Eight Canadian Money Services Businesses Under Iran Authorities",
+    "sourceUrl": "https://ofac.treasury.gov/recent-actions/20261106",
+    "tags": [
+      "Crypto",
+      "U.S.: Iran Sanctions"
+    ],
+    "primarySourceUrl": "https://ofac.treasury.gov/recent-actions/20261106"
+  },
+  {
+    "id": "sanctionsexpert-341-eu-removes-three-individuals-from-isil-and-al-qaida-asset-freeze-list",
+    "date": "2026-11-03",
+    "agency": "EU Commission",
+    "jurisdiction": "European Union",
+    "actionType": "Removal",
+    "name": "EU Removes Three Individuals From ISIL and Al-Qaida Asset-Freeze List",
+    "amountUsd": null,
+    "recordType": "Sanctions Expert feed brief",
+    "codingStatus": "Third-party feed index; official-source review needed",
+    "sourceTitle": "EU Removes Three Individuals From ISIL and Al-Qaida Asset-Freeze List",
+    "sourceUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602490",
+    "tags": [
+      "EU Commision",
+      "EU: Terrorism"
+    ],
+    "primarySourceUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602490"
+  },
+  {
     "id": "sanctionsexpert-337-bis-extends-suspension-of-affiliates-rule-through-january-10-2027",
     "date": "2026-11-05",
     "agency": "BIS",
