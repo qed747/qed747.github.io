@@ -1,20 +1,21 @@
 window.SOURCE_INDEX = [
   {
-    "id": "fincen-2026-11-06-mexc-global-section-9714",
+    "id": "sanctionsexpert-342-european-commission-launches-eu-crypto-sanctions-task-force",
     "date": "2026-11-06",
-    "agency": "FinCEN",
-    "jurisdiction": "United States",
-    "actionType": "Funds transfer restriction order",
-    "name": "MEXC Global",
+    "agency": "EU Commission",
+    "jurisdiction": "European Union",
+    "actionType": "Update",
+    "name": "European Commission Launches EU Crypto Sanctions Task Force",
     "amountUsd": null,
-    "recordType": "Official FinCEN special measure",
-    "codingStatus": "Official source index only; no Bayesian coding",
-    "sourceTitle": "FinCEN order prohibiting certain transmittals of funds involving MEXC Global",
-    "sourceUrl": "https://www.fincen.gov/system/files/2026-11/MEXC-Section-9714.pdf",
+    "recordType": "Sanctions Expert feed brief",
+    "codingStatus": "Third-party feed index; official-source review needed",
+    "sourceTitle": "European Commission Launches EU Crypto Sanctions Task Force",
+    "sourceUrl": "https://finance.ec.europa.eu/news/statement-commissioner-albuquerque-outcomes-tenth-meeting-high-level-meeting-sanctions-2026-11-06_en",
     "tags": [
       "Crypto",
-      "Section 9714"
-    ]
+      "EU Commision"
+    ],
+    "primarySourceUrl": "https://finance.ec.europa.eu/news/statement-commissioner-albuquerque-outcomes-tenth-meeting-high-level-meeting-sanctions-2026-11-06_en"
   },
   {
     "id": "sanctionsexpert-340-fincen-and-federal-reserve-announce-withdrawal-of-recordkeeping-and-travel-rule-proposal",
@@ -52,6 +53,23 @@ window.SOURCE_INDEX = [
     "primarySourceUrl": "https://www.fincen.gov/system/files/2026-11/MEXC-Section-9714.pdf"
   },
   {
+    "id": "fincen-2026-11-06-mexc-global-section-9714",
+    "date": "2026-11-06",
+    "agency": "FinCEN",
+    "jurisdiction": "United States",
+    "actionType": "Funds transfer restriction order",
+    "name": "MEXC Global",
+    "amountUsd": null,
+    "recordType": "Official FinCEN special measure",
+    "codingStatus": "Official source index only; no Bayesian coding",
+    "sourceTitle": "FinCEN order prohibiting certain transmittals of funds involving MEXC Global",
+    "sourceUrl": "https://www.fincen.gov/system/files/2026-11/MEXC-Section-9714.pdf",
+    "tags": [
+      "Crypto",
+      "Section 9714"
+    ]
+  },
+  {
     "id": "sanctionsexpert-338-ofac-sanctions-eight-canadian-money-services-businesses-under-iran-authorities",
     "date": "2026-11-06",
     "agency": "OFAC",
@@ -70,22 +88,19 @@ window.SOURCE_INDEX = [
     "primarySourceUrl": "https://ofac.treasury.gov/recent-actions/20261106"
   },
   {
-    "id": "sanctionsexpert-341-eu-removes-three-individuals-from-isil-and-al-qaida-asset-freeze-list",
-    "date": "2026-11-03",
-    "agency": "EU Commission",
-    "jurisdiction": "European Union",
-    "actionType": "Removal",
-    "name": "EU Removes Three Individuals From ISIL and Al-Qaida Asset-Freeze List",
+    "id": "sanctionsexpert-343-australia-sanctions-four-sudanese-individuals-and-one-entity-for-human-rights-abuses",
+    "date": "2026-11-05",
+    "agency": "DFAT",
+    "jurisdiction": "Australia",
+    "actionType": "Designation",
+    "name": "Australia Sanctions Four Sudanese Individuals and One Entity for Human Rights Abuses",
     "amountUsd": null,
     "recordType": "Sanctions Expert feed brief",
     "codingStatus": "Third-party feed index; official-source review needed",
-    "sourceTitle": "EU Removes Three Individuals From ISIL and Al-Qaida Asset-Freeze List",
-    "sourceUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602490",
-    "tags": [
-      "EU Commision",
-      "EU: Terrorism"
-    ],
-    "primarySourceUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602490"
+    "sourceTitle": "Australia Sanctions Four Sudanese Individuals and One Entity for Human Rights Abuses",
+    "sourceUrl": "https://www.dfat.gov.au/news/news/four-persons-and-one-entity-listed-under-autonomous-sanctions-regulations-2011-human-rights",
+    "tags": [],
+    "primarySourceUrl": "https://www.dfat.gov.au/news/news/four-persons-and-one-entity-listed-under-autonomous-sanctions-regulations-2011-human-rights"
   },
   {
     "id": "sanctionsexpert-337-bis-extends-suspension-of-affiliates-rule-through-january-10-2027",
@@ -256,6 +271,24 @@ window.SOURCE_INDEX = [
     "primarySourceUrl": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/03/statement-by-the-hr-on-behalf-of-the-eu-on-the-alignment-of-certain-third-countries-concerning-restrictive-measures-in-respect-of-actions-undermining-or-threatening-the-territorial-integrity-sovereignty-and-independence-of-ukraine/"
   },
   {
+    "id": "sanctionsexpert-341-eu-removes-three-individuals-from-isil-and-al-qaida-asset-freeze-list",
+    "date": "2026-11-03",
+    "agency": "EU Commission",
+    "jurisdiction": "European Union",
+    "actionType": "Removal",
+    "name": "EU Removes Three Individuals From ISIL and Al-Qaida Asset-Freeze List",
+    "amountUsd": null,
+    "recordType": "Sanctions Expert feed brief",
+    "codingStatus": "Third-party feed index; official-source review needed",
+    "sourceTitle": "EU Removes Three Individuals From ISIL and Al-Qaida Asset-Freeze List",
+    "sourceUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602490",
+    "tags": [
+      "EU Commision",
+      "EU: Terrorism"
+    ],
+    "primarySourceUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602490"
+  },
+  {
     "id": "sanctionsexpert-336-president-continues-four-national-emergencies-underpinning-sanctions-authorities",
     "date": "2026-11-03",
     "agency": "The White House",
@@ -274,6 +307,23 @@ window.SOURCE_INDEX = [
       "U.S.: Non-Proliferation Sanctions"
     ],
     "primarySourceUrl": "https://public-inspection.federalregister.gov/2026-22685.pdf"
+  },
+  {
+    "id": "bis-fr-2026-22598-rossiya-renewal",
+    "date": "2026-11-03",
+    "agency": "BIS",
+    "jurisdiction": "United States",
+    "actionType": "Temporary denial order renewal",
+    "name": "Rossiya Airlines — sixth temporary denial order renewal",
+    "amountUsd": null,
+    "recordType": "Official agency source index",
+    "codingStatus": "Official source verified; renewal retained outside Bayesian likelihoods pending full coding",
+    "sourceTitle": "Order Renewing Temporary Denial of Export Privileges (scheduled publication November 5, 2026)",
+    "sourceUrl": "https://public-inspection.federalregister.gov/2026-22598.pdf",
+    "tags": [
+      "Russia",
+      "Export Controls"
+    ]
   },
   {
     "id": "sanctionsexpert-323-doj-announces-guilty-plea-for-attempting-to-provide-funds-and-weapons-to-isis",
@@ -29415,22 +29465,5 @@ window.SOURCE_INDEX = [
     "codingStatus": "Indexed; not yet factor-coded",
     "sourceTitle": "OFAC 2003 Civil Penalties Information Chart",
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information/2003-enforcement-information"
-  },
-  {
-    "id": "bis-fr-2026-22598-rossiya-renewal",
-    "date": "2026-11-03",
-    "agency": "BIS",
-    "jurisdiction": "United States",
-    "actionType": "Temporary denial order renewal",
-    "name": "Rossiya Airlines — sixth temporary denial order renewal",
-    "amountUsd": null,
-    "recordType": "Official agency source index",
-    "codingStatus": "Official source verified; renewal retained outside Bayesian likelihoods pending full coding",
-    "sourceTitle": "Order Renewing Temporary Denial of Export Privileges (scheduled publication November 5, 2026)",
-    "sourceUrl": "https://public-inspection.federalregister.gov/2026-22598.pdf",
-    "tags": [
-      "Russia",
-      "Export Controls"
-    ]
   }
 ];
