@@ -1,5 +1,152 @@
 window.SOURCE_INDEX = [
   {
+    "id": "sanctionsexpert-354-doj-disrupts-north-korean-crypto-theft-infrastructure-and-announces-more-than-1-2-billion-in-seizure",
+    "date": "2026-11-12",
+    "agency": "DOJ",
+    "jurisdiction": "United States",
+    "actionType": "Enforcement Action",
+    "name": "DOJ Disrupts North Korean Crypto-Theft Infrastructure and Announces More Than $1.2 Billion in Seizures and Restraints",
+    "amountUsd": null,
+    "recordType": "Sanctions Expert feed brief",
+    "codingStatus": "Third-party feed index; official-source review needed",
+    "sourceTitle": "DOJ Disrupts North Korean Crypto-Theft Infrastructure and Announces More Than $1.2 Billion in Seizures and Restraints",
+    "sourceUrl": "https://www.justice.gov/opa/pr/justice-department-announces-actions-disrupt-north-koreas-massive-theft-cryptocurrency",
+    "tags": [
+      "Crypto"
+    ],
+    "primarySourceUrl": "https://www.justice.gov/opa/pr/justice-department-announces-actions-disrupt-north-koreas-massive-theft-cryptocurrency"
+  },
+  {
+    "id": "sanctionsexpert-353-doj-announces-18-year-sentence-for-attempted-material-support-to-isis-in-idaho-church-attack-plot",
+    "date": "2026-11-10",
+    "agency": "DOJ",
+    "jurisdiction": "United States",
+    "actionType": "Sentencing",
+    "name": "DOJ Announces 18-Year Sentence for Attempted Material Support to ISIS in Idaho Church Attack Plot",
+    "amountUsd": null,
+    "recordType": "Sanctions Expert feed brief",
+    "codingStatus": "Third-party feed index; official-source review needed",
+    "sourceTitle": "DOJ Announces 18-Year Sentence for Attempted Material Support to ISIS in Idaho Church Attack Plot",
+    "sourceUrl": "https://www.justice.gov/opa/pr/idaho-man-sentenced-18-years-prison-attempting-provide-material-support-isis-plot-attack",
+    "tags": [],
+    "primarySourceUrl": "https://www.justice.gov/opa/pr/idaho-man-sentenced-18-years-prison-attempting-provide-material-support-isis-plot-attack"
+  },
+  {
+    "id": "sanctionsexpert-351-doj-announces-superseding-indictment-alleging-material-support-for-irgc-and-kata-ib-hizballah",
+    "date": "2026-11-10",
+    "agency": "DOJ",
+    "jurisdiction": "United States",
+    "actionType": "Enforcement Action",
+    "name": "DOJ Announces Superseding Indictment Alleging Material Support for IRGC and Kata'ib Hizballah",
+    "amountUsd": null,
+    "recordType": "Sanctions Expert feed brief",
+    "codingStatus": "Third-party feed index; official-source review needed",
+    "sourceTitle": "DOJ Announces Superseding Indictment Alleging Material Support for IRGC and Kata'ib Hizballah",
+    "sourceUrl": "https://www.justice.gov/opa/pr/three-iranian-backed-operatives-indicted-their-roles-nearly-20-terrorist-attacks-and",
+    "tags": [],
+    "primarySourceUrl": "https://www.justice.gov/opa/pr/three-iranian-backed-operatives-indicted-their-roles-nearly-20-terrorist-attacks-and"
+  },
+  {
+    "id": "sanctionsexpert-356-doj-charges-roberto-gomez-with-attempted-dealings-with-sanctioned-drug-trafficker-ryan-wedding",
+    "date": "2026-11-10",
+    "agency": "DOJ",
+    "jurisdiction": "United States",
+    "actionType": "Enforcement Action",
+    "name": "DOJ Charges Roberto Gomez With Attempted Dealings With Sanctioned Drug Trafficker Ryan Wedding",
+    "amountUsd": null,
+    "recordType": "Sanctions Expert feed brief",
+    "codingStatus": "Third-party feed index; official-source review needed",
+    "sourceTitle": "DOJ Charges Roberto Gomez With Attempted Dealings With Sanctioned Drug Trafficker Ryan Wedding",
+    "sourceUrl": "https://www.justice.gov/usao-cdca/pr/fugitive-south-la-gang-member-living-mexico-and-cartel-plaza-boss-charged-using",
+    "tags": [],
+    "primarySourceUrl": "https://www.justice.gov/usao-cdca/pr/fugitive-south-la-gang-member-living-mexico-and-cartel-plaza-boss-charged-using"
+  },
+  {
+    "id": "sanctionsexpert-352-eu-announces-countries-alignment-with-chemical-weapons-dprk-and-transnistria-sanctions-decisions",
+    "date": "2026-11-10",
+    "agency": "EU Council",
+    "jurisdiction": "European Union",
+    "actionType": "Update",
+    "name": "EU Announces Countries' Alignment With Four Sanctions Decisions",
+    "amountUsd": null,
+    "recordType": "Sanctions Expert feed brief",
+    "codingStatus": "Third-party feed index; official-source review needed",
+    "sourceTitle": "EU Announces Countries' Alignment With Four Sanctions Decisions",
+    "sourceUrl": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/10/statement-by-the-high-representative-on-behalf-of-the-eu-on-the-alignment-of-certain-countries-concerning-restrictive-measures-against-the-proliferation-and-use-of-chemical-weapons/",
+    "tags": [
+      "EU: Moldova"
+    ],
+    "primarySourceUrl": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/10/statement-by-the-high-representative-on-behalf-of-the-eu-on-the-alignment-of-certain-countries-concerning-restrictive-measures-against-the-proliferation-and-use-of-chemical-weapons/"
+  },
+  {
+    "id": "doj-release-2026-11-10-roberto-gomez",
+    "date": "2026-11-10",
+    "agency": "DOJ",
+    "jurisdiction": "United States",
+    "actionType": "Indictment",
+    "name": "Roberto Gomez",
+    "amountUsd": null,
+    "recordType": "Official DOJ sanctions enforcement release",
+    "codingStatus": "Indexed; pending full case coding",
+    "sourceTitle": "DOJ Central District of California announcement of the Roberto Gomez indictment",
+    "sourceUrl": "https://www.justice.gov/usao-cdca/pr/fugitive-south-la-gang-member-living-mexico-and-cartel-plaza-boss-charged-using",
+    "summary": "DOJ announced that Gomez was charged with attempting to transact and deal with a specially designated narcotics trafficker. Prosecutors allege an attempted methamphetamine sale to Ryan Wedding for approximately $550,000 in cryptocurrency. The indictment contains allegations.",
+    "tags": [
+      "Narcotics sanctions",
+      "Cryptocurrency",
+      "Mexico"
+    ]
+  },
+  {
+    "id": "sanctionsexpert-347-mofcom-and-customs-extend-suspension-of-six-export-control-announcements-until-january-10",
+    "date": "2026-11-09",
+    "agency": "MOFCOM",
+    "jurisdiction": "Other / non-U.S.",
+    "actionType": "Export Controls",
+    "name": "MOFCOM and Customs Extend Suspension of Six Export-Control Announcements Until January 10",
+    "amountUsd": null,
+    "recordType": "Sanctions Expert feed brief",
+    "codingStatus": "Third-party feed index; official-source review needed",
+    "sourceTitle": "MOFCOM and Customs Extend Suspension of Six Export-Control Announcements Until January 10",
+    "sourceUrl": "https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_91466027f465467985942a639a9485f4.html",
+    "tags": [],
+    "primarySourceUrl": "https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_91466027f465467985942a639a9485f4.html"
+  },
+  {
+    "id": "sanctionsexpert-348-mofcom-extends-suspension-of-countermeasures-against-five-hanwha-ocean-u-s-subsidiaries",
+    "date": "2026-11-09",
+    "agency": "MOFCOM",
+    "jurisdiction": "Other / non-U.S.",
+    "actionType": "Regulatory Development",
+    "name": "MOFCOM Extends Suspension of Countermeasures Against Five Hanwha Ocean U.S. Subsidiaries",
+    "amountUsd": null,
+    "recordType": "Sanctions Expert feed brief",
+    "codingStatus": "Third-party feed index; official-source review needed",
+    "sourceTitle": "MOFCOM Extends Suspension of Countermeasures Against Five Hanwha Ocean U.S. Subsidiaries",
+    "sourceUrl": "https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_41f0892910554f57af175883b35ca360.html",
+    "tags": [
+      "Regulatory Developent"
+    ],
+    "primarySourceUrl": "https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_41f0892910554f57af175883b35ca360.html"
+  },
+  {
+    "id": "sanctionsexpert-346-mofcom-extends-suspensions-of-u-s-entity-restrictions-for-two-months",
+    "date": "2026-11-09",
+    "agency": "MOFCOM",
+    "jurisdiction": "Other / non-U.S.",
+    "actionType": "Regulatory Development",
+    "name": "MOFCOM Extends Suspensions of U.S. Entity Restrictions for Two Months",
+    "amountUsd": null,
+    "recordType": "Sanctions Expert feed brief",
+    "codingStatus": "Third-party feed index; official-source review needed",
+    "sourceTitle": "MOFCOM Extends Suspensions of U.S. Entity Restrictions for Two Months",
+    "sourceUrl": "https://www.mofcom.gov.cn/syxwfb/art/2026/art_3acaf2afeea14e19ad15ff771c541d4e.html",
+    "tags": [
+      "Regulatory Developent"
+    ],
+    "primarySourceUrl": "https://www.mofcom.gov.cn/syxwfb/art/2026/art_3acaf2afeea14e19ad15ff771c541d4e.html"
+  },
+  {
     "id": "sanctionsexpert-342-european-commission-launches-eu-crypto-sanctions-task-force",
     "date": "2026-11-06",
     "agency": "EU Commission",
@@ -120,6 +267,36 @@ window.SOURCE_INDEX = [
     "primarySourceUrl": "https://www.federalregister.gov/public-inspection/2026-22793/extension-of-the-suspension-of-expansion-of-end-user-controls-for-affiliates-of-certain-listed"
   },
   {
+    "id": "sanctionsexpert-349-canada-announces-sanctions-on-24-individuals-and-38-entities-supporting-russia",
+    "date": "2026-11-05",
+    "agency": "Canada Global Affairs",
+    "jurisdiction": "Other / non-U.S.",
+    "actionType": "Designation",
+    "name": "Canada Announces Sanctions on 24 Individuals and 38 Entities Supporting Russia",
+    "amountUsd": null,
+    "recordType": "Sanctions Expert feed brief",
+    "codingStatus": "Third-party feed index; official-source review needed",
+    "sourceTitle": "Canada Announces Sanctions on 24 Individuals and 38 Entities Supporting Russia",
+    "sourceUrl": "https://www.canada.ca/en/global-affairs/news/2026/11/minister-anand-announces-additional-sanctions-to-reduce-russias-missile-capabilities-and-raise-economic-costs.html",
+    "tags": [],
+    "primarySourceUrl": "https://www.canada.ca/en/global-affairs/news/2026/11/minister-anand-announces-additional-sanctions-to-reduce-russias-missile-capabilities-and-raise-economic-costs.html"
+  },
+  {
+    "id": "sanctionsexpert-350-canada-reimposes-sanctions-on-11-iranian-entities-previously-delisted-under-the-jcpoa",
+    "date": "2026-11-05",
+    "agency": "Canada Global Affairs",
+    "jurisdiction": "Other / non-U.S.",
+    "actionType": "Designation",
+    "name": "Canada Reimposes Sanctions on 11 Iranian Entities Previously Delisted Under the JCPOA",
+    "amountUsd": null,
+    "recordType": "Sanctions Expert feed brief",
+    "codingStatus": "Third-party feed index; official-source review needed",
+    "sourceTitle": "Canada Reimposes Sanctions on 11 Iranian Entities Previously Delisted Under the JCPOA",
+    "sourceUrl": "https://www.canada.ca/en/global-affairs/news/2026/11/minister-anand-announces-reimposition-of-sanctions-against-iranian-entities.html",
+    "tags": [],
+    "primarySourceUrl": "https://www.canada.ca/en/global-affairs/news/2026/11/minister-anand-announces-reimposition-of-sanctions-against-iranian-entities.html"
+  },
+  {
     "id": "sanctionsexpert-334-doj-announces-unsealed-tren-de-aragua-indictment-and-50-million-in-reward-offers",
     "date": "2026-11-05",
     "agency": "DOJ",
@@ -188,6 +365,25 @@ window.SOURCE_INDEX = [
     "primarySourceUrl": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/04/fight-against-illicit-drugs-council-backs-new-rules-for-chemicals-used-to-make-illegal-drugs/"
   },
   {
+    "id": "sanctionsexpert-345-eu-general-court-upholds-most-rmrs-restrictions-but-annuls-recognition-withdrawal",
+    "date": "2026-11-04",
+    "agency": "CJEU",
+    "jurisdiction": "Other / non-U.S.",
+    "actionType": "Regulatory Development",
+    "name": "EU General Court Upholds Most RMRS Restrictions but Annuls Recognition Withdrawal",
+    "amountUsd": null,
+    "recordType": "Sanctions Expert feed brief",
+    "codingStatus": "Third-party feed index; official-source review needed",
+    "sourceTitle": "EU General Court Upholds Most RMRS Restrictions but Annuls Recognition Withdrawal",
+    "sourceUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:62024TJ0535",
+    "tags": [
+      "Shipping",
+      "Regulatory Developent",
+      "EU: Russia (Sectoral)"
+    ],
+    "primarySourceUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:62024TJ0535"
+  },
+  {
     "id": "sanctionsexpert-327-ofac-adds-five-individuals-and-ten-entities-under-iran-related-sanctions",
     "date": "2026-11-04",
     "agency": "OFAC",
@@ -237,6 +433,46 @@ window.SOURCE_INDEX = [
       "U.S.: Iran Sanctions"
     ],
     "primarySourceUrl": "https://ofac.treasury.gov/media/937316/download?inline="
+  },
+  {
+    "id": "sanctionsexpert-344-switzerland-adopts-further-russia-and-belarus-sanctions",
+    "date": "2026-11-04",
+    "agency": "SECO",
+    "jurisdiction": "Other / non-U.S.",
+    "actionType": "Regulatory Development",
+    "name": "Switzerland Adopts Further Russia and Belarus Sanctions",
+    "amountUsd": null,
+    "recordType": "Sanctions Expert feed brief",
+    "codingStatus": "Third-party feed index; official-source review needed",
+    "sourceTitle": "Switzerland Adopts Further Russia and Belarus Sanctions",
+    "sourceUrl": "https://www.seco.admin.ch/en/newnsb/KsmEWk4E-bHM",
+    "tags": [
+      "Banking",
+      "Crypto",
+      "Defense",
+      "Regulatory Developent",
+      "Energy",
+      "Import/Export"
+    ],
+    "primarySourceUrl": "https://www.seco.admin.ch/en/newnsb/KsmEWk4E-bHM"
+  },
+  {
+    "id": "sanctionsexpert-331-uk-parliamentary-review-of-expanded-human-rights-sanctions-framework",
+    "date": "2026-11-04",
+    "agency": "OFSI",
+    "jurisdiction": "United Kingdom",
+    "actionType": "Regulatory Development",
+    "name": "UK Parliamentary Review of Expanded Human Rights Sanctions Framework",
+    "amountUsd": null,
+    "recordType": "Sanctions Expert feed brief",
+    "codingStatus": "Third-party feed index; official-source review needed",
+    "sourceTitle": "UK Parliamentary Review of Expanded Human Rights Sanctions Framework",
+    "sourceUrl": "https://hansard.parliament.uk/Lords/2026-11-04/debates/F48DFC05-504D-4356-9E19-2D3B6DBA4DA7/GlobalHumanRightsAndInternationalHumanitarianLawSanctionsRegulations2026",
+    "tags": [
+      "Regulatory Developent",
+      "UK: Global human rights"
+    ],
+    "primarySourceUrl": "https://hansard.parliament.uk/Lords/2026-11-04/debates/F48DFC05-504D-4356-9E19-2D3B6DBA4DA7/GlobalHumanRightsAndInternationalHumanitarianLawSanctionsRegulations2026"
   },
   {
     "id": "sanctionsexpert-335-bis-renews-rossiya-airlines-export-denial-order-for-one-year",
