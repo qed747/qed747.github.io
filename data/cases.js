@@ -1,5 +1,32 @@
 window.SANCTIONS_CASES = [
   {
+    "id": "doj-recent-2026-11-13-arash-einolghozati",
+    "date": "2026-11-13",
+    "agency": "DOJ",
+    "name": "Arash Einolghozati",
+    "countries": [
+      "Iran",
+      "United States"
+    ],
+    "productCategory": "financial_services",
+    "products": [
+      "Fiat currency and cryptocurrency transfers"
+    ],
+    "disclosure": "Not specified",
+    "posture": "Criminal sentencing",
+    "amountUsd": 15000,
+    "sentenceMonths": 24,
+    "factors": [
+      "no_license"
+    ],
+    "summary": "DOJ reported that Arash Einolghozati pleaded guilty to transferring funds from the United States to Iran without the required OFAC license. He knowingly sent fiat currency and cryptocurrency to recipients in Iran or to recipients who would forward the funds to individuals in Iran. The sentencing announcement reported transfers totaling more than $226,000 and a November 12 sentence of 24 months in prison, three years of supervised release, and a $15,000 fine.",
+    "sourceTitle": "DOJ sentencing release, November 13, 2026",
+    "sourceUrl": "https://www.justice.gov/usao-hi/pr/north-shore-man-sentenced-two-years-prison-sending-money-iran-violation-us-sanctions",
+    "recordType": "Recent official DOJ overlay",
+    "codingStatus": "Official-source coded for model",
+    "civilCriminal": "Criminal"
+  },
+  {
     "id": "doj-recent-2026-10-28-yana-leonova",
     "date": "2026-10-28",
     "agency": "DOJ",
@@ -879,7 +906,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "Administrative settlement/order",
-    "amountUsd": 36184680.0,
+    "amountUsd": 36184680,
     "factors": [
       "restricted_party",
       "us_origin",
@@ -909,7 +936,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 1050000.0,
+    "amountUsd": 1050000,
     "factors": [
       "no_license",
       "restricted_party",
@@ -921,7 +948,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 6.0,
+    "violationCount": 6,
     "sanctionsRegime": "Russia (URSR / Directive 1)",
     "egregious": "No"
   },
@@ -945,7 +972,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 275000000.0,
+    "amountUsd": 275000000,
     "factors": [
       "management_awareness",
       "no_license",
@@ -956,7 +983,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 32.0,
+    "violationCount": 32,
     "sanctionsRegime": "Iran",
     "egregious": "Yes"
   },
@@ -976,7 +1003,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "Administrative settlement/order",
-    "amountUsd": 36000000.0,
+    "amountUsd": 36000000,
     "factors": [
       "military_end_use",
       "no_license",
@@ -1009,7 +1036,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "Administrative settlement/order",
-    "amountUsd": 1700000.0,
+    "amountUsd": 1700000,
     "factors": [
       "no_license",
       "restricted_party",
@@ -1040,7 +1067,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "Administrative settlement/order",
-    "amountUsd": 1600000.0,
+    "amountUsd": 1600000,
     "factors": [
       "no_license",
       "restricted_party",
@@ -1073,7 +1100,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 1110661.0,
+    "amountUsd": 1110661,
     "factors": [
       "us_origin",
       "voluntary_disclosure"
@@ -1083,7 +1110,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 481.0,
+    "violationCount": 481,
     "sanctionsRegime": "Iran; Syria; Ukraine/Russia",
     "egregious": "No"
   },
@@ -1105,7 +1132,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "Administrative settlement/order",
-    "amountUsd": 1000000.0,
+    "amountUsd": 1000000,
     "factors": [
       "no_license",
       "red_flags",
@@ -1140,7 +1167,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 3777000.0,
+    "amountUsd": 3777000,
     "factors": [
       "management_awareness",
       "no_license",
@@ -1151,7 +1178,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 20.0,
+    "violationCount": 20,
     "sanctionsRegime": "Syria",
     "egregious": "Yes"
   },
@@ -1171,7 +1198,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "Administrative settlement/order",
-    "amountUsd": 374474.0,
+    "amountUsd": 374474,
     "factors": [
       "military_end_use",
       "transshipment",
@@ -1201,7 +1228,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 1720000.0,
+    "amountUsd": 1720000,
     "factors": [
       "restricted_party",
       "us_origin"
@@ -1211,7 +1238,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 89.0,
+    "violationCount": 89,
     "sanctionsRegime": "Foreign Narcotics Kingpin",
     "egregious": "No"
   },
@@ -1232,7 +1259,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "Administrative settlement/order",
-    "amountUsd": 252000000.0,
+    "amountUsd": 252000000,
     "factors": [
       "no_license",
       "remediation",
@@ -1265,7 +1292,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "Administrative settlement/order",
-    "amountUsd": 1500000.0,
+    "amountUsd": 1500000,
     "factors": [
       "management_awareness",
       "no_license",
@@ -1298,7 +1325,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 3103360.0,
+    "amountUsd": 3103360,
     "factors": [
       "us_origin"
     ],
@@ -1307,7 +1334,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 254.0,
+    "violationCount": 254,
     "sanctionsRegime": "Iran",
     "egregious": "Mixed (12 egregious; 242 non-egregious)"
   },
@@ -1327,7 +1354,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 1092000.0,
+    "amountUsd": 1092000,
     "factors": [
       "restricted_party",
       "us_origin"
@@ -1337,7 +1364,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 122.0,
+    "violationCount": 122,
     "sanctionsRegime": "Russia",
     "egregious": "No"
   },
@@ -1358,7 +1385,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 7139305.0,
+    "amountUsd": 7139305,
     "factors": [
       "management_awareness",
       "restricted_party",
@@ -1369,7 +1396,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 24.0,
+    "violationCount": 24,
     "sanctionsRegime": "Russia; reporting",
     "egregious": "Yes"
   },
@@ -1391,7 +1418,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 11485352.0,
+    "amountUsd": 11485352,
     "factors": [
       "management_awareness",
       "restricted_party",
@@ -1402,7 +1429,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 51.0,
+    "violationCount": 51,
     "sanctionsRegime": "Russia",
     "egregious": "No"
   },
@@ -1422,7 +1449,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 4677552.0,
+    "amountUsd": 4677552,
     "factors": [
       "management_awareness",
       "restricted_party",
@@ -1433,7 +1460,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 3.0,
+    "violationCount": 3,
     "sanctionsRegime": "Russia; reporting",
     "egregious": "Yes"
   },
@@ -1455,7 +1482,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "Administrative settlement/order",
-    "amountUsd": 685051.0,
+    "amountUsd": 685051,
     "factors": [
       "red_flags",
       "remediation",
@@ -1488,7 +1515,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "Administrative settlement/order",
-    "amountUsd": 374474.0,
+    "amountUsd": 374474,
     "factors": [
       "no_license",
       "transshipment",
@@ -1515,7 +1542,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 750000.0,
+    "amountUsd": 750000,
     "factors": [],
     "summary": "Digital asset transactions",
     "sourceTitle": "Workbook OFAC 2025 enforcement action",
@@ -1542,7 +1569,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 1610775.0,
+    "amountUsd": 1610775,
     "factors": [
       "management_awareness",
       "no_license",
@@ -1607,7 +1634,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "Administrative settlement/order",
-    "amountUsd": 95000000.0,
+    "amountUsd": 95000000,
     "factors": [
       "military_end_use",
       "restricted_party",
@@ -1634,7 +1661,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 11832136.0,
+    "amountUsd": 11832136,
     "factors": [
       "us_origin",
       "voluntary_disclosure"
@@ -1644,7 +1671,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 12367.0,
+    "violationCount": 12367,
     "sanctionsRegime": "Iran, Cuba, Syria, Crimea, Russia",
     "egregious": "No"
   },
@@ -1664,7 +1691,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 1454145.0,
+    "amountUsd": 1454145,
     "factors": [
       "management_awareness",
       "no_license",
@@ -1676,7 +1703,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 11.0,
+    "violationCount": 11,
     "sanctionsRegime": "Iran",
     "egregious": "Yes"
   },
@@ -1696,7 +1723,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 608825.0,
+    "amountUsd": 608825,
     "factors": [
       "us_origin",
       "voluntary_disclosure"
@@ -1706,7 +1733,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 36.0,
+    "violationCount": 36,
     "sanctionsRegime": "Cuba",
     "egregious": "No"
   },
@@ -1726,7 +1753,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "Administrative settlement/order",
-    "amountUsd": 4250000.0,
+    "amountUsd": 4250000,
     "factors": [
       "restricted_party",
       "us_origin"
@@ -1756,7 +1783,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "Administrative settlement/order",
-    "amountUsd": 0.0,
+    "amountUsd": 0,
     "factors": [
       "transshipment",
       "us_origin",
@@ -1786,7 +1813,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 3882797.0,
+    "amountUsd": 3882797,
     "factors": [
       "restricted_party",
       "us_origin"
@@ -1815,7 +1842,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 215988868.0,
+    "amountUsd": 215988868,
     "factors": [
       "management_awareness",
       "no_license",
@@ -1845,7 +1872,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 1044781.0,
+    "amountUsd": 1044781,
     "factors": [
       "management_awareness",
       "no_license",
@@ -1857,7 +1884,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 21.0,
+    "violationCount": 21,
     "sanctionsRegime": "Ukraine/Russia",
     "egregious": "Yes"
   },
@@ -1878,7 +1905,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "Administrative settlement/order",
-    "amountUsd": 1500000.0,
+    "amountUsd": 1500000,
     "factors": [
       "no_license",
       "restricted_party",
@@ -1907,7 +1934,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 1076923.0,
+    "amountUsd": 1076923,
     "factors": [
       "management_awareness",
       "no_license",
@@ -1919,7 +1946,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1.0,
+    "violationCount": 1,
     "sanctionsRegime": "Ukraine/Russia",
     "egregious": "Yes"
   },
@@ -1939,7 +1966,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 22172.0,
+    "amountUsd": 22172,
     "factors": [
       "no_license",
       "restricted_party",
@@ -1950,7 +1977,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 6.0,
+    "violationCount": 6,
     "sanctionsRegime": "Russia (E.O. 14024)",
     "egregious": "No"
   },
@@ -1970,7 +1997,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "Administrative settlement/order",
-    "amountUsd": 180000.0,
+    "amountUsd": 180000,
     "factors": [
       "no_license",
       "us_origin"
@@ -1998,7 +2025,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 41591.0,
+    "amountUsd": 41591,
     "factors": [
       "no_license",
       "us_origin",
@@ -2009,7 +2036,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 9.0,
+    "violationCount": 9,
     "sanctionsRegime": "Iran",
     "egregious": "No"
   },
@@ -2028,7 +2055,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 45179.0,
+    "amountUsd": 45179,
     "factors": [
       "management_awareness",
       "no_license",
@@ -2040,7 +2067,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 6.0,
+    "violationCount": 6,
     "sanctionsRegime": "Global Magnitsky",
     "egregious": "Yes"
   },
@@ -2061,7 +2088,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "Administrative settlement/order",
-    "amountUsd": 3300000.0,
+    "amountUsd": 3300000,
     "factors": [
       "no_license",
       "transshipment",
@@ -2092,7 +2119,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 257690.0,
+    "amountUsd": 257690,
     "factors": [
       "no_license",
       "us_origin",
@@ -2103,7 +2130,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 82.0,
+    "violationCount": 82,
     "sanctionsRegime": "Iran, Cuba",
     "egregious": "No"
   },
@@ -2122,7 +2149,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 14550000.0,
+    "amountUsd": 14550000,
     "factors": [
       "management_awareness",
       "no_license"
@@ -2151,7 +2178,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 1104408.0,
+    "amountUsd": 1104408,
     "factors": [
       "management_awareness",
       "no_license",
@@ -2162,7 +2189,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 75.0,
+    "violationCount": 75,
     "sanctionsRegime": "Iran",
     "egregious": "Yes"
   },
@@ -2181,7 +2208,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 178421.0,
+    "amountUsd": 178421,
     "factors": [
       "no_license",
       "us_origin",
@@ -2212,7 +2239,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "Administrative settlement/order",
-    "amountUsd": 500000.0,
+    "amountUsd": 500000,
     "factors": [
       "no_license",
       "restricted_party",
@@ -2242,7 +2269,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 860000.0,
+    "amountUsd": 860000,
     "factors": [
       "no_license"
     ],
@@ -2251,7 +2278,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 43.0,
+    "violationCount": 43,
     "sanctionsRegime": "North Korea",
     "egregious": "No"
   },
@@ -2272,7 +2299,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "Administrative settlement/order",
-    "amountUsd": 151875.0,
+    "amountUsd": 151875,
     "factors": [
       "us_origin",
       "voluntary_disclosure"
@@ -2302,7 +2329,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "Administrative settlement/order",
-    "amountUsd": 439992.0,
+    "amountUsd": 439992,
     "factors": [
       "military_end_use",
       "red_flags",
@@ -2331,7 +2358,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "Administrative settlement/order",
-    "amountUsd": 200000000.0,
+    "amountUsd": 200000000,
     "factors": [
       "military_end_use",
       "remediation",
@@ -2364,7 +2391,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "Administrative settlement/order",
-    "amountUsd": 44750.0,
+    "amountUsd": 44750,
     "factors": [
       "us_origin",
       "voluntary_disclosure"
@@ -2394,7 +2421,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "Administrative settlement/order",
-    "amountUsd": 5800000.0,
+    "amountUsd": 5800000,
     "factors": [
       "restricted_party",
       "us_origin",
@@ -2424,7 +2451,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 7452501.0,
+    "amountUsd": 7452501,
     "factors": [
       "management_awareness",
       "no_license",
@@ -2454,7 +2481,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 538000.0,
+    "amountUsd": 538000,
     "factors": [
       "no_license",
       "restricted_party"
@@ -2464,7 +2491,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 18.0,
+    "violationCount": 18,
     "sanctionsRegime": "North Korea",
     "egregious": "No"
   },
@@ -2484,7 +2511,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "Administrative settlement/order",
-    "amountUsd": 0.0,
+    "amountUsd": 0,
     "factors": [
       "no_license",
       "remediation",
@@ -2514,7 +2541,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "Administrative settlement/order",
-    "amountUsd": 0.0,
+    "amountUsd": 0,
     "factors": [
       "transshipment",
       "us_origin"
@@ -2544,7 +2571,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "Administrative settlement/order",
-    "amountUsd": 285000.0,
+    "amountUsd": 285000,
     "factors": [
       "no_license",
       "transshipment",
@@ -2575,7 +2602,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "Administrative settlement/order",
-    "amountUsd": 44750.0,
+    "amountUsd": 44750,
     "factors": [
       "military_end_use",
       "us_origin",
@@ -2605,7 +2632,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 20000000.0,
+    "amountUsd": 20000000,
     "factors": [
       "management_awareness",
       "no_license"
@@ -2615,7 +2642,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 467.0,
+    "violationCount": 467,
     "sanctionsRegime": "Iran",
     "egregious": "Yes"
   },
@@ -2632,7 +2659,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 3740442.0,
+    "amountUsd": 3740442,
     "factors": [
       "no_license",
       "restricted_party",
@@ -2662,7 +2689,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "Administrative settlement/order",
-    "amountUsd": 51000000.0,
+    "amountUsd": 51000000,
     "factors": [
       "military_end_use",
       "remediation",
@@ -2695,7 +2722,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "Administrative settlement/order",
-    "amountUsd": 153175.0,
+    "amountUsd": 153175,
     "factors": [
       "us_origin",
       "voluntary_disclosure"
@@ -2721,7 +2748,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 1207830.0,
+    "amountUsd": 1207830,
     "factors": [
       "no_license",
       "us_origin"
@@ -2731,7 +2758,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 989.0,
+    "violationCount": 989,
     "sanctionsRegime": "Ukraine, Russia",
     "egregious": "No"
   },
@@ -2748,7 +2775,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 4040923.0,
+    "amountUsd": 4040923,
     "factors": [
       "no_license",
       "us_origin",
@@ -2759,7 +2786,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 151.0,
+    "violationCount": 151,
     "sanctionsRegime": "Iran",
     "egregious": "No"
   },
@@ -2776,7 +2803,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 968618825.0,
+    "amountUsd": 968618825,
     "factors": [
       "management_awareness",
       "no_license"
@@ -2786,7 +2813,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1667153.0,
+    "violationCount": 1667153,
     "sanctionsRegime": "Iran, Syria, North Korea, and Cuba",
     "egregious": "Yes"
   },
@@ -2803,7 +2830,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 206213.0,
+    "amountUsd": 206213,
     "factors": [
       "no_license",
       "us_origin",
@@ -2814,7 +2841,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 12391.0,
+    "violationCount": 12391,
     "sanctionsRegime": "Crimea, Syria, Iran, Cuba",
     "egregious": "No"
   },
@@ -2831,7 +2858,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 31867.0,
+    "amountUsd": 31867,
     "factors": [
       "no_license",
       "us_origin",
@@ -2842,7 +2869,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 30.0,
+    "violationCount": 30,
     "sanctionsRegime": "ITSR",
     "egregious": "No"
   },
@@ -2859,7 +2886,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 48750.0,
+    "amountUsd": 48750,
     "factors": [
       "remediation"
     ],
@@ -2884,7 +2911,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 660954.0,
+    "amountUsd": 660954,
     "factors": [
       "management_awareness",
       "no_license",
@@ -2896,7 +2923,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 3.0,
+    "violationCount": 3,
     "sanctionsRegime": "ITSR",
     "egregious": "Yes"
   },
@@ -2913,7 +2940,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 300000000.0,
+    "amountUsd": 300000000,
     "factors": [
       "restricted_party",
       "us_origin",
@@ -2940,7 +2967,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 283500.0,
+    "amountUsd": 283500,
     "factors": [],
     "summary": "failing to report a request to engage in a boycott against Israel",
     "sourceTitle": "Not stated in source",
@@ -2963,7 +2990,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 48500.0,
+    "amountUsd": 48500,
     "factors": [
       "military_end_use"
     ],
@@ -2988,7 +3015,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 347631.0,
+    "amountUsd": 347631,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -3011,7 +3038,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 44750.0,
+    "amountUsd": 44750,
     "factors": [],
     "summary": "BIS imposition of a civil penalty of $44,750 against Forta LLC, a manufacturer of synthetic reinforcement fibers, located in Grove City, Pennsylvania, to resolve three violations of the antiboycott provisions of the Export Administration Regulations (EAR, 15 C.F.R. parts 730-774)",
     "sourceTitle": "Not stated in source",
@@ -3034,7 +3061,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 44750.0,
+    "amountUsd": 44750,
     "factors": [
       "military_end_use"
     ],
@@ -3059,7 +3086,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 3509286.0,
+    "amountUsd": 3509286,
     "factors": [
       "management_awareness",
       "no_license",
@@ -3071,7 +3098,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 62.0,
+    "violationCount": 62,
     "sanctionsRegime": "Iran Transactions & Sanctions Regulations",
     "egregious": "Yes"
   },
@@ -3091,7 +3118,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 83769.0,
+    "amountUsd": 83769,
     "factors": [
       "no_license"
     ],
@@ -3117,7 +3144,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 7591630.0,
+    "amountUsd": 7591630,
     "factors": [
       "no_license",
       "us_origin",
@@ -3128,7 +3155,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 65942.0,
+    "violationCount": 65942,
     "sanctionsRegime": "EO13685 (UA), CACR, ITSR, SSR, SySR",
     "egregious": "No"
   },
@@ -3156,7 +3183,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1339.0,
+    "violationCount": 1339,
     "sanctionsRegime": "CACR, ITSR, SySR, URSR",
     "egregious": "No"
   },
@@ -3184,7 +3211,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 152.0,
+    "violationCount": 152,
     "sanctionsRegime": "VSR, EO 13884",
     "egregious": "No"
   },
@@ -3201,7 +3228,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 30000000.0,
+    "amountUsd": 30000000,
     "factors": [
       "management_awareness",
       "no_license",
@@ -3212,7 +3239,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 124.0,
+    "violationCount": 124,
     "sanctionsRegime": "ITSR, SSR, SySR",
     "egregious": "Yes"
   },
@@ -3229,7 +3256,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 1207830.0,
+    "amountUsd": 1207830,
     "factors": [
       "no_license"
     ],
@@ -3238,7 +3265,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 5.0,
+    "violationCount": 5,
     "sanctionsRegime": "DPRK",
     "egregious": "No"
   },
@@ -3255,7 +3282,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 332500.0,
+    "amountUsd": 332500,
     "factors": [
       "no_license",
       "transshipment",
@@ -3266,7 +3293,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 5.0,
+    "violationCount": 5,
     "sanctionsRegime": "Countering America's Adversaries Through Sanctions Act (CAATSA)",
     "egregious": "No"
   },
@@ -3283,7 +3310,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 2777570.0,
+    "amountUsd": 2777570,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -3306,7 +3333,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 3430900.0,
+    "amountUsd": 3430900,
     "factors": [
       "no_license",
       "transshipment"
@@ -3316,7 +3343,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 386.0,
+    "violationCount": 386,
     "sanctionsRegime": "Ukraine",
     "egregious": "No"
   },
@@ -3333,7 +3360,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 9618477.0,
+    "amountUsd": 9618477,
     "factors": [
       "management_awareness",
       "no_license",
@@ -3345,7 +3372,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 54.0,
+    "violationCount": 54,
     "sanctionsRegime": "ITSR",
     "egregious": "Yes"
   },
@@ -3362,7 +3389,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 24280829.0,
+    "amountUsd": 24280829,
     "factors": [
       "no_license",
       "us_origin"
@@ -3372,7 +3399,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 116421.0,
+    "violationCount": 116421,
     "sanctionsRegime": "Executive Order 13685 of December 19, 2014, “Blocking Property of Certain Persons and \nProhibiting Certain Transactions with Respect to the Crimea Region of Ukraine”; 321 apparent \nviolations of the Cuban Assets Control Regulations, 31 C.F.R. §515.201; 94,634 apparent \nviolations of the Iranian Transactions and Sanctions Regulations, 31 C.F.R. §560.204; 222 \napparent violations of the now-repealed Sudanese Sanctions Regulations (SSR), 31 C.F.R. \n§538.205;1\n and 7,999 apparent violations of the Syrian Sanctions Regulations",
     "egregious": "NO"
   },
@@ -3400,7 +3427,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 27720.0,
+    "violationCount": 27720,
     "sanctionsRegime": "Cuban \nAssets Control Regulations (CACR), 31 C.F.R. part 515; § 560.204 of the Iranian Transactions and \nSanctions Regulations (ITSR), 31 C.F.R. part 560; § 542.207 of the Syrian Sanctions Regulations \n(SSR), 31 C.F.R. part 542; § 510.206 of the North Korea Sanctions Regulations (NKSR), 31 C.F.R. \npart 510; and Executive Order (E.O.) 13685, “Blocking Property of Certain Persons and Prohibiting \nCertain Transactions with Respect to the Crimea Region of Ukraine”",
     "egregious": "NO"
   },
@@ -3417,7 +3444,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 401039.0,
+    "amountUsd": 401039,
     "factors": [
       "no_license",
       "voluntary_disclosure"
@@ -3427,7 +3454,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 410.0,
+    "violationCount": 410,
     "sanctionsRegime": "Cuban \nAssets Control Regulations (CACR), 31 C.F.R. part 515; § 560.204 of the Iranian Transactions and \nSanctions Regulations (ITSR), 31 C.F.R. part 560; § 542.207 of the Syrian Sanctions Regulations \n(SSR), 31 C.F.R. part 542; § 510.206 of the North Korea Sanctions Regulations (NKSR), 31 C.F.R. \npart 510; and Executive Order (E.O.) 13685, “Blocking Property of Certain Persons and Prohibiting \nCertain Transactions with Respect to the Crimea Region of Ukraine”",
     "egregious": "NO"
   },
@@ -3444,7 +3471,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 720258.0,
+    "amountUsd": 720258,
     "factors": [
       "no_license",
       "voluntary_disclosure"
@@ -3454,7 +3481,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 240.0,
+    "violationCount": 240,
     "sanctionsRegime": "Cuban Assets Control Regulations, 31 C.F.R. § 515.201, Section 1(a)(iii) of Executive Order \n13685 of December 19, 2014, “Blocking Property of Certain Persons and Prohibiting Certain \nTransactions With Respect to the Crimea Region of Ukraine,” the Iranian Transactions and \nSanctions Regulations, 31 C.F.R. §§ 560.203 and 204, the Sudanese Sanctions Regulations, 31 \nC.F.R. § 538.205,2 and the Syrian Sanctions Regulations, 31 CFR § 542.207",
     "egregious": "NO"
   },
@@ -3481,7 +3508,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 34.0,
+    "violationCount": 34,
     "sanctionsRegime": "Weapons of Mass \nDestruction Proliferators Sanctions Regulations",
     "egregious": "Not stated in source"
   },
@@ -3498,7 +3525,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 430500.0,
+    "amountUsd": 430500,
     "factors": [
       "no_license",
       "us_origin"
@@ -3508,7 +3535,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 214.0,
+    "violationCount": 214,
     "sanctionsRegime": "Foreign Narcotics Kingpin Sanctions \nRegulations",
     "egregious": "NO"
   },
@@ -3525,7 +3552,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 255937.0,
+    "amountUsd": 255937,
     "factors": [
       "no_license",
       "us_origin",
@@ -3536,7 +3563,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 337.0,
+    "violationCount": 337,
     "sanctionsRegime": "Venezuela Sanctions Regulations",
     "egregious": "NO"
   },
@@ -3553,7 +3580,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 6131855.0,
+    "amountUsd": 6131855,
     "factors": [
       "no_license",
       "voluntary_disclosure"
@@ -3563,7 +3590,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 2985.0,
+    "violationCount": 2985,
     "sanctionsRegime": "North Korea Sanctions Regulations, 31 C.F.R. part 510; § 542.205 of the\nSyrian Sanctions Regulations, 31 C.F.R. part 542; § 560.203 of the Iranian Transactions and \nSanctions Regulations, 31 C.F.R. part 560; § 544.201 of the Weapons of Mass Destruction \nProliferators Sanctions Regulations, 31 C.F.R. part 544; and § 594.201 of the Global Terrorism \nSanctions Regulations,",
     "egregious": "NO"
   },
@@ -3580,7 +3607,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 141442.0,
+    "amountUsd": 141442,
     "factors": [
       "no_license",
       "us_origin",
@@ -3591,7 +3618,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 4.0,
+    "violationCount": 4,
     "sanctionsRegime": "Cuban Assets Control Regulations",
     "egregious": "NO"
   },
@@ -3608,7 +3635,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 45908.0,
+    "amountUsd": 45908,
     "factors": [
       "management_awareness",
       "no_license",
@@ -3619,7 +3646,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 4.0,
+    "violationCount": 4,
     "sanctionsRegime": "Cuban Assets Control Regulations",
     "egregious": "YES"
   },
@@ -3636,7 +3663,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 78750.0,
+    "amountUsd": 78750,
     "factors": [
       "no_license",
       "us_origin"
@@ -3646,7 +3673,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 4.0,
+    "violationCount": 4,
     "sanctionsRegime": "EO 13662",
     "egregious": "NO"
   },
@@ -3663,7 +3690,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 840000.0,
+    "amountUsd": 840000,
     "factors": [
       "military_end_use",
       "weak_controls"
@@ -3689,7 +3716,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 91172.0,
+    "amountUsd": 91172,
     "factors": [
       "no_license",
       "us_origin",
@@ -3700,7 +3727,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 3076.0,
+    "violationCount": 3076,
     "sanctionsRegime": "Cuban Assets Control Regulations",
     "egregious": "NO"
   },
@@ -3717,7 +3744,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 5228298.0,
+    "amountUsd": 5228298,
     "factors": [
       "no_license",
       "voluntary_disclosure"
@@ -3727,7 +3754,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 60.0,
+    "violationCount": 60,
     "sanctionsRegime": "Iranian Transactions",
     "egregious": "NO"
   },
@@ -3745,7 +3772,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Logistics enforcement action",
-    "amountUsd": 6131855.0,
+    "amountUsd": 6131855,
     "factors": [],
     "summary": "Logistics enforcement action involving Toll Holdings Limited.",
     "sourceTitle": "Workbook logistics enforcement row",
@@ -3766,7 +3793,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 115005.0,
+    "amountUsd": 115005,
     "factors": [
       "no_license",
       "us_origin",
@@ -3777,7 +3804,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1479.0,
+    "violationCount": 1479,
     "sanctionsRegime": "North Korea Sanctions Regulations",
     "egregious": "NO"
   },
@@ -3794,7 +3821,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 113860.0,
+    "amountUsd": 113860,
     "factors": [
       "no_license",
       "us_origin"
@@ -3804,7 +3831,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 4.0,
+    "violationCount": 4,
     "sanctionsRegime": "Iranian Transactions",
     "egregious": "NO"
   },
@@ -3821,7 +3848,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 100000000.0,
+    "amountUsd": 100000000,
     "factors": [
       "management_awareness",
       "no_license"
@@ -3831,7 +3858,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1760.0,
+    "violationCount": 1760,
     "sanctionsRegime": "Sudanese \nSanctions Regulations",
     "egregious": "YES"
   },
@@ -3848,7 +3875,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 80000.0,
+    "amountUsd": 80000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -3871,7 +3898,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 1869372.0,
+    "amountUsd": 1869372,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -3896,7 +3923,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 13750.0,
+    "amountUsd": 13750,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -3919,7 +3946,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 497000.0,
+    "amountUsd": 497000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -3942,7 +3969,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 160000.0,
+    "amountUsd": 160000,
     "factors": [
       "no_license",
       "us_origin"
@@ -3952,7 +3979,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1.0,
+    "violationCount": 1,
     "sanctionsRegime": "Sudanese \nSanctions Regulations",
     "egregious": "NO"
   },
@@ -3969,7 +3996,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 1423766.0,
+    "amountUsd": 1423766,
     "factors": [
       "no_license",
       "us_origin"
@@ -3979,7 +4006,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 5.0,
+    "violationCount": 5,
     "sanctionsRegime": "E.O. 13662, Ukraine-Related Sanctions Regulations",
     "egregious": "NO"
   },
@@ -3998,7 +4025,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 189483.0,
+    "amountUsd": 189483,
     "factors": [
       "no_license",
       "transshipment",
@@ -4010,7 +4037,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 52.0,
+    "violationCount": 52,
     "sanctionsRegime": "Iranian Transactions and Sanctions Regulations",
     "egregious": "NO"
   },
@@ -4032,7 +4059,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 862318.0,
+    "amountUsd": 862318,
     "factors": [
       "no_license",
       "voluntary_disclosure"
@@ -4042,7 +4069,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 98.0,
+    "violationCount": 98,
     "sanctionsRegime": "Iranian Transactions and Sanctions Regulations",
     "egregious": "NO"
   },
@@ -4061,7 +4088,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 2329991.0,
+    "amountUsd": 2329991,
     "factors": [
       "no_license",
       "voluntary_disclosure"
@@ -4071,7 +4098,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 111.0,
+    "violationCount": 111,
     "sanctionsRegime": "Sudanese \nSanctions Regulations",
     "egregious": "NO"
   },
@@ -4088,7 +4115,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 469060.0,
+    "amountUsd": 469060,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -4113,7 +4140,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 6600000.0,
+    "amountUsd": 6600000,
     "factors": [
       "military_end_use",
       "weak_controls"
@@ -4139,7 +4166,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 1400301.0,
+    "amountUsd": 1400301,
     "factors": [
       "no_license",
       "restricted_party",
@@ -4150,7 +4177,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 2260.0,
+    "violationCount": 2260,
     "sanctionsRegime": "Blocking Property of Certain Persons and Prohibiting Certain Transactions with Respect to the Crimea Region of Ukraine”; the Zimbabwe Sanctions Regulations; the Weapons of Mass Destruction Proliferators Sanctions Regulations; the Iranian Transactions and Sanctions Regulations; the now-repealed Sudanese Sanctions Regulations (SSR); and the Syrian Sanctions Regulations",
     "egregious": "NO"
   },
@@ -4170,7 +4197,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 16875.0,
+    "amountUsd": 16875,
     "factors": [
       "no_license",
       "restricted_party",
@@ -4181,7 +4208,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1.0,
+    "violationCount": 1,
     "sanctionsRegime": "Iranian Transactions and Sanctions Regulations",
     "egregious": "NO"
   },
@@ -4198,7 +4225,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 415695.0,
+    "amountUsd": 415695,
     "factors": [
       "management_awareness",
       "no_license",
@@ -4209,7 +4236,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1.0,
+    "violationCount": 1,
     "sanctionsRegime": "Iranian Transactions and Sanctions Regulations",
     "egregious": "YES"
   },
@@ -4228,7 +4255,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 215000.0,
+    "amountUsd": 215000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -4251,7 +4278,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 200000.0,
+    "amountUsd": 200000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -4274,7 +4301,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 140000.0,
+    "amountUsd": 140000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -4297,7 +4324,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 20000.0,
+    "amountUsd": 20000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -4320,7 +4347,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 350000.0,
+    "amountUsd": 350000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -4343,7 +4370,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 25000.0,
+    "amountUsd": 25000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -4366,7 +4393,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 55000.0,
+    "amountUsd": 55000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -4389,7 +4416,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 60000.0,
+    "amountUsd": 60000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -4412,7 +4439,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 60000.0,
+    "amountUsd": 60000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -4441,7 +4468,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 2132174.0,
+    "amountUsd": 2132174,
     "factors": [
       "no_license",
       "remediation",
@@ -4452,7 +4479,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 190.0,
+    "violationCount": 190,
     "sanctionsRegime": "Iranian Transactions and Sanctions Regulations",
     "egregious": "NO"
   },
@@ -4471,7 +4498,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 3290000.0,
+    "amountUsd": 3290000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -4509,7 +4536,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 359.0,
+    "violationCount": 359,
     "sanctionsRegime": "Foreign Narcotics Kingpin Sanctions Regulations, 31 C.F.R §598.203; \nNarcotics Trafficking Sanctions Regulations, 31 C.F.R. §536.201;  Syrian Sanctions Regulations, 31\nC.F.R. §542.207;  Democratic Republic of the Congo Sanctions Regulations, 31 C.F.R. §547.201; the\nCentral African Republic Sanctions Regulations, 31 C.F.R. §553.201; Weapons of Mass\nDestruction Proliferators Sanctions Regulations, 31 C.F.R. §544.201",
     "egregious": "NO"
   },
@@ -4528,7 +4555,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 307922.0,
+    "amountUsd": 307922,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -4553,7 +4580,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 13000000.0,
+    "amountUsd": 13000000,
     "factors": [
       "military_end_use",
       "transshipment",
@@ -4583,7 +4610,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 435003.0,
+    "amountUsd": 435003,
     "factors": [
       "no_license",
       "us_origin",
@@ -4594,7 +4621,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 61.0,
+    "violationCount": 61,
     "sanctionsRegime": "Iranian Transactions and Sanctions Regulations",
     "egregious": "NO"
   },
@@ -4611,7 +4638,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 42000.0,
+    "amountUsd": 42000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -4638,7 +4665,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 950000.0,
+    "amountUsd": 950000,
     "factors": [
       "management_awareness",
       "no_license"
@@ -4648,7 +4675,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 27.0,
+    "violationCount": 27,
     "sanctionsRegime": "Iranian Transactions and Sanctions Regulations",
     "egregious": "YES"
   },
@@ -4665,7 +4692,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 122000.0,
+    "amountUsd": 122000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -4692,7 +4719,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 216464.0,
+    "amountUsd": 216464,
     "factors": [
       "management_awareness",
       "no_license",
@@ -4704,7 +4731,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 21.0,
+    "violationCount": 21,
     "sanctionsRegime": "Iranian Transactions and Sanctions Regulations",
     "egregious": "YES"
   },
@@ -4721,7 +4748,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 51921.0,
+    "amountUsd": 51921,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -4752,7 +4779,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 507375.0,
+    "amountUsd": 507375,
     "factors": [
       "no_license",
       "us_origin"
@@ -4762,7 +4789,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 2102.0,
+    "violationCount": 2102,
     "sanctionsRegime": "Executive Order 13685, Cuban Assets Control Regulations, North Korea Sanctions Regime, Iranian Transactions and Sanctions Regulations, Sudanese Sanctions  and Regulations, Syrian Sanctions and Regulations",
     "egregious": "NO"
   },
@@ -4781,7 +4808,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 1721000.0,
+    "amountUsd": 1721000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -4806,7 +4833,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 54000.0,
+    "amountUsd": 54000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -4829,7 +4856,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 8572500.0,
+    "amountUsd": 8572500,
     "factors": [
       "no_license",
       "voluntary_disclosure"
@@ -4839,7 +4866,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 127.0,
+    "violationCount": 127,
     "sanctionsRegime": "Executive Order 13582 of August 17, 2011, “Blocking\nProperty of the Government of Syria and Prohibiting Certain Transactions with Respect to Syria” (“E.O.\n13582”), and Executive Order 13382 of July 1, 2005, “Blocking Property of Weapons of Mass\nDestruction Proliferators and Their Supporters” (“E.O. 13382”).",
     "egregious": "NO"
   },
@@ -4861,7 +4888,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 1016000.0,
+    "amountUsd": 1016000,
     "factors": [
       "no_license"
     ],
@@ -4870,7 +4897,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 28.0,
+    "violationCount": 28,
     "sanctionsRegime": "North Korea Sanctions Regulations",
     "egregious": "NO"
   },
@@ -4887,7 +4914,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 81000.0,
+    "amountUsd": 81000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -4917,7 +4944,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 98830.0,
+    "amountUsd": 98830,
     "factors": [
       "no_license",
       "us_origin"
@@ -4927,7 +4954,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 183.0,
+    "violationCount": 183,
     "sanctionsRegime": "Executive order, Iranian Transactions and Sanctions Regulations,  Sudanese Sanctions Regulations, Syrian Sanctions Regulations",
     "egregious": "NO"
   },
@@ -4948,7 +4975,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 653347.0,
+    "amountUsd": 653347,
     "factors": [
       "no_license",
       "restricted_party",
@@ -4959,7 +4986,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 13.0,
+    "violationCount": 13,
     "sanctionsRegime": "Executive order and Sudanese Sanctions Regulations",
     "egregious": "NO"
   },
@@ -4980,7 +5007,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 4144651.0,
+    "amountUsd": 4144651,
     "factors": [
       "management_awareness",
       "no_license",
@@ -4992,7 +5019,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 144.0,
+    "violationCount": 144,
     "sanctionsRegime": "Iranian Transactions and Sanctions Regulations",
     "egregious": "YES"
   },
@@ -5013,7 +5040,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 5864860.0,
+    "amountUsd": 5864860,
     "factors": [
       "management_awareness",
       "no_license",
@@ -5026,7 +5053,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 2593.0,
+    "violationCount": 2593,
     "sanctionsRegime": "Cuban Assets Control Regulations",
     "egregious": "YES"
   },
@@ -5047,7 +5074,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 473157.0,
+    "amountUsd": 473157,
     "factors": [
       "management_awareness",
       "us_origin",
@@ -5058,7 +5085,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1.0,
+    "violationCount": 1,
     "sanctionsRegime": "Iranian Transactions and Sanctions Regulations",
     "egregious": "YES"
   },
@@ -5078,7 +5105,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 894111.0,
+    "amountUsd": 894111,
     "factors": [
       "management_awareness",
       "us_origin",
@@ -5089,7 +5116,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 4.0,
+    "violationCount": 4,
     "sanctionsRegime": "Sudanese Sanctions Regulations",
     "egregious": "YES"
   },
@@ -5111,7 +5138,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 583100.0,
+    "amountUsd": 583100,
     "factors": [
       "no_license",
       "us_origin"
@@ -5121,7 +5148,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 61.0,
+    "violationCount": 61,
     "sanctionsRegime": "Ukraine-Related Sanctions Regulations and Executive Order 13685",
     "egregious": "NO"
   },
@@ -5140,7 +5167,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 55000.0,
+    "amountUsd": 55000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -5163,7 +5190,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 673714.0,
+    "amountUsd": 673714,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -5189,7 +5216,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 5000.0,
+    "amountUsd": 5000,
     "factors": [
       "management_awareness",
       "no_license",
@@ -5201,7 +5228,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 24.0,
+    "violationCount": 24,
     "sanctionsRegime": "Foreign Narcotics Kingpin Sanctions Regulations",
     "egregious": "YES"
   },
@@ -5220,7 +5247,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 824314.0,
+    "amountUsd": 824314,
     "factors": [
       "us_origin",
       "voluntary_disclosure"
@@ -5230,7 +5257,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 74.0,
+    "violationCount": 74,
     "sanctionsRegime": "Iranian Transactions and Sanctions Regulations",
     "egregious": "NO"
   },
@@ -5247,7 +5274,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 7500.0,
+    "amountUsd": 7500,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -5270,7 +5297,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "deferred prosecution agreement",
-    "amountUsd": 665112.0,
+    "amountUsd": 665112,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -5293,7 +5320,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 31425760.0,
+    "amountUsd": 31425760,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -5327,7 +5354,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 134523.0,
+    "amountUsd": 134523,
     "factors": [
       "restricted_party",
       "us_origin",
@@ -5338,7 +5365,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 607.0,
+    "violationCount": 607,
     "sanctionsRegime": "Cuban Assets Control Regulations, the Democratic Republic of the Congo Sanctions Regulations, the Foreign Narcotics Kingpin Sanctions Regulations, the Global Terrorism Sanctions Regulations, the Iranian Transactions and Sanctions Regulations, the Narcotics Trafficking Sanctions Regulations, the North Korea Sanctions Regulations, the Syrian Sanctions Regulations, the Sudanese Sanctions Regulations, the\nTransnational Criminal Organizations Sanctions Regulations, Executive Order 13685 of December 19, 2014, “Blocking Property of Certain Persons and Prohibiting Certain Transactions With Respect to the Crimea Region of Ukraine”; the Venezuela Sanctions Regulations, the Weapons of Mass Destruction Proliferators Sanctions Regulations, and the Zimbabwe Sanctions Regulations",
     "egregious": "NO"
   },
@@ -5355,7 +5382,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 15500.0,
+    "amountUsd": 15500,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -5381,7 +5408,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 257862.0,
+    "amountUsd": 257862,
     "factors": [
       "us_origin",
       "voluntary_disclosure"
@@ -5391,7 +5418,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 44.0,
+    "violationCount": 44,
     "sanctionsRegime": "Cuban Assets Control Regulations",
     "egregious": "NO"
   },
@@ -5414,7 +5441,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 7829640.0,
+    "amountUsd": 7829640,
     "factors": [
       "no_license",
       "us_origin"
@@ -5424,7 +5451,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 9256.0,
+    "violationCount": 9256,
     "sanctionsRegime": "Global Terrorism Sanctions Regulation",
     "egregious": "NO"
   },
@@ -5443,7 +5470,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "deferred prosecution agreement",
-    "amountUsd": 527224475.0,
+    "amountUsd": 527224475,
     "factors": [
       "military_end_use",
       "us_origin",
@@ -5472,7 +5499,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 5000000.0,
+    "amountUsd": 5000000,
     "factors": [
       "military_end_use",
       "no_license",
@@ -5504,7 +5531,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 1125000.0,
+    "amountUsd": 1125000,
     "factors": [
       "management_awareness",
       "voluntary_disclosure"
@@ -5514,7 +5541,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 36.0,
+    "violationCount": 36,
     "sanctionsRegime": "Burmese Sanctions Regulations (BSR)",
     "egregious": "YES"
   },
@@ -5533,7 +5560,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 12150.0,
+    "amountUsd": 12150,
     "factors": [
       "no_license",
       "us_origin",
@@ -5544,7 +5571,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1.0,
+    "violationCount": 1,
     "sanctionsRegime": "Global Terrorism Sanctions",
     "egregious": "NO"
   },
@@ -5563,7 +5590,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 665112.0,
+    "amountUsd": 665112,
     "factors": [
       "management_awareness",
       "no_license"
@@ -5573,7 +5600,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 3.0,
+    "violationCount": 3,
     "sanctionsRegime": "North Korea Sanctions Regulations",
     "egregious": "YES"
   },
@@ -5591,7 +5618,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Logistics enforcement action",
-    "amountUsd": 1125000.0,
+    "amountUsd": 1125000,
     "factors": [],
     "summary": "Logistics enforcement action involving Eagle Shipping International (USA) LLC.",
     "sourceTitle": "Workbook logistics enforcement row",
@@ -5612,7 +5639,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 600000.0,
+    "amountUsd": 600000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -5638,7 +5665,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 170535.0,
+    "amountUsd": 170535,
     "factors": [
       "no_license",
       "us_origin",
@@ -5649,7 +5676,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 6474.0,
+    "violationCount": 6474,
     "sanctionsRegime": "Cuban Assets Control Regulations",
     "egregious": "NO"
   },
@@ -5669,7 +5696,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 66212.0,
+    "amountUsd": 66212,
     "factors": [
       "no_license",
       "voluntary_disclosure"
@@ -5679,7 +5706,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 20291.0,
+    "violationCount": 20291,
     "sanctionsRegime": "Cuban Assets Control Regulations",
     "egregious": "NO"
   },
@@ -5696,7 +5723,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 368000.0,
+    "amountUsd": 368000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -5721,7 +5748,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 1000000.0,
+    "amountUsd": 1000000,
     "factors": [
       "military_end_use",
       "weak_controls"
@@ -5747,7 +5774,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 26250.0,
+    "amountUsd": 26250,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -5772,7 +5799,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 466912.0,
+    "amountUsd": 466912,
     "factors": [
       "no_license",
       "us_origin",
@@ -5783,7 +5810,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 3.0,
+    "violationCount": 3,
     "sanctionsRegime": "Foreign Narcotics Kingpin Sanctions Regulations",
     "egregious": "NO"
   },
@@ -5800,7 +5827,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 136000.0,
+    "amountUsd": 136000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -5826,7 +5853,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 210600.0,
+    "amountUsd": 210600,
     "factors": [
       "no_license",
       "us_origin",
@@ -5837,7 +5864,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 12.0,
+    "violationCount": 12,
     "sanctionsRegime": "Sudanese Sanctions Regime",
     "egregious": "NO"
   },
@@ -5854,7 +5881,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 98000.0,
+    "amountUsd": 98000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -5879,7 +5906,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 2718581.0,
+    "amountUsd": 2718581,
     "factors": [
       "no_license",
       "us_origin",
@@ -5890,7 +5917,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 289.0,
+    "violationCount": 289,
     "sanctionsRegime": "Cuban Assets Control Regulations",
     "egregious": "NO"
   },
@@ -5909,7 +5936,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 13000000.0,
+    "amountUsd": 13000000,
     "factors": [
       "military_end_use",
       "weak_controls"
@@ -5937,7 +5964,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 4000000.0,
+    "amountUsd": 4000000,
     "factors": [
       "management_awareness",
       "no_license"
@@ -5947,7 +5974,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 72.0,
+    "violationCount": 72,
     "sanctionsRegime": "Sudanese Sanctions Regime",
     "egregious": "YES"
   },
@@ -5966,7 +5993,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 345315.0,
+    "amountUsd": 345315,
     "factors": [
       "no_license",
       "us_origin"
@@ -5976,7 +6003,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 2.0,
+    "violationCount": 2,
     "sanctionsRegime": "Foreign Narcotics Kingpin Sanctions Regulations",
     "egregious": "NO"
   },
@@ -5997,7 +6024,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 1709325.0,
+    "amountUsd": 1709325,
     "factors": [
       "voluntary_disclosure"
     ],
@@ -6006,7 +6033,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 63.0,
+    "violationCount": 63,
     "sanctionsRegime": "Iranian Transactions and Sanctions Regulations",
     "egregious": "NO"
   },
@@ -6025,7 +6052,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 222705.0,
+    "amountUsd": 222705,
     "factors": [
       "management_awareness",
       "no_license",
@@ -6036,7 +6063,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 703.0,
+    "violationCount": 703,
     "sanctionsRegime": "Cuba Assets Control Regulations",
     "egregious": "YES"
   },
@@ -6055,7 +6082,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 325406.0,
+    "amountUsd": 325406,
     "factors": [
       "no_license",
       "us_origin",
@@ -6066,7 +6093,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 2221.0,
+    "violationCount": 2221,
     "sanctionsRegime": "Cuba Assets Control Regulations",
     "egregious": "NO"
   },
@@ -6085,7 +6112,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 40320.0,
+    "amountUsd": 40320,
     "factors": [
       "no_license",
       "us_origin"
@@ -6095,7 +6122,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 104.0,
+    "violationCount": 104,
     "sanctionsRegime": "Cuba Assets Control Regulations",
     "egregious": "NO"
   },
@@ -6114,7 +6141,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 15000.0,
+    "amountUsd": 15000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -6139,7 +6166,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 5000.0,
+    "amountUsd": 5000,
     "factors": [
       "management_awareness"
     ],
@@ -6166,7 +6193,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 401697.0,
+    "amountUsd": 401697,
     "factors": [
       "no_license",
       "restricted_party",
@@ -6178,7 +6205,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 4977.0,
+    "violationCount": 4977,
     "sanctionsRegime": "Global Terrorism Sanctions Regulations",
     "egregious": "NO"
   },
@@ -6197,7 +6224,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 54000.0,
+    "amountUsd": 54000,
     "factors": [
       "management_awareness"
     ],
@@ -6226,7 +6253,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 871837.0,
+    "amountUsd": 871837,
     "factors": [
       "management_awareness",
       "us_origin"
@@ -6236,7 +6263,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 5.0,
+    "violationCount": 5,
     "sanctionsRegime": "Weapons of Mass Destruction\nProliferators Sanctions Regulations, 31 C.F.R. part 544 (WMDPSR)",
     "egregious": "YES"
   },
@@ -6255,7 +6282,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 75375.0,
+    "amountUsd": 75375,
     "factors": [
       "us_origin"
     ],
@@ -6264,7 +6291,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 2.0,
+    "violationCount": 2,
     "sanctionsRegime": "Ukraine Related Sanctions Regulations, 31\nC.F.R. part 589 (URSR)",
     "egregious": "NO"
   },
@@ -6281,7 +6308,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 37316322.0,
+    "amountUsd": 37316322,
     "factors": [
       "management_awareness"
     ],
@@ -6290,7 +6317,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 612.0,
+    "violationCount": 612,
     "sanctionsRegime": "Cuban Assets Control Regulations, 31 C.F.R. Part 515 (CACR); the Iranian Transactions and Sanctions Regulations, 31 C.F.R. Part 560 (ITSR); the Burmese Sanctions Regulations, 31 C.F.R. Part 537 (BSR); the Sudanese Sanctions Regulations, 31 C.F.R. Part 538 (SSR); and the Syrian Sanctions Regulations, 31 C.F.R. Part 542 (SySR)",
     "egregious": "YES"
   },
@@ -6307,14 +6334,14 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 20326340.0,
+    "amountUsd": 20326340,
     "factors": [],
     "summary": "Financial transactions",
     "sourceTitle": "Workbook OFAC 2019 enforcement action",
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 127.0,
+    "violationCount": 127,
     "sanctionsRegime": "Iranian Transactions and Sanctions Regulations, 31 C.F.R. Part 560 (ITSR); the Sudanese Sanctions Regulations, 31 C.F.R. Part 538 (SSR); the Burmese Sanctions Regulations, 31 C.F.R. Part 537 (BSR); the Syrian Sanctions Regulations, 31 C.F.R. Part 542 (SySR); and the Cuban Assets Control Regulations, 31 C.F.R. Part 515 (CACR)",
     "egregious": "Partially"
   },
@@ -6334,7 +6361,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 553380759.0,
+    "amountUsd": 553380759,
     "factors": [
       "management_awareness"
     ],
@@ -6343,7 +6370,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 2158.0,
+    "violationCount": 2158,
     "sanctionsRegime": "Weapons of Mass Destruction Proliferators Sanctions Regulations, 31 C.F.R. Part 544 (WMDPSR), but also apparent violations of the Cuban Assets Control Regulations, 31 C.F.R. Part 515 (CACR); the Burmese Sanctions Regulations, 31 C.F.R. Part 537 (BSR)i; the Sudanese Sanctions Regulations, 31 C.F.R. Part 538 (SSR)ii; the Syrian Sanctions Regulations, 31 C.F.R. Part 542 (SySR)iii; the Iranian Transactions and Sanctions Regulations, 31 C.F.R. Part 560 (ITSR)iv; the Libyan Sanctions Regulations, 31 C.F.R. Part 570 (LSR); and the Global Terrorism Sanctions Regulations, 31 C.F.R. Part 594 (GTSR)",
     "egregious": "YES"
   },
@@ -6368,7 +6395,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 227500.0,
+    "amountUsd": 227500,
     "factors": [
       "management_awareness",
       "voluntary_disclosure"
@@ -6378,7 +6405,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 7.0,
+    "violationCount": 7,
     "sanctionsRegime": "Cuban Assets Control Regulations, 31 C.F.R. part 515 (CACR)",
     "egregious": "YES"
   },
@@ -6395,7 +6422,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 639023750.0,
+    "amountUsd": 639023750,
     "factors": [
       "management_awareness"
     ],
@@ -6404,7 +6431,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 9335.0,
+    "violationCount": 9335,
     "sanctionsRegime": "Burmese Sanctions Regulations (BSR); the Cuban Assets Control Regulations, 31 C.F.R. Part 515 (CACR); the Iranian Transactions and Sanctions Regulations, 31 C.F.R. Part 560 (ITSR); the now-repealed Sudanese Sanctions Regulations; and the Syrian Sanctions Regulations, 31 C.F.R. Part 542 (SySR), or Executive Order 13582 of August 17, 2011, “Blocking Property of the Government of Syria and Prohibiting Certain Transactions With Respect to Syria” (E.O. 13582)",
     "egregious": "YES"
   },
@@ -6423,7 +6450,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 18016283.0,
+    "amountUsd": 18016283,
     "factors": [
       "restricted_party",
       "voluntary_disclosure"
@@ -6433,7 +6460,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1795.0,
+    "violationCount": 1795,
     "sanctionsRegime": "Zimbabwe Sanctions Regulations, 31 C.F.R Part 541 (ZSR)",
     "egregious": "NO"
   },
@@ -6454,7 +6481,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 1869144.0,
+    "amountUsd": 1869144,
     "factors": [
       "management_awareness",
       "us_origin",
@@ -6465,7 +6492,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 23.0,
+    "violationCount": 23,
     "sanctionsRegime": "Iranian Transactions and Sanctions Regulations, 31 C.F.R. part 560 (ITSR)",
     "egregious": "YES"
   },
@@ -6482,7 +6509,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 400000.0,
+    "amountUsd": 400000,
     "factors": [
       "military_end_use",
       "weak_controls"
@@ -6511,7 +6538,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 506250.0,
+    "amountUsd": 506250,
     "factors": [
       "us_origin",
       "voluntary_disclosure"
@@ -6521,7 +6548,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 5.0,
+    "violationCount": 5,
     "sanctionsRegime": "Iranian Transactions and Sanctions Regulations, 31 C.F.R. part 560 (ITSR)",
     "egregious": "NO"
   },
@@ -6541,7 +6568,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 5512564.0,
+    "amountUsd": 5512564,
     "factors": [
       "management_awareness",
       "voluntary_disclosure"
@@ -6551,7 +6578,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 304.0,
+    "violationCount": 304,
     "sanctionsRegime": "Cuban Assets Control Regulations, 31 C.F.R. part 515 (CACR)",
     "egregious": "YES"
   },
@@ -6571,7 +6598,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 13381.0,
+    "amountUsd": 13381,
     "factors": [
       "us_origin",
       "voluntary_disclosure"
@@ -6581,7 +6608,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 6.0,
+    "violationCount": 6,
     "sanctionsRegime": "Iranian Transactions and Sanctions Regulations, 31 C.F.R. part 560 (ITSR)",
     "egregious": "NO"
   },
@@ -6601,7 +6628,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 996080.0,
+    "amountUsd": 996080,
     "factors": [
       "red_flags",
       "us_origin",
@@ -6612,7 +6639,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 156.0,
+    "violationCount": 156,
     "sanctionsRegime": "North Korea Sanctions Regulations, 31 C.F.R. part 510 (NKSR)",
     "egregious": "NO"
   },
@@ -6629,7 +6656,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 80000.0,
+    "amountUsd": 80000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -6655,7 +6682,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 7772102.0,
+    "amountUsd": 7772102,
     "factors": [
       "management_awareness",
       "us_origin",
@@ -6666,7 +6693,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 26.0,
+    "violationCount": 26,
     "sanctionsRegime": "Belarus Sanctions Regulations, 31 C.F.R. part 548 (BSR).",
     "egregious": "YES"
   },
@@ -6687,7 +6714,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 2774972.0,
+    "amountUsd": 2774972,
     "factors": [
       "management_awareness"
     ],
@@ -6696,7 +6723,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 11.0,
+    "violationCount": 11,
     "sanctionsRegime": "Iranian Transactions and Sanctions Regulations, 31 C.F.R. part 560 (ITSR)",
     "egregious": "YES"
   },
@@ -6713,7 +6740,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 600000.0,
+    "amountUsd": 600000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -6736,7 +6763,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 8500.0,
+    "amountUsd": 8500,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -6762,7 +6789,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 87507.0,
+    "amountUsd": 87507,
     "factors": [
       "us_origin",
       "voluntary_disclosure"
@@ -6772,7 +6799,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 3.0,
+    "violationCount": 3,
     "sanctionsRegime": "Ukraine Related Sanctions Regulations, 31 C.F.R. part 589 (the URSR)",
     "egregious": "NO"
   },
@@ -6798,7 +6825,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1077.0,
+    "violationCount": 1077,
     "sanctionsRegime": "Cuban Assets Control Regulations, 31 C.F.R. Part 515 (CACR); the Iranian Transactions and Sanctions Regulations, 31 C.F.R. Part 560 (ITSR); and the Sudanese Sanctions Regulations, 31 C.F.R. Part 538 (SSR)",
     "egregious": "YES"
   },
@@ -6815,7 +6842,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 5263171.0,
+    "amountUsd": 5263171,
     "factors": [
       "restricted_party",
       "us_origin",
@@ -6826,7 +6853,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 87.0,
+    "violationCount": 87,
     "sanctionsRegime": "the Cuban Assets Control Regulations, 31 C.F.R. Part 515 (CACR); the Iranian Transactions and Sanctions Regulations, 31 C.F.R. Part 560 (ITSR); and the Weapons of Mass Destruction Proliferators Sanctions Regulations, 31 C.F.R. Part 544 (WMDPSR)",
     "egregious": "NO"
   },
@@ -6845,7 +6872,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 1500000.0,
+    "amountUsd": 1500000,
     "factors": [
       "management_awareness",
       "us_origin"
@@ -6855,7 +6882,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 39.0,
+    "violationCount": 39,
     "sanctionsRegime": "Iranian Transactions and Sanctions Regulations, 31 C.F.R. part 560 (the “ITSR”)",
     "egregious": "YES"
   },
@@ -6872,7 +6899,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 155000.0,
+    "amountUsd": 155000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -6897,7 +6924,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 60000.0,
+    "amountUsd": 60000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -6922,7 +6949,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 1400000000.0,
+    "amountUsd": 1400000000,
     "factors": [],
     "summary": "ZTE was required to pay $1 billion and put $400 million in escrow after BIS learned that the company had not complied with certain terms in a March 2017 settlement.",
     "sourceTitle": "Not stated in source",
@@ -6950,7 +6977,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 145893.0,
+    "amountUsd": 145893,
     "factors": [
       "management_awareness",
       "no_license",
@@ -6961,7 +6988,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1.0,
+    "violationCount": 1,
     "sanctionsRegime": "International Emergency Economic Powers Act (IEEPA) and the Sudanese Sanctions Regulations, 31 C.F.R. part 538 (SSR)",
     "egregious": "YES"
   },
@@ -6978,7 +7005,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 221000.0,
+    "amountUsd": 221000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -7001,7 +7028,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 100000.0,
+    "amountUsd": 100000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -7026,7 +7053,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 500000.0,
+    "amountUsd": 500000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -7051,7 +7078,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 30000000.0,
+    "amountUsd": 30000000,
     "factors": [
       "military_end_use",
       "no_license",
@@ -7080,7 +7107,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 100000.0,
+    "amountUsd": 100000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -7105,7 +7132,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 28600.0,
+    "amountUsd": 28600,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -7128,7 +7155,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 10000.0,
+    "amountUsd": 10000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -7152,7 +7179,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Logistics enforcement action",
-    "amountUsd": 500000.0,
+    "amountUsd": 500000,
     "factors": [],
     "summary": "Logistics enforcement action involving FedEx.",
     "sourceTitle": "Workbook logistics enforcement row",
@@ -7175,7 +7202,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 37000.0,
+    "amountUsd": 37000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -7201,7 +7228,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 1220400.0,
+    "amountUsd": 1220400,
     "factors": [
       "transshipment",
       "us_origin"
@@ -7211,7 +7238,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 37.0,
+    "violationCount": 37,
     "sanctionsRegime": "§ 560.204 of the Iranian Transactions and Sanctions Regulations, 31 C.F.R. Part 560 (ITSR)",
     "egregious": "NO"
   },
@@ -7228,7 +7255,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 100000.0,
+    "amountUsd": 100000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -7254,7 +7281,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 204277.0,
+    "amountUsd": 204277,
     "factors": [
       "no_license",
       "voluntary_disclosure"
@@ -7264,7 +7291,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1818.0,
+    "violationCount": 1818,
     "sanctionsRegime": "Cuban Assets Control Regulations, 31 C.F.R. part 515 (CACR)",
     "egregious": "NO"
   },
@@ -7283,7 +7310,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 44625.0,
+    "amountUsd": 44625,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -7309,7 +7336,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 372465.0,
+    "amountUsd": 372465,
     "factors": [
       "us_origin"
     ],
@@ -7318,7 +7345,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 3.0,
+    "violationCount": 3,
     "sanctionsRegime": "Sudanese Sanctions Regulations, 31 C.F.R. part 538 (SSR)",
     "egregious": "NO"
   },
@@ -7335,7 +7362,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 59600.0,
+    "amountUsd": 59600,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -7360,7 +7387,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 334800.0,
+    "amountUsd": 334800,
     "factors": [
       "no_license",
       "us_origin"
@@ -7370,7 +7397,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 4.0,
+    "violationCount": 4,
     "sanctionsRegime": "Foreign Narcotics\nKingpin Sanctions Regulations, 31 C.F.R. part 598 (FNKSR)",
     "egregious": "NO"
   },
@@ -7389,7 +7416,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 72450.0,
+    "amountUsd": 72450,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -7414,7 +7441,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 9000.0,
+    "amountUsd": 9000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -7437,7 +7464,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 230000.0,
+    "amountUsd": 230000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -7460,7 +7487,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 400000.0,
+    "amountUsd": 400000,
     "factors": [
       "military_end_use",
       "weak_controls"
@@ -7486,7 +7513,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 100000.0,
+    "amountUsd": 100000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -7513,7 +7540,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 415350.0,
+    "amountUsd": 415350,
     "factors": [
       "no_license"
     ],
@@ -7522,7 +7549,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 55.0,
+    "violationCount": 55,
     "sanctionsRegime": "Iranian Transactions and Sanctions Regulations, 31 C.F.R. Part 560 (ITSR)",
     "egregious": "NO"
   },
@@ -7541,7 +7568,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 37000.0,
+    "amountUsd": 37000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -7566,7 +7593,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 12000.0,
+    "amountUsd": 12000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -7589,7 +7616,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 35000.0,
+    "amountUsd": 35000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -7615,7 +7642,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 518063.0,
+    "amountUsd": 518063,
     "factors": [
       "no_license",
       "us_origin"
@@ -7625,7 +7652,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 140.0,
+    "violationCount": 140,
     "sanctionsRegime": "Iranian Transactions and Sanctions Regulations, 31 C.F.R. Part 560 (ITSR)",
     "egregious": "NO"
   },
@@ -7646,7 +7673,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 259200.0,
+    "amountUsd": 259200,
     "factors": [
       "no_license",
       "us_origin"
@@ -7656,7 +7683,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 72.0,
+    "violationCount": 72,
     "sanctionsRegime": "Iranian Transactions and Sanctions Regulations, 31 C.F.R. part 560 (ITSR)",
     "egregious": "NO"
   },
@@ -7675,7 +7702,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 12027066.0,
+    "amountUsd": 12027066,
     "factors": [
       "management_awareness",
       "no_license"
@@ -7685,7 +7712,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 104.0,
+    "violationCount": 104,
     "sanctionsRegime": "International Emergency Economic Powers Act (IEEPA) and the Iranian Transactions and Sanctions Regulations, 31 C.F.R. part 560 (ITSR)",
     "egregious": "YES"
   },
@@ -7705,7 +7732,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 2000000.0,
+    "amountUsd": 2000000,
     "factors": [
       "management_awareness",
       "no_license",
@@ -7716,7 +7743,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 8.0,
+    "violationCount": 8,
     "sanctionsRegime": "Ukraine-Related Sanctions\nRegulations, 31 C.F.R. part 589 (Ukraine-Related Sanctions Regulations)",
     "egregious": "YES"
   },
@@ -7737,7 +7764,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 148698.0,
+    "amountUsd": 148698,
     "factors": [
       "no_license",
       "restricted_party",
@@ -7750,7 +7777,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 555.0,
+    "violationCount": 555,
     "sanctionsRegime": "Iranian Transactions and Sanctions Regulations, 31 C.F.R. Part 560 (ITSR); the Weapons of Mass Destruction Proliferators Sanctions Regulations, 31 C.F.R. Part 544 (WMDPSR); the Sudanese Sanctions Regulations, 31 C.F.R. Part 538 (SSR); and the Cuban Assets Control Regulations, 31 C.F.R. Part 515 (CACR),",
     "egregious": "NO"
   },
@@ -7767,7 +7794,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 28000.0,
+    "amountUsd": 28000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -7790,7 +7817,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 700000.0,
+    "amountUsd": 700000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -7816,7 +7843,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 87255.0,
+    "amountUsd": 87255,
     "factors": [
       "no_license",
       "us_origin",
@@ -7827,7 +7854,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 13.0,
+    "violationCount": 13,
     "sanctionsRegime": "Cuban Assets Control Regulations, 31 C.F.R. part 515 (CACR)",
     "egregious": "NO"
   },
@@ -7844,7 +7871,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 27000000.0,
+    "amountUsd": 27000000,
     "factors": [],
     "summary": "The Bureau of Industry and Security reached a $27 million civil settlement with Access USA Shipping, LLC of Sarasota, Florida, to settle allegations that it committed violations of the Export Administration Regulations (EAR).",
     "sourceTitle": "Not stated in source",
@@ -7869,7 +7896,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 661000000.0,
+    "amountUsd": 661000000,
     "factors": [],
     "summary": "China's Zhongxing Telecommunications Equipment Corporation and ZTE Kangxun Telecommunications Ltd., known collectively as ZTE, agreed to a combined civil and criminal penalty of $1.19 billion after being accused of illegally shipping telecommunications equipment to Iran and North Korea in violation of the Export Administration Regulations and the Iranian Transactions and Sanctions Regulations. As part of the settlement, ZTE agreed to pay a penalty of $661 million to the Bureau of Industry Security, with $300 million suspended during a seven-year probationary period to deter future violations.",
     "sourceTitle": "Not stated in source",
@@ -7895,7 +7922,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 100871266.0,
+    "amountUsd": 100871266,
     "factors": [
       "management_awareness",
       "no_license",
@@ -7906,7 +7933,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 251.0,
+    "violationCount": 251,
     "sanctionsRegime": "Iranian Transactions and Sanctions Regulations, 31 C.F.R. part 560 (ITSR)",
     "egregious": "YES"
   },
@@ -7925,7 +7952,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 100871266.0,
+    "amountUsd": 100871266,
     "factors": [],
     "summary": "Zhongxing Telecommunications Equipment Corporation, a telecommunications corporation established in the People's Republic of China, and its subsidiaries and affiliates, as well as ZTE Kangxun Telecommunications Ltd. and its subsidiaries and affiliates agreed to settle their potential civil liability for 251 apparent violations of the Iranian Transactions and Sanctions Regulations, 31 C.F.R. part 560 (ITSR).",
     "sourceTitle": "Not stated in source",
@@ -7950,7 +7977,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 430488798.0,
+    "amountUsd": 430488798,
     "factors": [
       "red_flags",
       "us_origin"
@@ -7979,7 +8006,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 515400.0,
+    "amountUsd": 515400,
     "factors": [
       "us_origin",
       "voluntary_disclosure"
@@ -7989,7 +8016,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 56.0,
+    "violationCount": 56,
     "sanctionsRegime": "Iranian Transactions and Sanctions Regulations, 31 C.F.R. part 560 (ITSR)",
     "egregious": "NO"
   },
@@ -8006,7 +8033,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 515400.0,
+    "amountUsd": 515400,
     "factors": [],
     "summary": "United Medical Instruments, Inc. (UMI), a company incorporated in California, agreed to settle its potential civil liability with OFAC in the amount of $515,400 for 56 alleged violations of the Iranian Transactions and Sanctions Regulations, 31 C.F.R. part 560 (ITSR).",
     "sourceTitle": "Not stated in source",
@@ -8029,7 +8056,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 162000.0,
+    "amountUsd": 162000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -8054,7 +8081,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 301000.0,
+    "amountUsd": 301000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -8081,7 +8108,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 516105.0,
+    "amountUsd": 516105,
     "factors": [
       "restricted_party",
       "voluntary_disclosure"
@@ -8091,7 +8118,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 167.0,
+    "violationCount": 167,
     "sanctionsRegime": "§ 515.201 of the Cuban Assets Control Regulations, 31 C.F.R. part 515 (CACR), and § 560.204 of the Iranian Transactions Sanctions Regulations, 31 C.F.R. part 560 (ITSR)",
     "egregious": "NO"
   },
@@ -8110,7 +8137,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 10000.0,
+    "amountUsd": 10000,
     "factors": [
       "no_license",
       "us_origin"
@@ -8120,7 +8147,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 20.0,
+    "violationCount": 20,
     "sanctionsRegime": "Cuban Assets Control Regulations, 31 C.F.R. Part 515 (CACR)",
     "egregious": "NO"
   },
@@ -8139,7 +8166,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 10000.0,
+    "amountUsd": 10000,
     "factors": [
       "no_license",
       "us_origin"
@@ -8149,7 +8176,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 20.0,
+    "violationCount": 20,
     "sanctionsRegime": "Cuban Assets Control Regulations, 31 C.F.R. Part 515 (CACR)",
     "egregious": "NO"
   },
@@ -8168,7 +8195,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 10000.0,
+    "amountUsd": 10000,
     "factors": [
       "no_license",
       "us_origin"
@@ -8178,7 +8205,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 20.0,
+    "violationCount": 20,
     "sanctionsRegime": "Cuban Assets Control Regulations, 31 C.F.R. Part 515 (CACR)",
     "egregious": "NO"
   },
@@ -8197,7 +8224,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 10000.0,
+    "amountUsd": 10000,
     "factors": [
       "no_license",
       "us_origin"
@@ -8207,7 +8234,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 20.0,
+    "violationCount": 20,
     "sanctionsRegime": "Cuban Assets Control Regulations, 31 C.F.R. Part 515 (CACR)",
     "egregious": "NO"
   },
@@ -8229,7 +8256,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 17500.0,
+    "amountUsd": 17500,
     "factors": [
       "no_license"
     ],
@@ -8238,7 +8265,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1.0,
+    "violationCount": 1,
     "sanctionsRegime": "Iranian Transactions and Sanctions Regulations, 31 C.F.R. part 560 (ITSR)",
     "egregious": "NO"
   },
@@ -8270,7 +8297,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 3658.0,
+    "violationCount": 3658,
     "sanctionsRegime": "§ 515.201 of the Cuban Assets Control Regulations, 31 C.F.R. part 515 (CACR), and § 560.204 of the Iranian Transactions\nSanctions Regulations, 31 C.F.R. part 560 (ITSR)",
     "egregious": "NO"
   },
@@ -8288,7 +8315,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Logistics enforcement action",
-    "amountUsd": 37000.0,
+    "amountUsd": 37000,
     "factors": [],
     "summary": "Logistics enforcement action involving C.H. Robinson.",
     "sourceTitle": "Workbook logistics enforcement row",
@@ -8310,7 +8337,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Logistics enforcement action",
-    "amountUsd": 518063.0,
+    "amountUsd": 518063,
     "factors": [
       "us_origin"
     ],
@@ -8338,7 +8365,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 5976028.0,
+    "amountUsd": 5976028,
     "factors": [
       "management_awareness",
       "no_license",
@@ -8349,7 +8376,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 61.0,
+    "violationCount": 61,
     "sanctionsRegime": "Cuban Assets Control Regulations, 31 C.F.R. part 515 (CACR), the Iranian Transactions and Sanctions Regulations, 31 C.F.R. part 560 (ITSR), and the Sudanese Sanctions Regulations, 31 C.F.R. part 538 (SSR)",
     "egregious": "YES"
   },
@@ -8368,7 +8395,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 0.0,
+    "amountUsd": 0,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -8391,7 +8418,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 200000.0,
+    "amountUsd": 200000,
     "factors": [
       "military_end_use",
       "weak_controls"
@@ -8417,7 +8444,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 175000.0,
+    "amountUsd": 175000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -8442,7 +8469,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 238000.0,
+    "amountUsd": 238000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -8467,7 +8494,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 12000.0,
+    "amountUsd": 12000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -8492,7 +8519,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 4320000.0,
+    "amountUsd": 4320000,
     "factors": [
       "management_awareness",
       "us_origin"
@@ -8502,7 +8529,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 48.0,
+    "violationCount": 48,
     "sanctionsRegime": "Iranian Transactions and Sanctions Regulations, 31 C.F.R. part 560 (ITSR)",
     "egregious": "YES"
   },
@@ -8524,7 +8551,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 43200.0,
+    "amountUsd": 43200,
     "factors": [
       "us_origin"
     ],
@@ -8533,7 +8560,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 7.0,
+    "violationCount": 7,
     "sanctionsRegime": "Iranian Transactions and Sanctions Regulations (ITSR), 31 C.F.R. part 560",
     "egregious": "NO"
   },
@@ -8552,7 +8579,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 90000.0,
+    "amountUsd": 90000,
     "factors": [
       "military_end_use"
     ],
@@ -8577,7 +8604,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 9000.0,
+    "amountUsd": 9000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -8600,7 +8627,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 500000.0,
+    "amountUsd": 500000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -8627,7 +8654,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 7617150.0,
+    "amountUsd": 7617150,
     "factors": [
       "management_awareness",
       "us_origin"
@@ -8637,7 +8664,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 513.0,
+    "violationCount": 513,
     "sanctionsRegime": "Iranian Transactions and Sanctions Regulations, 31 C.F.R. part 560 (ITSR) and the Sudanese Sanctions Regulations, 31 C.F.R. part 538 (SSR)",
     "egregious": "NO"
   },
@@ -8656,7 +8683,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 8100000.0,
+    "amountUsd": 8100000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -8682,7 +8709,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 107691.0,
+    "amountUsd": 107691,
     "factors": [
       "us_origin",
       "voluntary_disclosure"
@@ -8692,7 +8719,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 2.0,
+    "violationCount": 2,
     "sanctionsRegime": "Iranian Transactions and Sanctions\nRegulations, 31 C.F.R. part 560 (ITSR)",
     "egregious": "NO"
   },
@@ -8709,7 +8736,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 100000.0,
+    "amountUsd": 100000,
     "factors": [
       "military_end_use",
       "weak_controls"
@@ -8735,7 +8762,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 250000.0,
+    "amountUsd": 250000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -8758,7 +8785,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 250000.0,
+    "amountUsd": 250000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -8781,7 +8808,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 9000.0,
+    "amountUsd": 9000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -8804,7 +8831,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 575000.0,
+    "amountUsd": 575000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -8827,7 +8854,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 10500000.0,
+    "amountUsd": 10500000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -8850,7 +8877,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 250000.0,
+    "amountUsd": 250000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -8873,7 +8900,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 350000.0,
+    "amountUsd": 350000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -8899,7 +8926,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 304706.0,
+    "amountUsd": 304706,
     "factors": [
       "no_license",
       "voluntary_disclosure"
@@ -8929,7 +8956,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 614250.0,
+    "amountUsd": 614250,
     "factors": [
       "no_license",
       "restricted_party"
@@ -8939,7 +8966,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 22.0,
+    "violationCount": 22,
     "sanctionsRegime": "Cuban Assets Control Regulations, 31 C.F.R. part 515",
     "egregious": "NO"
   },
@@ -8959,7 +8986,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 2485890.0,
+    "amountUsd": 2485890,
     "factors": [
       "no_license"
     ],
@@ -8968,7 +8995,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 159.0,
+    "violationCount": 159,
     "sanctionsRegime": "§ 541.201 of the Zimbabwe Sanctions Regulations, 31 C.F.R. part 541 (ZSR)",
     "egregious": "NO"
   },
@@ -8989,7 +9016,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 140400.0,
+    "amountUsd": 140400,
     "factors": [
       "no_license",
       "us_origin"
@@ -9016,7 +9043,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 100000.0,
+    "amountUsd": 100000,
     "factors": [
       "us_origin"
     ],
@@ -9041,7 +9068,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 50000.0,
+    "amountUsd": 50000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -9069,7 +9096,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 38930.0,
+    "amountUsd": 38930,
     "factors": [
       "no_license",
       "restricted_party",
@@ -9098,7 +9125,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 140000.0,
+    "amountUsd": 140000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -9123,7 +9150,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 1500000.0,
+    "amountUsd": 1500000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -9149,7 +9176,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 139500.0,
+    "amountUsd": 139500,
     "factors": [
       "no_license",
       "us_origin"
@@ -9159,7 +9186,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 7.0,
+    "violationCount": 7,
     "sanctionsRegime": "§ 560.204 of the Iranian Transactions and Sanctions Regulations, 31 C.F.R. part 560 (ITSR)",
     "egregious": "NO"
   },
@@ -9178,7 +9205,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 43875.0,
+    "amountUsd": 43875,
     "factors": [
       "no_license",
       "us_origin"
@@ -9207,7 +9234,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 43875.0,
+    "amountUsd": 43875,
     "factors": [
       "no_license",
       "us_origin"
@@ -9236,7 +9263,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 43875.0,
+    "amountUsd": 43875,
     "factors": [
       "no_license",
       "us_origin"
@@ -9265,7 +9292,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 43875.0,
+    "amountUsd": 43875,
     "factors": [
       "no_license",
       "us_origin"
@@ -9299,7 +9326,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 329593585.0,
+    "amountUsd": 329593585,
     "factors": [
       "management_awareness",
       "no_license"
@@ -9309,7 +9336,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 4297.0,
+    "violationCount": 4297,
     "sanctionsRegime": "Sudanese Sanctions Regulations, 31 C.F.R. part 538 (SSR), but also the Cuban Assets Control Regulations, 31 C.F.R. part 515 (CACR), the Burmese Sanctions Regulations, 31 C.F.R. part 537 (BSR), and the Iranian Transactions and Sanctions Regulations, 31 C.F.R. part 560 (ITSR)",
     "egregious": "YES"
   },
@@ -9326,7 +9353,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 41400.0,
+    "amountUsd": 41400,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -9349,7 +9376,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 19800.0,
+    "amountUsd": 19800,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -9372,7 +9399,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 7000000.0,
+    "amountUsd": 7000000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -9397,7 +9424,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 1600000.0,
+    "amountUsd": 1600000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -9422,7 +9449,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 1600000.0,
+    "amountUsd": 1600000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -9447,7 +9474,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 1700100.0,
+    "amountUsd": 1700100,
     "factors": [
       "no_license"
     ],
@@ -9456,7 +9483,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 222.0,
+    "violationCount": 222,
     "sanctionsRegime": "§ 594.201 of the Global Terrorism Sanctions Regulations, 31 C.F.R. part 594 (GTSR)",
     "egregious": "NO"
   },
@@ -9478,7 +9505,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 271815.0,
+    "amountUsd": 271815,
     "factors": [
       "no_license",
       "us_origin",
@@ -9489,7 +9516,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 48.0,
+    "violationCount": 48,
     "sanctionsRegime": "Foreign Assets Control Regulations, 31 C.F.R. part 500 (the FACR); Executive Order 13466 of June 26, 2008, “Continuing Certain Restrictions With Respect to North Korea and North Korean Nationals” (“E.O. 13466”); the North Korea Sanctions Regulations, 31 C.F.R. part 510 (the NKSR); the Iranian Transactions and Sanctions Regulations, 31 C.F.R. part 560 (the ITSR); the Sudanese Sanctions Regulations, 31 C.F.R. part 538 (the SSR); and the Cuban Assets Control Regulations, 31 C.F.R. part 515 (the CACR)",
     "egregious": "NO"
   },
@@ -9508,7 +9535,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 78750.0,
+    "amountUsd": 78750,
     "factors": [
       "no_license",
       "us_origin"
@@ -9518,7 +9545,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 2.0,
+    "violationCount": 2,
     "sanctionsRegime": "Weapons of Mass Destruction Proliferators Sanctions Regulations, 31 C.F.R. part 544 (the “WMDPSR”)",
     "egregious": "NO"
   },
@@ -9537,7 +9564,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 82260.0,
+    "amountUsd": 82260,
     "factors": [
       "no_license",
       "us_origin",
@@ -9548,7 +9575,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 33.0,
+    "violationCount": 33,
     "sanctionsRegime": "Iranian Transactions and Sanctions Regulations, 31 C.F.R. part 560 (the “ITSR”).",
     "egregious": "NO"
   },
@@ -9565,7 +9592,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 837500.0,
+    "amountUsd": 837500,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -9591,7 +9618,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 214000.0,
+    "amountUsd": 214000,
     "factors": [
       "no_license",
       "us_origin"
@@ -9601,7 +9628,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1.0,
+    "violationCount": 1,
     "sanctionsRegime": "Executive Order 13382 of June 28, 2005 \"Blocking Property of Weapons of Mass Destruction Proliferators and Their Supporters\" (E. 0. 13382) and the Weapons of Mass Destruction Proliferators Sanctions Regulations, 31 C.F.R. part 544 (WMDPSR)",
     "egregious": "NO"
   },
@@ -9618,7 +9645,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 500000.0,
+    "amountUsd": 500000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -9645,7 +9672,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 391950.0,
+    "amountUsd": 391950,
     "factors": [
       "no_license",
       "restricted_party",
@@ -9676,7 +9703,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 28800.0,
+    "amountUsd": 28800,
     "factors": [
       "no_license",
       "us_origin"
@@ -9686,7 +9713,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 7.0,
+    "violationCount": 7,
     "sanctionsRegime": "§ 594.201 of the Global Terrorism Sanctions Regulations, 31 C.F.R. part 594 (the GTSR)",
     "egregious": "NO"
   },
@@ -9705,7 +9732,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 75000.0,
+    "amountUsd": 75000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -9728,7 +9755,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 25200.0,
+    "amountUsd": 25200,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -9751,7 +9778,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 23336.0,
+    "amountUsd": 23336,
     "factors": [
       "no_license",
       "restricted_party",
@@ -9784,7 +9811,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 7658300.0,
+    "amountUsd": 7658300,
     "factors": [
       "no_license",
       "us_origin"
@@ -9794,7 +9821,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 486.0,
+    "violationCount": 486,
     "sanctionsRegime": "Weapons of Mass Destruction Proliferators Sanctions Regulations, 31 C.F.R. part 544 (WMDPSR); the Iranian Transactions and Sanctions Regulations, 31 C.F.R. part 560 (ITSR); the Cuban Assets Control Regulations, 31 C.F.R. part 515 (CACR); the Global Terrorism Sanctions Regulations, 31 C.F.R. part 594 (GTSR); and the Sudanese Sanctions Regulations, 31 C.F.R. part 538 (SSR)",
     "egregious": "Partially"
   },
@@ -9814,7 +9841,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 780000.0,
+    "amountUsd": 780000,
     "factors": [
       "management_awareness",
       "no_license",
@@ -9825,7 +9852,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 3.0,
+    "violationCount": 3,
     "sanctionsRegime": "Iraqi Sanctions Regulations, 31 C.F.R. part 575",
     "egregious": "YES"
   },
@@ -9842,7 +9869,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 23000.0,
+    "amountUsd": 23000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -9869,7 +9896,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 258660796.0,
+    "amountUsd": 258660796,
     "factors": [
       "management_awareness",
       "no_license",
@@ -9880,7 +9907,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1596.0,
+    "violationCount": 1596,
     "sanctionsRegime": "Iranian Transactions and Sanctions Regulations, 31 C.F.R. part 560 (ITSR); the Sudanese Sanctions Regulations, 31 C.F.R. part 538 (SSR); Executive Order 13382 of June 28, 2005, “Blocking Property of Weapons of Mass Destruction Proliferators and Their Supporters” (E.O. 13382) and the Weapons of Mass Destruction Proliferators Sanctions Regulations, 31 C.F.R. part 544 (WMDPSR); the Burmese Sanctions Regulations, 31 C.F.R. part 537 (BSR); and the Cuban Assets Control Regulations, 31 C.F.R. part 515 (CACR)",
     "egregious": "YES"
   },
@@ -9897,7 +9924,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 90000.0,
+    "amountUsd": 90000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -9920,7 +9947,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 12560.0,
+    "amountUsd": 12560,
     "factors": [
       "us_origin"
     ],
@@ -9945,7 +9972,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 275000.0,
+    "amountUsd": 275000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -9968,7 +9995,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 12800.0,
+    "amountUsd": 12800,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -9991,7 +10018,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 837500.0,
+    "amountUsd": 837500,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -10016,7 +10043,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 2057540.0,
+    "amountUsd": 2057540,
     "factors": [
       "no_license",
       "restricted_party",
@@ -10028,7 +10055,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 2.0,
+    "violationCount": 2,
     "sanctionsRegime": "Cuban Assets Control Regulations, 31 C.F.R. part 515 (the CACR)",
     "egregious": "NO"
   },
@@ -10048,7 +10075,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 44850.0,
+    "amountUsd": 44850,
     "factors": [
       "no_license",
       "us_origin"
@@ -10058,7 +10085,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 9.0,
+    "violationCount": 9,
     "sanctionsRegime": "Iranian Transactions and Sanctions Regulations, 31 C.F.R. part 560",
     "egregious": "NO"
   },
@@ -10077,7 +10104,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 128704.0,
+    "amountUsd": 128704,
     "factors": [
       "no_license",
       "us_origin",
@@ -10088,7 +10115,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 39.0,
+    "violationCount": 39,
     "sanctionsRegime": "Narcotics Trafficking Sanctions Regulations, 31 C.F.R. part 536 (the NTSR), the Foreign Narcotics Kingpin Sanctions Regulations, 31 C.F.R. part 598 (the FNKSR), or the Cuban Assets Control Regulations, 31 C.F.R. part 515 (the CACR)",
     "egregious": "NO"
   },
@@ -10107,7 +10134,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 750000.0,
+    "amountUsd": 750000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -10132,7 +10159,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 600000.0,
+    "amountUsd": 600000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -10157,7 +10184,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 1000000.0,
+    "amountUsd": 1000000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -10182,7 +10209,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 7000.0,
+    "amountUsd": 7000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -10207,7 +10234,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 30000.0,
+    "amountUsd": 30000,
     "factors": [
       "us_origin"
     ],
@@ -10232,7 +10259,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 4500000.0,
+    "amountUsd": 4500000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -10255,7 +10282,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 100000.0,
+    "amountUsd": 100000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -10282,7 +10309,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 200000.0,
+    "amountUsd": 200000,
     "factors": [
       "no_license",
       "us_origin"
@@ -10292,7 +10319,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 400.0,
+    "violationCount": 400,
     "sanctionsRegime": "Iranian Transactions and Sanctions Regulations (ITSR), 31 C.F.R. part 560; the Sudanese Sanctions Regulations (SSR), 31 C.F.R. part 538; and Executive Order 13582 (E.O. 13582) of August 17, 2011, “Blocking Property of the Government of Syria and Prohibiting Certain Transactions With Respect to Syria.”",
     "egregious": "NO"
   },
@@ -10311,7 +10338,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 26350.0,
+    "amountUsd": 26350,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -10338,7 +10365,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 217841.0,
+    "amountUsd": 217841,
     "factors": [
       "no_license",
       "us_origin",
@@ -10349,7 +10376,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 8.0,
+    "violationCount": 8,
     "sanctionsRegime": "Iranian Transactions and Sanctions Regulations, 31 C.F.R. part 560 (ITSR),1 the Weapons of Mass Destruction Proliferators Sanctions Regulations, 31 C.F.R. part 544 (WMDPSR), the Foreign Narcotics Kingpin Sanctions Regulations, 31 C.F.R. part 598 (FNKSR), or the Global Terrorism Sanctions Regulations, 31 C.F.R. part 594 (GTSR)",
     "egregious": "NO"
   },
@@ -10368,7 +10395,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 19125.0,
+    "amountUsd": 19125,
     "factors": [
       "no_license",
       "restricted_party",
@@ -10379,7 +10406,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1.0,
+    "violationCount": 1,
     "sanctionsRegime": "§ 538.205 of the Sudanese Sanctions Regulations (the “SSR”)",
     "egregious": "NO"
   },
@@ -10398,7 +10425,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 19125.0,
+    "amountUsd": 19125,
     "factors": [
       "no_license",
       "restricted_party",
@@ -10409,7 +10436,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1.0,
+    "violationCount": 1,
     "sanctionsRegime": "§ 538.205 of the Sudanese Sanctions Regulations (the “SSR”)",
     "egregious": "NO"
   },
@@ -10428,7 +10455,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 19125.0,
+    "amountUsd": 19125,
     "factors": [
       "no_license",
       "restricted_party",
@@ -10439,7 +10466,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1.0,
+    "violationCount": 1,
     "sanctionsRegime": "§ 538.205 of the Sudanese Sanctions Regulations (the “SSR”)",
     "egregious": "NO"
   },
@@ -10458,7 +10485,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 19125.0,
+    "amountUsd": 19125,
     "factors": [
       "no_license",
       "restricted_party",
@@ -10469,7 +10496,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1.0,
+    "violationCount": 1,
     "sanctionsRegime": "§ 538.205 of the Sudanese Sanctions Regulations (the “SSR”)",
     "egregious": "NO"
   },
@@ -10486,7 +10513,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 40000.0,
+    "amountUsd": 40000,
     "factors": [
       "military_end_use"
     ],
@@ -10514,7 +10541,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 4073000.0,
+    "amountUsd": 4073000,
     "factors": [
       "management_awareness",
       "no_license",
@@ -10525,7 +10552,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 39.0,
+    "violationCount": 39,
     "sanctionsRegime": "Iranian Transactions and Sanctions Regulations (the “ITSR”), 31 C.F.R. part 560",
     "egregious": "YES"
   },
@@ -10542,7 +10569,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 16562700.0,
+    "amountUsd": 16562700,
     "factors": [
       "no_license",
       "restricted_party",
@@ -10553,7 +10580,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 213.0,
+    "violationCount": 213,
     "sanctionsRegime": "Foreign Narcotics Kingpin Sanctions Regulations (FNKSR), 31 C.F.R. part 598; the Narcotics Trafficking Sanctions Regulations (NTSR), 31 C.F.R. part 536; and the Reporting, Procedures and Penalties Regulations (RPPR), 31 C.F.R. part 501",
     "egregious": "Partially"
   },
@@ -10573,7 +10600,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 27000.0,
+    "amountUsd": 27000,
     "factors": [
       "no_license",
       "us_origin"
@@ -10583,7 +10610,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 6.0,
+    "violationCount": 6,
     "sanctionsRegime": "§201 of the Narcotics Trafficking Sanctions Regulations, 31 C.P.R. part 536",
     "egregious": "NO"
   },
@@ -10603,7 +10630,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 27000.0,
+    "amountUsd": 27000,
     "factors": [
       "no_license",
       "us_origin"
@@ -10613,7 +10640,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 6.0,
+    "violationCount": 6,
     "sanctionsRegime": "§201 of the Narcotics Trafficking Sanctions Regulations, 31 C.P.R. part 536",
     "egregious": "NO"
   },
@@ -10633,7 +10660,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 27000.0,
+    "amountUsd": 27000,
     "factors": [
       "no_license",
       "us_origin"
@@ -10643,7 +10670,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 6.0,
+    "violationCount": 6,
     "sanctionsRegime": "§201 of the Narcotics Trafficking Sanctions Regulations, 31 C.P.R. part 536",
     "egregious": "NO"
   },
@@ -10663,7 +10690,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 27000.0,
+    "amountUsd": 27000,
     "factors": [
       "no_license",
       "us_origin"
@@ -10673,7 +10700,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 6.0,
+    "violationCount": 6,
     "sanctionsRegime": "§201 of the Narcotics Trafficking Sanctions Regulations, 31 C.P.R. part 536",
     "egregious": "NO"
   },
@@ -10692,7 +10719,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 21375.0,
+    "amountUsd": 21375,
     "factors": [
       "no_license",
       "restricted_party",
@@ -10703,7 +10730,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1.0,
+    "violationCount": 1,
     "sanctionsRegime": "Weapons of Mass Destruction Proliferators Sanctions Regulations (the “WMDPSR”)",
     "egregious": "NO"
   },
@@ -10725,7 +10752,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 963619900.0,
+    "amountUsd": 963619900,
     "factors": [
       "management_awareness",
       "no_license"
@@ -10735,7 +10762,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 3897.0,
+    "violationCount": 3897,
     "sanctionsRegime": "Sudanese Sanctions Regulations (the “SSR”), 31 C.F.R. part 538; the Iranian Transactions and Sanctions Regulations (the “ITSR”),1 31 C.F.R. part 560; the Cuban Assets Control Regulations (the “CACR”), 31 C.F.R. part 515; and the Burmese Sanctions Regulations (the “BSR”), 31 C.F.R. part 537",
     "egregious": "YES"
   },
@@ -10754,7 +10781,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 89775.0,
+    "amountUsd": 89775,
     "factors": [
       "no_license",
       "us_origin"
@@ -10764,7 +10791,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 7.0,
+    "violationCount": 7,
     "sanctionsRegime": "Cuban Assets Control Regulations, 31. C.F.R. part 515 (the “CACR”)",
     "egregious": "NO"
   },
@@ -10784,7 +10811,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 64758.0,
+    "amountUsd": 64758,
     "factors": [
       "no_license",
       "us_origin",
@@ -10795,7 +10822,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 18.0,
+    "violationCount": 18,
     "sanctionsRegime": "Sudanese Sanctions Regulations, 31 C.F.R. part 538 (the “SSR”), and the Iranian Transactions and Sanctions Regulations, 31 C.F.R. part 560 (the “ITSR”)",
     "egregious": "NO"
   },
@@ -10814,7 +10841,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 10000000.0,
+    "amountUsd": 10000000,
     "factors": [
       "military_end_use",
       "weak_controls"
@@ -10842,7 +10869,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 25000.0,
+    "amountUsd": 25000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -10869,7 +10896,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 50922208.0,
+    "amountUsd": 50922208,
     "factors": [
       "management_awareness",
       "no_license",
@@ -10880,7 +10907,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1153.0,
+    "violationCount": 1153,
     "sanctionsRegime": "Iranian Transactions and Sanctions Regulations, 31 C.F.R. part 560 (the \"ITSR\"), Sudanese Sanctions Regulations, 31 C.F.R. part 538 (the \"SSR\"),",
     "egregious": "YES"
   },
@@ -10897,7 +10924,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 125000.0,
+    "amountUsd": 125000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -10923,7 +10950,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 279038.0,
+    "amountUsd": 279038,
     "factors": [
       "no_license",
       "us_origin",
@@ -10934,7 +10961,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 3560.0,
+    "violationCount": 3560,
     "sanctionsRegime": "Cuban Assets Control Regulations, 31 C.F.R. part 515",
     "egregious": "NO"
   },
@@ -10953,7 +10980,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 29340.0,
+    "amountUsd": 29340,
     "factors": [
       "us_origin"
     ],
@@ -10962,7 +10989,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 19.0,
+    "violationCount": 19,
     "sanctionsRegime": "Iranian Transactions and Sanctions Regulations, 31 C.F.R. part 560 (the \"iTSR\")",
     "egregious": "NO"
   },
@@ -10982,7 +11009,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 2809800.0,
+    "amountUsd": 2809800,
     "factors": [
       "no_license",
       "us_origin",
@@ -10993,7 +11020,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 17836.0,
+    "violationCount": 17836,
     "sanctionsRegime": "Cuban Assets Control Regulations. 31 C.F.R. part 515 (the \"CACR\").",
     "egregious": "NO"
   },
@@ -11010,7 +11037,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 45000.0,
+    "amountUsd": 45000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -11035,7 +11062,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 5990490.0,
+    "amountUsd": 5990490,
     "factors": [
       "no_license",
       "voluntary_disclosure"
@@ -11045,7 +11072,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 44430.0,
+    "violationCount": 44430,
     "sanctionsRegime": "Cuban Assets Control Regulations (the “CACR”), 31 C.F.R. part 515",
     "egregious": "NO"
   },
@@ -11062,7 +11089,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 250000.0,
+    "amountUsd": 250000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -11088,7 +11115,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 85113.0,
+    "amountUsd": 85113,
     "factors": [
       "no_license",
       "us_origin",
@@ -11099,7 +11126,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 16.0,
+    "violationCount": 16,
     "sanctionsRegime": "Iranian Transactions and Sanctions Regulations",
     "egregious": "NO"
   },
@@ -11119,7 +11146,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 157500.0,
+    "amountUsd": 157500,
     "factors": [
       "no_license",
       "us_origin"
@@ -11129,7 +11156,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1.0,
+    "violationCount": 1,
     "sanctionsRegime": "Iranian Transactions and Sanctions Regulations, 31 C.F.R. part 560 (the “ITSR”)",
     "egregious": "NO"
   },
@@ -11148,7 +11175,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 16000.0,
+    "amountUsd": 16000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -11175,7 +11202,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 504225.0,
+    "amountUsd": 504225,
     "factors": [
       "no_license",
       "us_origin"
@@ -11185,7 +11212,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 13.0,
+    "violationCount": 13,
     "sanctionsRegime": "Iranian Transactions and Sanctions Regulations (the “ITSR”)",
     "egregious": "NO"
   },
@@ -11204,7 +11231,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 20000000.0,
+    "amountUsd": 20000000,
     "factors": [
       "military_end_use",
       "weak_controls"
@@ -11230,7 +11257,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 115000.0,
+    "amountUsd": 115000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -11253,7 +11280,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 9000.0,
+    "amountUsd": 9000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -11276,7 +11303,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 190000.0,
+    "amountUsd": 190000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -11299,7 +11326,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 190000.0,
+    "amountUsd": 190000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -11325,7 +11352,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 9492525.0,
+    "amountUsd": 9492525,
     "factors": [
       "no_license"
     ],
@@ -11334,7 +11361,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 69.0,
+    "violationCount": 69,
     "sanctionsRegime": "Executive Order 13382 of June 28, 2005 (“E.O. 13382”), and the Weapons of Mass Destruction Proliferators Sanctions Regulations, 31 C.F.R. part 544",
     "egregious": "NO"
   },
@@ -11354,7 +11381,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 151902000.0,
+    "amountUsd": 151902000,
     "factors": [
       "management_awareness",
       "no_license"
@@ -11364,7 +11391,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 26.0,
+    "violationCount": 26,
     "sanctionsRegime": "Iranian Transactions and Sanctions Regulations (“ITSR”), 31 C.F.R. part 560.",
     "egregious": "YES"
   },
@@ -11382,7 +11409,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Logistics enforcement action",
-    "amountUsd": 30000.0,
+    "amountUsd": 30000,
     "factors": [],
     "summary": "Logistics enforcement action involving Kintetsu World Express.",
     "sourceTitle": "Workbook logistics enforcement row",
@@ -11405,7 +11432,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 0.0,
+    "amountUsd": 0,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -11430,7 +11457,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 130000.0,
+    "amountUsd": 130000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -11455,7 +11482,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 32400.0,
+    "amountUsd": 32400,
     "factors": [
       "no_license",
       "us_origin",
@@ -11466,7 +11493,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 3.0,
+    "violationCount": 3,
     "sanctionsRegime": "Global Terrorism Sanctions Regulations, 31 C.F.R. part 594",
     "egregious": "NO"
   },
@@ -11489,7 +11516,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 33122307.0,
+    "amountUsd": 33122307,
     "factors": [
       "management_awareness",
       "no_license",
@@ -11500,7 +11527,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 434.0,
+    "violationCount": 434,
     "sanctionsRegime": "the Cuban Assets Control Regulations (“CACR”), 31 C.F.R. part 515; the Burmese Sanctions Regulations (“BSR”), 31 C.F.R. part 537, Executive Order 13448 of October 18, 2007 (“E.O. 13448”), and/or the Tom Lantos Block Burmese JADE (Junta’s Anti-Democratic Efforts) Act of 2008 (Pub. L. 110-286) (“JADE Act”); the Sudanese Sanctions Regulations (“SSR”), 31 C.F.R. part 538; and the Iranian Transactions Regulations (“ITR”), 31 C.F.R. part 560.",
     "egregious": "YES"
   },
@@ -11520,7 +11547,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 19125.0,
+    "amountUsd": 19125,
     "factors": [
       "no_license",
       "us_origin"
@@ -11530,7 +11557,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1.0,
+    "violationCount": 1,
     "sanctionsRegime": "§§ 538.205 and 538.206 of the Sudanese Sanctions Regulations (“SSR”), 31 C.F.R. part 538",
     "egregious": "NO"
   },
@@ -11550,7 +11577,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 19125.0,
+    "amountUsd": 19125,
     "factors": [
       "no_license",
       "us_origin"
@@ -11560,7 +11587,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1.0,
+    "violationCount": 1,
     "sanctionsRegime": "§§ 538.205 and 538.206 of the Sudanese Sanctions Regulations (“SSR”), 31 C.F.R. part 538",
     "egregious": "NO"
   },
@@ -11580,7 +11607,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 19125.0,
+    "amountUsd": 19125,
     "factors": [
       "no_license",
       "us_origin"
@@ -11590,7 +11617,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1.0,
+    "violationCount": 1,
     "sanctionsRegime": "§§ 538.205 and 538.206 of the Sudanese Sanctions Regulations (“SSR”), 31 C.F.R. part 538",
     "egregious": "NO"
   },
@@ -11610,7 +11637,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 19125.0,
+    "amountUsd": 19125,
     "factors": [
       "no_license",
       "us_origin"
@@ -11620,7 +11647,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1.0,
+    "violationCount": 1,
     "sanctionsRegime": "§§ 538.205 and 538.206 of the Sudanese Sanctions Regulations (“SSR”), 31 C.F.R. part 538",
     "egregious": "NO"
   },
@@ -11642,7 +11669,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 91026450.0,
+    "amountUsd": 91026450,
     "factors": [
       "management_awareness",
       "no_license",
@@ -11653,7 +11680,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 586.0,
+    "violationCount": 586,
     "sanctionsRegime": "Cuban Assets Control Regulations (“CACR”), 31 C.F.R. part 515; the Iranian Transactions and Sanctions Regulations (“ITSR”),1 31 C.F.R. part 560; and the Sudanese Sanctions Regulations (“SSR”), 31 C.F.R. part 538,",
     "egregious": "YES"
   },
@@ -11672,7 +11699,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "plea & deferred prosecution agreement",
-    "amountUsd": 187200000.0,
+    "amountUsd": 187200000,
     "factors": [
       "us_origin",
       "weak_controls"
@@ -11700,7 +11727,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 55000.0,
+    "amountUsd": 55000,
     "factors": [
       "transshipment"
     ],
@@ -11725,7 +11752,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 36800.0,
+    "amountUsd": 36800,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -11752,7 +11779,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 125000.0,
+    "amountUsd": 125000,
     "factors": [
       "no_license"
     ],
@@ -11761,7 +11788,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 9.0,
+    "violationCount": 9,
     "sanctionsRegime": "Iranian Transactions and Sanctions Regulations (the “ITSR”).",
     "egregious": "NO"
   },
@@ -11780,7 +11807,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 300000.0,
+    "amountUsd": 300000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -11809,7 +11836,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 434700.0,
+    "amountUsd": 434700,
     "factors": [
       "no_license",
       "us_origin"
@@ -11819,7 +11846,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 7.0,
+    "violationCount": 7,
     "sanctionsRegime": "Iranian Transactions and Sanctions Regulations, 31 C.F.R. part 560 (the “ITSR”), and the Cuban Assets Control Regulations, 31 C.F.R. part 515 (the “CACR”)",
     "egregious": "NO"
   },
@@ -11839,7 +11866,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 1500000.0,
+    "amountUsd": 1500000,
     "factors": [
       "management_awareness",
       "no_license"
@@ -11849,7 +11876,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 6.0,
+    "violationCount": 6,
     "sanctionsRegime": "Iranian Transactions and Sanctions Regulations, 31 C.F.R. part 560",
     "egregious": "YES"
   },
@@ -11869,7 +11896,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 1500000.0,
+    "amountUsd": 1500000,
     "factors": [
       "management_awareness",
       "no_license"
@@ -11879,7 +11906,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 6.0,
+    "violationCount": 6,
     "sanctionsRegime": "Iranian Transactions and Sanctions Regulations, 31 C.F.R. part 560",
     "egregious": "YES"
   },
@@ -11899,7 +11926,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 1500000.0,
+    "amountUsd": 1500000,
     "factors": [
       "management_awareness",
       "no_license"
@@ -11909,7 +11936,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 6.0,
+    "violationCount": 6,
     "sanctionsRegime": "Iranian Transactions and Sanctions Regulations, 31 C.F.R. part 560",
     "egregious": "YES"
   },
@@ -11929,7 +11956,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 1500000.0,
+    "amountUsd": 1500000,
     "factors": [
       "management_awareness",
       "no_license"
@@ -11939,7 +11966,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 6.0,
+    "violationCount": 6,
     "sanctionsRegime": "Iranian Transactions and Sanctions Regulations, 31 C.F.R. part 560",
     "egregious": "YES"
   },
@@ -11956,7 +11983,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 27000.0,
+    "amountUsd": 27000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -11979,7 +12006,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 27000.0,
+    "amountUsd": 27000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -12002,7 +12029,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 15000.0,
+    "amountUsd": 15000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -12028,7 +12055,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 750000.0,
+    "amountUsd": 750000,
     "factors": [
       "management_awareness",
       "no_license"
@@ -12038,7 +12065,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 3.0,
+    "violationCount": 3,
     "sanctionsRegime": "Iranian Transactions and Sanctions Regulations, 31 C.F.R. part 560",
     "egregious": "YES"
   },
@@ -12055,7 +12082,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 125000.0,
+    "amountUsd": 125000,
     "factors": [
       "management_awareness"
     ],
@@ -12082,7 +12109,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 32000.0,
+    "amountUsd": 32000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -12105,7 +12132,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 262000.0,
+    "amountUsd": 262000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -12128,7 +12155,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 56600.0,
+    "amountUsd": 56600,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -12155,7 +12182,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 39501.0,
+    "amountUsd": 39501,
     "factors": [
       "no_license",
       "us_origin",
@@ -12166,7 +12193,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 32.0,
+    "violationCount": 32,
     "sanctionsRegime": "Iranian Transactions Regulations (“ITR”),1 the Sudanese Sanctions Regulations (“SSR”), and the Cuban Assets Control Regulations (“CACR”)",
     "egregious": "NO"
   },
@@ -12183,7 +12210,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 48800.0,
+    "amountUsd": 48800,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -12210,7 +12237,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 346530.0,
+    "amountUsd": 346530,
     "factors": [
       "us_origin",
       "voluntary_disclosure"
@@ -12220,7 +12247,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 35.0,
+    "violationCount": 35,
     "sanctionsRegime": "Iranian Transactions and Sanctions Regulations, 31 C.F.R. part 560",
     "egregious": "NO"
   },
@@ -12241,7 +12268,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 18900.0,
+    "amountUsd": 18900,
     "factors": [
       "no_license",
       "us_origin"
@@ -12251,7 +12278,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 2.0,
+    "violationCount": 2,
     "sanctionsRegime": "Executive Order 13382 of June 28, 2005, “Blocking Property of Weapons of Mass Destruction Proliferators and Their Supporters”",
     "egregious": "NO"
   },
@@ -12272,7 +12299,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 18900.0,
+    "amountUsd": 18900,
     "factors": [
       "no_license",
       "us_origin"
@@ -12282,7 +12309,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 2.0,
+    "violationCount": 2,
     "sanctionsRegime": "Executive Order 13382 of June 28, 2005, “Blocking Property of Weapons of Mass Destruction Proliferators and Their Supporters”",
     "egregious": "NO"
   },
@@ -12301,7 +12328,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 25000000.0,
+    "amountUsd": 25000000,
     "factors": [
       "military_end_use",
       "weak_controls"
@@ -12329,7 +12356,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 8000000.0,
+    "amountUsd": 8000000,
     "factors": [
       "military_end_use",
       "weak_controls"
@@ -12357,7 +12384,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 5226120.0,
+    "amountUsd": 5226120,
     "factors": [
       "no_license",
       "us_origin",
@@ -12368,7 +12395,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 14487.0,
+    "violationCount": 14487,
     "sanctionsRegime": "Cuban Assets Control Regulations, 31\nC.F.R. part 515",
     "egregious": "NO"
   },
@@ -12388,7 +12415,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 84240.0,
+    "amountUsd": 84240,
     "factors": [
       "no_license",
       "us_origin"
@@ -12398,7 +12425,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 6.0,
+    "violationCount": 6,
     "sanctionsRegime": "Iranian Transactions Regulations, 31 C.F.R. part 560",
     "egregious": "NO"
   },
@@ -12418,7 +12445,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 2949030.0,
+    "amountUsd": 2949030,
     "factors": [
       "no_license"
     ],
@@ -12427,7 +12454,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 151.0,
+    "violationCount": 151,
     "sanctionsRegime": "Cuban Assets Control Regulations (“CACR”), 31 C.F.R. part 515; the Sudanese Sanctions Regulations (“SSR”)",
     "egregious": "NO"
   },
@@ -12444,7 +12471,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 23937.0,
+    "amountUsd": 23937,
     "factors": [
       "no_license",
       "us_origin",
@@ -12455,7 +12482,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 804.0,
+    "violationCount": 804,
     "sanctionsRegime": "Foreign Narcotics Kingpin Sanctions Regulations, 31 C.F.R. part 598",
     "egregious": "NO"
   },
@@ -12472,7 +12499,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 35000.0,
+    "amountUsd": 35000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -12495,7 +12522,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 182325.0,
+    "amountUsd": 182325,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -12520,7 +12547,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 48600.0,
+    "amountUsd": 48600,
     "factors": [
       "no_license",
       "us_origin"
@@ -12530,7 +12557,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 18.0,
+    "violationCount": 18,
     "sanctionsRegime": "Iranian Transactions Regulations",
     "egregious": "NO"
   },
@@ -12547,7 +12574,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 70000.0,
+    "amountUsd": 70000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -12573,7 +12600,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 348000.0,
+    "amountUsd": 348000,
     "factors": [
       "no_license",
       "us_origin"
@@ -12583,7 +12610,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 55.0,
+    "violationCount": 55,
     "sanctionsRegime": "Cuban Assets Control Regulations (“CACR”), 31 C.F.R. part 515; the Sudanese Sanctions Regulations (“SSR”), 31 C.F.R. part 538; and the Iranian Transactions Regulations (“ITR”), 31 C.F.R. part 560",
     "egregious": "NO"
   },
@@ -12602,7 +12629,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 8000000.0,
+    "amountUsd": 8000000,
     "factors": [
       "military_end_use",
       "weak_controls"
@@ -12628,7 +12655,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 23400.0,
+    "amountUsd": 23400,
     "factors": [
       "no_license"
     ],
@@ -12637,7 +12664,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 26.0,
+    "violationCount": 26,
     "sanctionsRegime": "Foreign Narcotics Kingpin Sanctions Regulations, 31 C.F.R. part 598",
     "egregious": "NO"
   },
@@ -12656,7 +12683,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 2800000.0,
+    "amountUsd": 2800000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -12682,7 +12709,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 22500.0,
+    "amountUsd": 22500,
     "factors": [
       "us_origin"
     ],
@@ -12691,7 +12718,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1.0,
+    "violationCount": 1,
     "sanctionsRegime": "Iranian Transactions and Sanctions Regulations, 31 C.F.R. part 560",
     "egregious": "NO"
   },
@@ -12711,7 +12738,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 22500.0,
+    "amountUsd": 22500,
     "factors": [
       "us_origin"
     ],
@@ -12720,7 +12747,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1.0,
+    "violationCount": 1,
     "sanctionsRegime": "Iranian Transactions and Sanctions Regulations, 31 C.F.R. part 560",
     "egregious": "NO"
   },
@@ -12740,7 +12767,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 22500.0,
+    "amountUsd": 22500,
     "factors": [
       "us_origin"
     ],
@@ -12749,7 +12776,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1.0,
+    "violationCount": 1,
     "sanctionsRegime": "Iranian Transactions and Sanctions Regulations, 31 C.F.R. part 560",
     "egregious": "NO"
   },
@@ -12769,7 +12796,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 22500.0,
+    "amountUsd": 22500,
     "factors": [
       "us_origin"
     ],
@@ -12778,7 +12805,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1.0,
+    "violationCount": 1,
     "sanctionsRegime": "Iranian Transactions and Sanctions Regulations, 31 C.F.R. part 560",
     "egregious": "NO"
   },
@@ -12795,7 +12822,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 52380.0,
+    "amountUsd": 52380,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -12820,7 +12847,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 20800.0,
+    "amountUsd": 20800,
     "factors": [
       "no_license",
       "restricted_party",
@@ -12831,7 +12858,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 5.0,
+    "violationCount": 5,
     "sanctionsRegime": "Weapons of Mass Destruction Proliferators Sanctions Regulations",
     "egregious": "NO"
   },
@@ -12851,7 +12878,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 139650.0,
+    "amountUsd": 139650,
     "factors": [
       "no_license",
       "us_origin",
@@ -12862,7 +12889,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 290.0,
+    "violationCount": 290,
     "sanctionsRegime": "Cuban Assets Control Regulations and the Iranian Transactions and Sanctions Regulations",
     "egregious": "NO"
   },
@@ -12881,7 +12908,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 43875.0,
+    "amountUsd": 43875,
     "factors": [
       "no_license",
       "us_origin"
@@ -12891,7 +12918,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1.0,
+    "violationCount": 1,
     "sanctionsRegime": "Cuban Assets Control Regulations, 31 C.F.R. part 515 (the “CACR”)",
     "egregious": "NO"
   },
@@ -12910,7 +12937,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 43875.0,
+    "amountUsd": 43875,
     "factors": [
       "no_license",
       "us_origin"
@@ -12920,7 +12947,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1.0,
+    "violationCount": 1,
     "sanctionsRegime": "Cuban Assets Control Regulations, 31 C.F.R. part 515 (the “CACR”)",
     "egregious": "NO"
   },
@@ -12939,7 +12966,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 43875.0,
+    "amountUsd": 43875,
     "factors": [
       "no_license",
       "us_origin"
@@ -12949,7 +12976,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1.0,
+    "violationCount": 1,
     "sanctionsRegime": "Cuban Assets Control Regulations, 31 C.F.R. part 515 (the “CACR”)",
     "egregious": "NO"
   },
@@ -12968,7 +12995,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 43875.0,
+    "amountUsd": 43875,
     "factors": [
       "no_license",
       "us_origin"
@@ -12978,7 +13005,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1.0,
+    "violationCount": 1,
     "sanctionsRegime": "Cuban Assets Control Regulations, 31 C.F.R. part 515 (the “CACR”)",
     "egregious": "NO"
   },
@@ -12997,7 +13024,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 27000.0,
+    "amountUsd": 27000,
     "factors": [
       "no_license",
       "us_origin"
@@ -13007,7 +13034,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 2.0,
+    "violationCount": 2,
     "sanctionsRegime": "Iranian Transactions Regulations",
     "egregious": "NO"
   },
@@ -13026,7 +13053,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 27000.0,
+    "amountUsd": 27000,
     "factors": [
       "no_license",
       "us_origin"
@@ -13036,7 +13063,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 2.0,
+    "violationCount": 2,
     "sanctionsRegime": "Iranian Transactions Regulations",
     "egregious": "NO"
   },
@@ -13055,7 +13082,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 27000.0,
+    "amountUsd": 27000,
     "factors": [
       "no_license",
       "us_origin"
@@ -13065,7 +13092,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 2.0,
+    "violationCount": 2,
     "sanctionsRegime": "Iranian Transactions Regulations",
     "egregious": "NO"
   },
@@ -13084,7 +13111,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 27000.0,
+    "amountUsd": 27000,
     "factors": [
       "no_license",
       "us_origin"
@@ -13094,7 +13121,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 2.0,
+    "violationCount": 2,
     "sanctionsRegime": "Iranian Transactions Regulations",
     "egregious": "NO"
   },
@@ -13113,7 +13140,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 404100.0,
+    "amountUsd": 404100,
     "factors": [
       "us_origin"
     ],
@@ -13122,7 +13149,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 36.0,
+    "violationCount": 36,
     "sanctionsRegime": "Iranian Transactions and Sanctions Regulations and the Reporting, Procedures and Penalties Regulations",
     "egregious": "NO"
   },
@@ -13141,7 +13168,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 97695.0,
+    "amountUsd": 97695,
     "factors": [
       "no_license",
       "us_origin"
@@ -13151,7 +13178,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 8.0,
+    "violationCount": 8,
     "sanctionsRegime": "Iranian Transactions Regulations and Executive Order 13382",
     "egregious": "NO"
   },
@@ -13170,7 +13197,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 10000.0,
+    "amountUsd": 10000,
     "factors": [
       "management_awareness",
       "no_license",
@@ -13181,7 +13208,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1.0,
+    "violationCount": 1,
     "sanctionsRegime": "Iranian Transactions Regulations",
     "egregious": "YES"
   },
@@ -13200,7 +13227,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 10000.0,
+    "amountUsd": 10000,
     "factors": [
       "management_awareness",
       "no_license",
@@ -13211,7 +13238,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1.0,
+    "violationCount": 1,
     "sanctionsRegime": "Iranian Transactions Regulations",
     "egregious": "YES"
   },
@@ -13230,7 +13257,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 10000.0,
+    "amountUsd": 10000,
     "factors": [
       "management_awareness",
       "no_license",
@@ -13241,7 +13268,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1.0,
+    "violationCount": 1,
     "sanctionsRegime": "Iranian Transactions Regulations",
     "egregious": "YES"
   },
@@ -13260,7 +13287,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 10000.0,
+    "amountUsd": 10000,
     "factors": [
       "management_awareness",
       "no_license",
@@ -13271,7 +13298,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1.0,
+    "violationCount": 1,
     "sanctionsRegime": "Iranian Transactions Regulations",
     "egregious": "YES"
   },
@@ -13290,7 +13317,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 191700.0,
+    "amountUsd": 191700,
     "factors": [
       "us_origin"
     ],
@@ -13299,7 +13326,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 2.0,
+    "violationCount": 2,
     "sanctionsRegime": "Iranian Transactions Regulations",
     "egregious": "NO"
   },
@@ -13317,7 +13344,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Logistics enforcement action",
-    "amountUsd": 139650.0,
+    "amountUsd": 139650,
     "factors": [
       "us_origin"
     ],
@@ -13340,7 +13367,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 8750.0,
+    "amountUsd": 8750,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -13363,7 +13390,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 12600.0,
+    "amountUsd": 12600,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -13392,7 +13419,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 8571634.0,
+    "amountUsd": 8571634,
     "factors": [
       "management_awareness",
       "no_license",
@@ -13403,7 +13430,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 97.0,
+    "violationCount": 97,
     "sanctionsRegime": "the Burmese Sanctions Regulations (“BSR”), 31 C.F.R part 537; the\nIranian Transactions Regulations (“ITR”), 31 C.F.R. part 560; Executive Order 13382, Blocking\nProperty of Weapons of Mass Destruction Proliferators and Their Supporters (“E.O. 13382”);\nthe Sudanese Sanctions Regulations (“SSR”), 31 C.F.R. part 538; and the Cuban Assets Control\nRegulations (“CACR”), 31 C.F.R. part 515",
     "egregious": "YES"
   },
@@ -13426,7 +13453,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 375000000.0,
+    "amountUsd": 375000000,
     "factors": [
       "management_awareness",
       "no_license"
@@ -13436,7 +13463,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 2335.0,
+    "violationCount": 2335,
     "sanctionsRegime": "the Cuban Assets Control Regulations (“CACR”), 31 C.F.R.\npart 515; the Burmese Sanctions Regulations (“BSR”), 31 C.F.R. part 537; the Sudanese Sanctions\nRegulations (“SSR”), 31 C.F.R. part 538; the now-repealed Libyan Sanctions Regulations\n(“LSR”), 31 C.F.R. part 550; and the Iranian Transactions Regulations (“ITR”), 31 C.F.R. part\n560",
     "egregious": "YES"
   },
@@ -13458,7 +13485,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 132000000.0,
+    "amountUsd": 132000000,
     "factors": [
       "no_license",
       "voluntary_disclosure"
@@ -13468,7 +13495,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 919.0,
+    "violationCount": 919,
     "sanctionsRegime": "the Burmese Sanctions Regulations (“BSR”), 31 C.F.R. part\n537; the Iranian Transactions Regulations (“ITR”), 31 C.F.R. part 560; the now-repealed Libyan\nSanctions Regulations (“LSR”), 31 C.F.R. part 550; the Sudanese Sanctions Regulations\n(“SSR”), 31 C.F.R. part 538; and the Foreign Narcotics Kingpin Sanctions Regulations\n(“FNKSR”), 31 C.F.R. part 598",
     "egregious": "Partially"
   },
@@ -13485,7 +13512,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 23000.0,
+    "amountUsd": 23000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -13508,7 +13535,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 1000000.0,
+    "amountUsd": 1000000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -13533,7 +13560,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 128250.0,
+    "amountUsd": 128250,
     "factors": [
       "no_license",
       "transshipment",
@@ -13544,7 +13571,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 7.0,
+    "violationCount": 7,
     "sanctionsRegime": "Iranian Transactions Regulations",
     "egregious": "No"
   },
@@ -13563,7 +13590,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 59920.0,
+    "amountUsd": 59920,
     "factors": [
       "no_license",
       "restricted_party",
@@ -13593,7 +13620,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 9000.0,
+    "amountUsd": 9000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -13618,7 +13645,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 180000.0,
+    "amountUsd": 180000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -13643,7 +13670,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 18900.0,
+    "amountUsd": 18900,
     "factors": [
       "no_license",
       "us_origin"
@@ -13653,7 +13680,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 3.0,
+    "violationCount": 3,
     "sanctionsRegime": "Iranian Transactions Regulations 31 C.F.R. part 560",
     "egregious": "No"
   },
@@ -13672,7 +13699,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 18900.0,
+    "amountUsd": 18900,
     "factors": [
       "no_license",
       "us_origin"
@@ -13682,7 +13709,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 3.0,
+    "violationCount": 3,
     "sanctionsRegime": "Iranian Transactions Regulations 31 C.F.R. part 560",
     "egregious": "No"
   },
@@ -13701,7 +13728,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 31000.0,
+    "amountUsd": 31000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -13724,7 +13751,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 62500.0,
+    "amountUsd": 62500,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -13747,7 +13774,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 98000.0,
+    "amountUsd": 98000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -13772,7 +13799,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 12000.0,
+    "amountUsd": 12000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -13797,7 +13824,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 22000.0,
+    "amountUsd": 22000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -13822,7 +13849,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 402000.0,
+    "amountUsd": 402000,
     "factors": [
       "no_license",
       "us_origin"
@@ -13832,7 +13859,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 120052009.0,
+    "violationCount": 120052009,
     "sanctionsRegime": "Iranian Transactions Regulations, 31 C.F.R. part 560, and the Weapons of Mass\nDestruction Proliferators Sanctions Regulations (“WMDPSR”), 31 C.F.R. part 544",
     "egregious": "Partially"
   },
@@ -13851,7 +13878,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "deferred prosecution agreement",
-    "amountUsd": 7500000.0,
+    "amountUsd": 7500000,
     "factors": [
       "us_origin"
     ],
@@ -13876,7 +13903,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 50000.0,
+    "amountUsd": 50000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -13899,7 +13926,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 8000.0,
+    "amountUsd": 8000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -13924,7 +13951,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 110000.0,
+    "amountUsd": 110000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -13947,7 +13974,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 28000.0,
+    "amountUsd": 28000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -13972,7 +13999,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 1347750.0,
+    "amountUsd": 1347750,
     "factors": [
       "no_license",
       "restricted_party",
@@ -14000,7 +14027,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 465000.0,
+    "amountUsd": 465000,
     "factors": [
       "management_awareness"
     ],
@@ -14027,7 +14054,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "plea & deferred prosecution agreement",
-    "amountUsd": 75000000.0,
+    "amountUsd": 75000000,
     "factors": [
       "military_end_use",
       "red_flags",
@@ -14056,7 +14083,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 55000000.0,
+    "amountUsd": 55000000,
     "factors": [
       "military_end_use",
       "weak_controls"
@@ -14084,7 +14111,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 855000.0,
+    "amountUsd": 855000,
     "factors": [
       "no_license"
     ],
@@ -14093,7 +14120,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 45.0,
+    "violationCount": 45,
     "sanctionsRegime": "Sudanese Sanctions Regulations, 31 C.F.R. part 538",
     "egregious": "No"
   },
@@ -14120,7 +14147,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 619000000.0,
+    "amountUsd": 619000000,
     "factors": [
       "management_awareness",
       "no_license",
@@ -14131,7 +14158,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 20542.0,
+    "violationCount": 20542,
     "sanctionsRegime": "the Cuban Assets Control Regulations (“CACR”), 31 C.F.R. part 515; the Burmese\nSanctions Regulations (“BSR”), 31 C.F.R. part 537; the Sudanese Sanctions Regulations\n(“SSR”), 31 C.F.R. part 538; the now-repealed Libyan Sanctions Regulations (“LSR”), 31 C.F.R.\npart 550; and the Iranian Transactions Regulations (“ITR”), 31 C.F.R. part 560",
     "egregious": "YES"
   },
@@ -14158,7 +14185,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 619000000.0,
+    "amountUsd": 619000000,
     "factors": [
       "management_awareness",
       "no_license",
@@ -14169,7 +14196,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 20542.0,
+    "violationCount": 20542,
     "sanctionsRegime": "the Cuban Assets Control Regulations (“CACR”), 31 C.F.R. part 515; the Burmese\nSanctions Regulations (“BSR”), 31 C.F.R. part 537; the Sudanese Sanctions Regulations\n(“SSR”), 31 C.F.R. part 538; the now-repealed Libyan Sanctions Regulations (“LSR”), 31 C.F.R.\npart 550; and the Iranian Transactions Regulations (“ITR”), 31 C.F.R. part 560",
     "egregious": "YES"
   },
@@ -14186,7 +14213,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 300000.0,
+    "amountUsd": 300000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -14211,7 +14238,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 900000.0,
+    "amountUsd": 900000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -14236,7 +14263,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 1753000.0,
+    "amountUsd": 1753000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -14261,7 +14288,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 112500.0,
+    "amountUsd": 112500,
     "factors": [
       "no_license",
       "us_origin",
@@ -14272,7 +14299,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1.0,
+    "violationCount": 1,
     "sanctionsRegime": "Iranian Transactions Regulations (“ITR”),\n31 C.F.R. part 560",
     "egregious": "No"
   },
@@ -14291,7 +14318,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 112500.0,
+    "amountUsd": 112500,
     "factors": [
       "no_license",
       "us_origin",
@@ -14302,7 +14329,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1.0,
+    "violationCount": 1,
     "sanctionsRegime": "Iranian Transactions Regulations (“ITR”),\n31 C.F.R. part 560",
     "egregious": "No"
   },
@@ -14321,7 +14348,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 850000.0,
+    "amountUsd": 850000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -14346,7 +14373,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 126000.0,
+    "amountUsd": 126000,
     "factors": [
       "management_awareness",
       "no_license",
@@ -14357,7 +14384,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1.0,
+    "violationCount": 1,
     "sanctionsRegime": "Iranian Transactions Regulations, 31 C.F.R. part 560",
     "egregious": "YES"
   },
@@ -14374,7 +14401,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 14400.0,
+    "amountUsd": 14400,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -14399,7 +14426,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 450000.0,
+    "amountUsd": 450000,
     "factors": [
       "management_awareness",
       "no_license",
@@ -14410,7 +14437,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1.0,
+    "violationCount": 1,
     "sanctionsRegime": "Iranian Transactions Regulations (the “ITR”)",
     "egregious": "YES"
   },
@@ -14427,7 +14454,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 20000.0,
+    "amountUsd": 20000,
     "factors": [
       "military_end_use",
       "weak_controls"
@@ -14455,7 +14482,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 275000.0,
+    "amountUsd": 275000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -14480,7 +14507,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 88000.0,
+    "amountUsd": 88000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -14503,7 +14530,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 30000.0,
+    "amountUsd": 30000,
     "factors": [
       "military_end_use",
       "weak_controls"
@@ -14529,7 +14556,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 125000.0,
+    "amountUsd": 125000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -14552,7 +14579,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 10000.0,
+    "amountUsd": 10000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -14575,7 +14602,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 50000.0,
+    "amountUsd": 50000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -14598,7 +14625,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 60000.0,
+    "amountUsd": 60000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -14625,7 +14652,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 1054388.0,
+    "amountUsd": 1054388,
     "factors": [
       "management_awareness",
       "no_license",
@@ -14636,7 +14663,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1.0,
+    "violationCount": 1,
     "sanctionsRegime": "Iranian Transactions Regulations, 31 C.F.R. part 560 (the “ITR”),",
     "egregious": "YES"
   },
@@ -14655,7 +14682,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 9000.0,
+    "amountUsd": 9000,
     "factors": [
       "no_license",
       "us_origin"
@@ -14665,7 +14692,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1.0,
+    "violationCount": 1,
     "sanctionsRegime": "Former Liberian Regime of Charles Taylor Sanctions Regulations, 31 C.F.R. part 593 (the \"Regulations\")",
     "egregious": "NO"
   },
@@ -14684,7 +14711,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 42000.0,
+    "amountUsd": 42000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -14707,7 +14734,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 230000.0,
+    "amountUsd": 230000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -14732,7 +14759,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 30385.0,
+    "amountUsd": 30385,
     "factors": [
       "no_license",
       "us_origin",
@@ -14743,7 +14770,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 2.0,
+    "violationCount": 2,
     "sanctionsRegime": "Sudanese Sanctions Regulations, 31 C.F.R. part 538,",
     "egregious": "NO"
   },
@@ -14760,7 +14787,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 14000.0,
+    "amountUsd": 14000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -14783,7 +14810,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 27000.0,
+    "amountUsd": 27000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -14809,7 +14836,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 13500.0,
+    "amountUsd": 13500,
     "factors": [
       "no_license",
       "us_origin"
@@ -14819,7 +14846,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1.0,
+    "violationCount": 1,
     "sanctionsRegime": "Sudanese Sanctions Regulations, 31 C.F.R. part 538",
     "egregious": "NO"
   },
@@ -14838,7 +14865,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 275000.0,
+    "amountUsd": 275000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -14863,7 +14890,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 370000.0,
+    "amountUsd": 370000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -14889,7 +14916,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 175500.0,
+    "amountUsd": 175500,
     "factors": [
       "no_license",
       "restricted_party",
@@ -14901,7 +14928,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1.0,
+    "violationCount": 1,
     "sanctionsRegime": "Cuban Assets Control Regulations, 31 C.F.R. part 515",
     "egregious": "NO"
   },
@@ -14918,7 +14945,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 1148051.0,
+    "amountUsd": 1148051,
     "factors": [
       "us_origin"
     ],
@@ -14946,7 +14973,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 15000.0,
+    "amountUsd": 15000,
     "factors": [
       "no_license",
       "us_origin"
@@ -14956,7 +14983,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1.0,
+    "violationCount": 1,
     "sanctionsRegime": "Iranian Transactions Regulations, 31 C.F.R. part 560",
     "egregious": "NO"
   },
@@ -14976,7 +15003,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 5400.0,
+    "amountUsd": 5400,
     "factors": [
       "us_origin"
     ],
@@ -14985,7 +15012,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1.0,
+    "violationCount": 1,
     "sanctionsRegime": "Iranian Transactions\nRegulations, 31 C.F.R. part 560",
     "egregious": "NO"
   },
@@ -15005,7 +15032,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 7000.0,
+    "amountUsd": 7000,
     "factors": [
       "no_license",
       "us_origin"
@@ -15015,7 +15042,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1.0,
+    "violationCount": 1,
     "sanctionsRegime": "Iranian Transactions Regulations, 31 C.F.R. part 560",
     "egregious": "NO"
   },
@@ -15034,7 +15061,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 8000.0,
+    "amountUsd": 8000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -15060,7 +15087,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 1661672.0,
+    "amountUsd": 1661672,
     "factors": [
       "management_awareness",
       "us_origin"
@@ -15070,7 +15097,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 711.0,
+    "violationCount": 711,
     "sanctionsRegime": "Iranian Transactions Regulations, 31 C.F.R.\npart 560,  International\nEmergency Economic Powers Act (“IEEPA”)",
     "egregious": "YES"
   },
@@ -15087,7 +15114,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 19200.0,
+    "amountUsd": 19200,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -15110,7 +15137,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 8000.0,
+    "amountUsd": 8000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -15138,7 +15165,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 502408.0,
+    "amountUsd": 502408,
     "factors": [
       "no_license",
       "us_origin",
@@ -15149,7 +15176,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 58.0,
+    "violationCount": 58,
     "sanctionsRegime": "Iranian Transactions Regulations, 31 C.F.R. part 560, the Sudanese Sanctions Regulations, 31\nC.F.R. part 538, and the Cuban Assets Control Regulations, 31 C.F.R. part 515",
     "egregious": "NO"
   },
@@ -15166,7 +15193,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 10000.0,
+    "amountUsd": 10000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -15191,7 +15218,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 30000.0,
+    "amountUsd": 30000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -15216,7 +15243,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 20000.0,
+    "amountUsd": 20000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -15241,7 +15268,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 210000.0,
+    "amountUsd": 210000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -15266,7 +15293,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 510000.0,
+    "amountUsd": 510000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -15291,7 +15318,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 135000.0,
+    "amountUsd": 135000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -15316,7 +15343,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 125000.0,
+    "amountUsd": 125000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -15341,7 +15368,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 405000.0,
+    "amountUsd": 405000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -15366,7 +15393,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 725000.0,
+    "amountUsd": 725000,
     "factors": [
       "us_origin"
     ],
@@ -15393,7 +15420,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 25000.0,
+    "amountUsd": 25000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -15418,7 +15445,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 310000.0,
+    "amountUsd": 310000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -15443,7 +15470,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 5000.0,
+    "amountUsd": 5000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -15466,7 +15493,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 300000.0,
+    "amountUsd": 300000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -15495,7 +15522,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 8830000.0,
+    "amountUsd": 8830000,
     "factors": [
       "management_awareness",
       "restricted_party",
@@ -15506,7 +15533,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 9.0,
+    "violationCount": 9,
     "sanctionsRegime": "Cuban Assets Control Regulations (“CACR”), 31 C.F.R. part 515; the Weapons of Mass Destruction Proliferators Sanctions Regulations (“WMDPSR”), 31 C.F.R. part 544; Executive Order 13382, “Blocking Property of Weapons of Mass Destruction Proliferators and Their Supporters;” the Global Terrorism Sanctions Regulations (“GTSR”), 31 C.F.R. part 594; the Iranian Transactions Regulations (“ITR”), 31 C.F.R. part 560; the Sudanese Sanctions Regulations (“SSR”), 31 C.F.R. part 538; the Former Liberian Regime of Charles Taylor Sanctions Regulations (“FLRCTSR”), 31 C.F.R. part 593; and the Reporting, Procedures, and Penalties Regulations (“RPPR”), 31 C.F.R. part 501,",
     "egregious": "YES"
   },
@@ -15525,7 +15552,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 10000.0,
+    "amountUsd": 10000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -15548,7 +15575,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 27000.0,
+    "amountUsd": 27000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -15571,7 +15598,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 200000.0,
+    "amountUsd": 200000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -15596,7 +15623,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 775000.0,
+    "amountUsd": 775000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -15619,7 +15646,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 28000.0,
+    "amountUsd": 28000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -15644,7 +15671,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 30000.0,
+    "amountUsd": 30000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -15669,7 +15696,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 22000.0,
+    "amountUsd": 22000,
     "factors": [
       "weak_controls"
     ],
@@ -15694,7 +15721,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 44000.0,
+    "amountUsd": 44000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -15717,7 +15744,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 40000.0,
+    "amountUsd": 40000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -15743,7 +15770,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 18750.0,
+    "amountUsd": 18750,
     "factors": [
       "no_license",
       "us_origin"
@@ -15753,7 +15780,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1.0,
+    "violationCount": 1,
     "sanctionsRegime": "Iranian Transactions Regulations, 31 C.F.R. part 560",
     "egregious": "NO"
   },
@@ -15770,7 +15797,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 200000.0,
+    "amountUsd": 200000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -15793,7 +15820,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 50000.0,
+    "amountUsd": 50000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -15816,7 +15843,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 75000.0,
+    "amountUsd": 75000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -15841,7 +15868,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 20500.0,
+    "amountUsd": 20500,
     "factors": [
       "weak_controls"
     ],
@@ -15866,7 +15893,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 20400.0,
+    "amountUsd": 20400,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -15889,7 +15916,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 10000.0,
+    "amountUsd": 10000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -15912,7 +15939,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 45000.0,
+    "amountUsd": 45000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -15937,7 +15964,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 79000000.0,
+    "amountUsd": 79000000,
     "factors": [
       "military_end_use",
       "weak_controls"
@@ -15963,7 +15990,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 710833.0,
+    "amountUsd": 710833,
     "factors": [],
     "summary": "GWC Valve International was sentenced to to a criminal fine of $300,000 and five years of corporate probation and ordered to forfeit $410,833.82 in connection after pleading guilty to charges of violating restrictions on the export of industrial valves to Iran.",
     "sourceTitle": "Not stated in source",
@@ -15989,7 +16016,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 112500.0,
+    "amountUsd": 112500,
     "factors": [
       "no_license",
       "us_origin"
@@ -15999,7 +16026,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1.0,
+    "violationCount": 1,
     "sanctionsRegime": "Sudanese Sanctions Regulations, 31 C.F.R. part 538",
     "egregious": "NO"
   },
@@ -16019,7 +16046,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 112500.0,
+    "amountUsd": 112500,
     "factors": [
       "no_license",
       "us_origin"
@@ -16029,7 +16056,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1.0,
+    "violationCount": 1,
     "sanctionsRegime": "Sudanese Sanctions Regulations, 31 C.F.R. part 538",
     "egregious": "NO"
   },
@@ -16049,7 +16076,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 22500.0,
+    "amountUsd": 22500,
     "factors": [
       "no_license",
       "us_origin"
@@ -16059,7 +16086,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1.0,
+    "violationCount": 1,
     "sanctionsRegime": "Cuban Assets Control Regulations, 31 C.F.R. part 515",
     "egregious": "NO"
   },
@@ -16079,7 +16106,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 22500.0,
+    "amountUsd": 22500,
     "factors": [
       "no_license",
       "us_origin"
@@ -16089,7 +16116,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1.0,
+    "violationCount": 1,
     "sanctionsRegime": "Cuban Assets Control Regulations, 31 C.F.R. part 515",
     "egregious": "NO"
   },
@@ -16109,7 +16136,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 22500.0,
+    "amountUsd": 22500,
     "factors": [
       "no_license",
       "us_origin"
@@ -16119,7 +16146,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1.0,
+    "violationCount": 1,
     "sanctionsRegime": "Cuban Assets Control Regulations, 31 C.F.R. part 515",
     "egregious": "NO"
   },
@@ -16139,7 +16166,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 22500.0,
+    "amountUsd": 22500,
     "factors": [
       "no_license",
       "us_origin"
@@ -16149,7 +16176,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1.0,
+    "violationCount": 1,
     "sanctionsRegime": "Cuban Assets Control Regulations, 31 C.F.R. part 515",
     "egregious": "NO"
   },
@@ -16166,7 +16193,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 50000.0,
+    "amountUsd": 50000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -16189,7 +16216,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 20000.0,
+    "amountUsd": 20000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -16214,7 +16241,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 100000.0,
+    "amountUsd": 100000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -16239,7 +16266,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 575000.0,
+    "amountUsd": 575000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -16262,7 +16289,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 15510400.0,
+    "amountUsd": 15510400,
     "factors": [
       "us_origin"
     ],
@@ -16289,7 +16316,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 6400.0,
+    "amountUsd": 6400,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -16313,7 +16340,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Logistics enforcement action",
-    "amountUsd": 6400.0,
+    "amountUsd": 6400,
     "factors": [],
     "summary": "Logistics enforcement action involving United Parcel Service.",
     "sourceTitle": "Workbook logistics enforcement row",
@@ -16337,7 +16364,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 12500.0,
+    "amountUsd": 12500,
     "factors": [
       "no_license",
       "restricted_party",
@@ -16348,7 +16375,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 2.0,
+    "violationCount": 2,
     "sanctionsRegime": "Iranian Transactions Regulations, 31 C.F.R. part 560",
     "egregious": "NO"
   },
@@ -16368,7 +16395,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 111359.0,
+    "amountUsd": 111359,
     "factors": [
       "no_license",
       "us_origin",
@@ -16379,7 +16406,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1.0,
+    "violationCount": 1,
     "sanctionsRegime": "Iranian Transactions Regulations, 31 C.F.R. part 560",
     "egregious": "NO"
   },
@@ -16399,7 +16426,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 37080.0,
+    "amountUsd": 37080,
     "factors": [
       "us_origin"
     ],
@@ -16408,7 +16435,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 13.0,
+    "violationCount": 13,
     "sanctionsRegime": "Iranian Transactions Regulations, 31 C.F.R. part 560,",
     "egregious": "NO"
   },
@@ -16428,7 +16455,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 122408.0,
+    "amountUsd": 122408,
     "factors": [
       "no_license",
       "us_origin",
@@ -16439,7 +16466,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 6.0,
+    "violationCount": 6,
     "sanctionsRegime": "Iranian Transactions Regulations, 31 C.F.R.\npart 560",
     "egregious": "NO"
   },
@@ -16459,7 +16486,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 4500.0,
+    "amountUsd": 4500,
     "factors": [
       "us_origin"
     ],
@@ -16468,7 +16495,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1.0,
+    "violationCount": 1,
     "sanctionsRegime": "Sudanese Sanctions Regulations, 31 C.F.R. part 538",
     "egregious": "NO"
   },
@@ -16488,7 +16515,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 38448.0,
+    "amountUsd": 38448,
     "factors": [
       "no_license",
       "us_origin",
@@ -16519,7 +16546,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 59130.0,
+    "amountUsd": 59130,
     "factors": [
       "no_license",
       "us_origin",
@@ -16530,7 +16557,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 2.0,
+    "violationCount": 2,
     "sanctionsRegime": "Iranian Transactions Regulations, 31 C.F.R. part 560",
     "egregious": "NO"
   },
@@ -16548,7 +16575,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Logistics enforcement action",
-    "amountUsd": 370000.0,
+    "amountUsd": 370000,
     "factors": [],
     "summary": "Logistics enforcement action involving FedEx.",
     "sourceTitle": "Workbook logistics enforcement row",
@@ -16574,7 +16601,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 374400.0,
+    "amountUsd": 374400,
     "factors": [
       "us_origin"
     ],
@@ -16583,7 +16610,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 1.0,
+    "violationCount": 1,
     "sanctionsRegime": "Cuban Assets Control Regulations, 31 C.F.R. part 515, the Iranian Transactions Regulations, 31 C.F.R. part 560, and the Sudanese Sanctions Regulations, 31 C.F.R. part 538",
     "egregious": "NO"
   },
@@ -16603,7 +16630,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 36000.0,
+    "amountUsd": 36000,
     "factors": [
       "no_license",
       "us_origin"
@@ -16613,7 +16640,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 2.0,
+    "violationCount": 2,
     "sanctionsRegime": "Iranian Transactions Regulations, 31 C.F.R. part 560",
     "egregious": "NO"
   },
@@ -16634,7 +16661,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 20000.0,
+    "amountUsd": 20000,
     "factors": [
       "no_license",
       "us_origin"
@@ -16644,7 +16671,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 2.0,
+    "violationCount": 2,
     "sanctionsRegime": "Iranian Transactions Regulations, 31 C.F.R. part 560",
     "egregious": "NO"
   },
@@ -16662,7 +16689,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Logistics enforcement action",
-    "amountUsd": 5400.0,
+    "amountUsd": 5400,
     "factors": [
       "us_origin"
     ],
@@ -16687,7 +16714,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 1000000.0,
+    "amountUsd": 1000000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -16712,7 +16739,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 2000000.0,
+    "amountUsd": 2000000,
     "factors": [
       "us_origin"
     ],
@@ -16739,7 +16766,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 750000.0,
+    "amountUsd": 750000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -16762,7 +16789,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 2000000.0,
+    "amountUsd": 2000000,
     "factors": [
       "military_end_use",
       "no_license",
@@ -16790,7 +16817,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 52000.0,
+    "amountUsd": 52000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -16815,7 +16842,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 42000000.0,
+    "amountUsd": 42000000,
     "factors": [
       "military_end_use",
       "weak_controls"
@@ -16843,7 +16870,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 12000.0,
+    "amountUsd": 12000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -16868,7 +16895,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 18500.0,
+    "amountUsd": 18500,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -16891,7 +16918,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 28800.0,
+    "amountUsd": 28800,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -16916,7 +16943,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 12000.0,
+    "amountUsd": 12000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -16941,7 +16968,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 12000.0,
+    "amountUsd": 12000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -16966,7 +16993,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 29000.0,
+    "amountUsd": 29000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -16991,7 +17018,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 80000.0,
+    "amountUsd": 80000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -17014,7 +17041,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 6600.0,
+    "amountUsd": 6600,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -17037,7 +17064,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 12800.0,
+    "amountUsd": 12800,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -17062,7 +17089,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 218000.0,
+    "amountUsd": 218000,
     "factors": [
       "weak_controls"
     ],
@@ -17087,7 +17114,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 50000.0,
+    "amountUsd": 50000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -17112,7 +17139,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 125000.0,
+    "amountUsd": 125000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -17135,7 +17162,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 20000.0,
+    "amountUsd": 20000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -17158,7 +17185,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 2000000.0,
+    "amountUsd": 2000000,
     "factors": [
       "us_origin"
     ],
@@ -17183,7 +17210,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 5200.0,
+    "amountUsd": 5200,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -17206,7 +17233,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 10800.0,
+    "amountUsd": 10800,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -17229,7 +17256,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 50000.0,
+    "amountUsd": 50000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -17254,7 +17281,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 2000000.0,
+    "amountUsd": 2000000,
     "factors": [
       "us_origin"
     ],
@@ -17281,7 +17308,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 126000.0,
+    "amountUsd": 126000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -17304,7 +17331,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 16000.0,
+    "amountUsd": 16000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -17327,7 +17354,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 19800.0,
+    "amountUsd": 19800,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -17350,7 +17377,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 32000.0,
+    "amountUsd": 32000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -17373,7 +17400,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 437000.0,
+    "amountUsd": 437000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -17396,7 +17423,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 20000.0,
+    "amountUsd": 20000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -17419,7 +17446,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 2500000.0,
+    "amountUsd": 2500000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -17442,7 +17469,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "deferred prosecution agreement",
-    "amountUsd": 12600000.0,
+    "amountUsd": 12600000,
     "factors": [
       "us_origin"
     ],
@@ -17469,7 +17496,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 15000000.0,
+    "amountUsd": 15000000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -17492,7 +17519,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 8000.0,
+    "amountUsd": 8000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -17515,7 +17542,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 8000.0,
+    "amountUsd": 8000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -17540,7 +17567,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 19125.0,
+    "amountUsd": 19125,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -17565,7 +17592,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 88500.0,
+    "amountUsd": 88500,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -17588,7 +17615,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 1000000.0,
+    "amountUsd": 1000000,
     "factors": [
       "military_end_use",
       "weak_controls"
@@ -17614,7 +17641,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 110000.0,
+    "amountUsd": 110000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -17637,7 +17664,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 27000.0,
+    "amountUsd": 27000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -17662,7 +17689,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 125000.0,
+    "amountUsd": 125000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -17687,7 +17714,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 140850.0,
+    "amountUsd": 140850,
     "factors": [
       "weak_controls"
     ],
@@ -17712,7 +17739,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 450000.0,
+    "amountUsd": 450000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -17735,7 +17762,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 125000.0,
+    "amountUsd": 125000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -17758,7 +17785,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 700000.0,
+    "amountUsd": 700000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -17781,7 +17808,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 44625.0,
+    "amountUsd": 44625,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -17804,7 +17831,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 67000.0,
+    "amountUsd": 67000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -17827,7 +17854,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 22000.0,
+    "amountUsd": 22000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -17850,7 +17877,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 27500.0,
+    "amountUsd": 27500,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -17873,7 +17900,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 100000.0,
+    "amountUsd": 100000,
     "factors": [
       "us_origin"
     ],
@@ -17900,7 +17927,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 58500.0,
+    "amountUsd": 58500,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -17925,7 +17952,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 31500.0,
+    "amountUsd": 31500,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -17950,7 +17977,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 13500.0,
+    "amountUsd": 13500,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -17975,7 +18002,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 43500.0,
+    "amountUsd": 43500,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -18000,7 +18027,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 29000.0,
+    "amountUsd": 29000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -18023,7 +18050,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 160000.0,
+    "amountUsd": 160000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -18046,7 +18073,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 250000.0,
+    "amountUsd": 250000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -18069,7 +18096,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 30000.0,
+    "amountUsd": 30000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -18092,7 +18119,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 70000.0,
+    "amountUsd": 70000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -18117,7 +18144,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 190000.0,
+    "amountUsd": 190000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -18142,7 +18169,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 610000.0,
+    "amountUsd": 610000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -18167,7 +18194,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 16000.0,
+    "amountUsd": 16000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -18192,7 +18219,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 9444744.0,
+    "amountUsd": 9444744,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -18217,7 +18244,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 7500.0,
+    "amountUsd": 7500,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -18240,7 +18267,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 100000.0,
+    "amountUsd": 100000,
     "factors": [
       "military_end_use",
       "weak_controls"
@@ -18268,7 +18295,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 85000.0,
+    "amountUsd": 85000,
     "factors": [
       "military_end_use"
     ],
@@ -18295,7 +18322,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 50000.0,
+    "amountUsd": 50000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -18320,7 +18347,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 9000.0,
+    "amountUsd": 9000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -18343,7 +18370,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 49850.0,
+    "amountUsd": 49850,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -18366,7 +18393,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 800000.0,
+    "amountUsd": 800000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -18389,7 +18416,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 50000.0,
+    "amountUsd": 50000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -18414,7 +18441,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 70000.0,
+    "amountUsd": 70000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -18437,7 +18464,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 500000.0,
+    "amountUsd": 500000,
     "factors": [
       "military_end_use",
       "weak_controls"
@@ -18463,7 +18490,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 11500.0,
+    "amountUsd": 11500,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -18486,7 +18513,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 250000.0,
+    "amountUsd": 250000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -18510,7 +18537,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Logistics enforcement action",
-    "amountUsd": 9444744.0,
+    "amountUsd": 9444744,
     "factors": [],
     "summary": "Logistics enforcement action involving Deutsche Post.",
     "sourceTitle": "Workbook logistics enforcement row",
@@ -18531,7 +18558,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 250000.0,
+    "amountUsd": 250000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -18554,7 +18581,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 25000000.0,
+    "amountUsd": 25000000,
     "factors": [
       "military_end_use",
       "weak_controls"
@@ -18582,7 +18609,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 200000.0,
+    "amountUsd": 200000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -18607,7 +18634,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 32000.0,
+    "amountUsd": 32000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -18630,7 +18657,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 50000.0,
+    "amountUsd": 50000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -18653,7 +18680,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 130000.0,
+    "amountUsd": 130000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -18678,7 +18705,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 200000.0,
+    "amountUsd": 200000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -18701,7 +18728,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 37500.0,
+    "amountUsd": 37500,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -18726,7 +18753,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 680000.0,
+    "amountUsd": 680000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -18749,7 +18776,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 30000.0,
+    "amountUsd": 30000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -18774,7 +18801,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 192000.0,
+    "amountUsd": 192000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -18797,7 +18824,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 30000.0,
+    "amountUsd": 30000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -18820,7 +18847,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 180000.0,
+    "amountUsd": 180000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -18843,7 +18870,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 6000.0,
+    "amountUsd": 6000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -18866,7 +18893,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 170000.0,
+    "amountUsd": 170000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -18891,7 +18918,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 115000.0,
+    "amountUsd": 115000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -18916,7 +18943,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 40000.0,
+    "amountUsd": 40000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -18939,7 +18966,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 36000.0,
+    "amountUsd": 36000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -18964,7 +18991,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 20000.0,
+    "amountUsd": 20000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -18987,7 +19014,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 90000.0,
+    "amountUsd": 90000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -19010,7 +19037,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 29700.0,
+    "amountUsd": 29700,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -19033,7 +19060,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 83000.0,
+    "amountUsd": 83000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -19056,7 +19083,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 9900.0,
+    "amountUsd": 9900,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -19079,7 +19106,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 119250.0,
+    "amountUsd": 119250,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -19102,7 +19129,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 126000.0,
+    "amountUsd": 126000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -19127,7 +19154,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 11000.0,
+    "amountUsd": 11000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -19152,7 +19179,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 4000000.0,
+    "amountUsd": 4000000,
     "factors": [
       "military_end_use",
       "weak_controls"
@@ -19178,7 +19205,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 500000.0,
+    "amountUsd": 500000,
     "factors": [
       "us_origin"
     ],
@@ -19203,7 +19230,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 250000.0,
+    "amountUsd": 250000,
     "factors": [
       "military_end_use",
       "red_flags"
@@ -19229,7 +19256,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 52800.0,
+    "amountUsd": 52800,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -19252,7 +19279,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 31500.0,
+    "amountUsd": 31500,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -19277,7 +19304,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 3000000.0,
+    "amountUsd": 3000000,
     "factors": [
       "military_end_use",
       "weak_controls"
@@ -19303,7 +19330,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 17500.0,
+    "amountUsd": 17500,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -19326,7 +19353,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 60000.0,
+    "amountUsd": 60000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -19349,7 +19376,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 31500.0,
+    "amountUsd": 31500,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -19372,7 +19399,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 6000.0,
+    "amountUsd": 6000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -19395,7 +19422,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 132791.0,
+    "amountUsd": 132791,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -19418,7 +19445,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 16000.0,
+    "amountUsd": 16000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -19443,7 +19470,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 15000000.0,
+    "amountUsd": 15000000,
     "factors": [
       "military_end_use",
       "weak_controls"
@@ -19471,7 +19498,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 13200.0,
+    "amountUsd": 13200,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -19494,7 +19521,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 500000.0,
+    "amountUsd": 500000,
     "factors": [
       "us_origin"
     ],
@@ -19519,7 +19546,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 100000.0,
+    "amountUsd": 100000,
     "factors": [
       "us_origin"
     ],
@@ -19546,7 +19573,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 37500.0,
+    "amountUsd": 37500,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -19571,7 +19598,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 400000.0,
+    "amountUsd": 400000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -19594,7 +19621,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 13200.0,
+    "amountUsd": 13200,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -19617,7 +19644,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 65000.0,
+    "amountUsd": 65000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -19642,7 +19669,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 400000.0,
+    "amountUsd": 400000,
     "factors": [
       "military_end_use"
     ],
@@ -19667,7 +19694,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 156000.0,
+    "amountUsd": 156000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -19690,7 +19717,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 7200.0,
+    "amountUsd": 7200,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -19714,7 +19741,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Logistics enforcement action",
-    "amountUsd": 37500.0,
+    "amountUsd": 37500,
     "factors": [],
     "summary": "Logistics enforcement action involving Deutsche Post.",
     "sourceTitle": "Workbook logistics enforcement row",
@@ -19736,7 +19763,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Logistics enforcement action",
-    "amountUsd": 20000.0,
+    "amountUsd": 20000,
     "factors": [],
     "summary": "Logistics enforcement action involving Deutsche Bahn.",
     "sourceTitle": "Workbook logistics enforcement row",
@@ -19758,7 +19785,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Logistics enforcement action",
-    "amountUsd": 13200.0,
+    "amountUsd": 13200,
     "factors": [],
     "summary": "Logistics enforcement action involving Agility.",
     "sourceTitle": "Workbook logistics enforcement row",
@@ -19779,7 +19806,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 6000.0,
+    "amountUsd": 6000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -19802,7 +19829,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 32940.0,
+    "amountUsd": 32940,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -19827,7 +19854,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 0.0,
+    "amountUsd": 0,
     "factors": [
       "military_end_use",
       "weak_controls"
@@ -19853,7 +19880,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 36000.0,
+    "amountUsd": 36000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -19876,7 +19903,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 35000.0,
+    "amountUsd": 35000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -19901,7 +19928,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 470000.0,
+    "amountUsd": 470000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -19924,7 +19951,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 66000.0,
+    "amountUsd": 66000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -19947,7 +19974,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 18000.0,
+    "amountUsd": 18000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -19970,7 +19997,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 100000.0,
+    "amountUsd": 100000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -19995,7 +20022,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 27500.0,
+    "amountUsd": 27500,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -20018,7 +20045,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 39000.0,
+    "amountUsd": 39000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -20041,7 +20068,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 33000.0,
+    "amountUsd": 33000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -20064,7 +20091,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 110000.0,
+    "amountUsd": 110000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -20087,7 +20114,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 29000.0,
+    "amountUsd": 29000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -20112,7 +20139,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 27000.0,
+    "amountUsd": 27000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -20137,7 +20164,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 175000.0,
+    "amountUsd": 175000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -20162,7 +20189,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 30000.0,
+    "amountUsd": 30000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -20185,7 +20212,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 20400.0,
+    "amountUsd": 20400,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -20208,7 +20235,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 204600.0,
+    "amountUsd": 204600,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -20233,7 +20260,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 55000.0,
+    "amountUsd": 55000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -20256,7 +20283,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 7500.0,
+    "amountUsd": 7500,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -20279,7 +20306,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 31000.0,
+    "amountUsd": 31000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -20302,7 +20329,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 270000.0,
+    "amountUsd": 270000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -20327,7 +20354,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 165000.0,
+    "amountUsd": 165000,
     "factors": [
       "military_end_use"
     ],
@@ -20352,7 +20379,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 8600.0,
+    "amountUsd": 8600,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -20375,7 +20402,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 462000.0,
+    "amountUsd": 462000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -20398,7 +20425,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 36000.0,
+    "amountUsd": 36000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -20421,7 +20448,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 8800.0,
+    "amountUsd": 8800,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -20446,7 +20473,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 1102200.0,
+    "amountUsd": 1102200,
     "factors": [
       "military_end_use"
     ],
@@ -20471,7 +20498,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 250000.0,
+    "amountUsd": 250000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -20494,7 +20521,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 17000.0,
+    "amountUsd": 17000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -20517,7 +20544,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 66000.0,
+    "amountUsd": 66000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -20540,7 +20567,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 44000.0,
+    "amountUsd": 44000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -20563,7 +20590,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 22000.0,
+    "amountUsd": 22000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -20586,7 +20613,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 8000.0,
+    "amountUsd": 8000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -20609,7 +20636,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 55000.0,
+    "amountUsd": 55000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -20634,7 +20661,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 9000.0,
+    "amountUsd": 9000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -20659,7 +20686,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 221100.0,
+    "amountUsd": 221100,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -20682,7 +20709,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 7000.0,
+    "amountUsd": 7000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -20707,7 +20734,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 97000.0,
+    "amountUsd": 97000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -20730,7 +20757,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 55000.0,
+    "amountUsd": 55000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -20755,7 +20782,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 27000.0,
+    "amountUsd": 27000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -20778,7 +20805,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 55000.0,
+    "amountUsd": 55000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -20803,7 +20830,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 6600.0,
+    "amountUsd": 6600,
     "factors": [
       "military_end_use"
     ],
@@ -20828,7 +20855,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 220000.0,
+    "amountUsd": 220000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -20851,7 +20878,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 99000.0,
+    "amountUsd": 99000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -20874,7 +20901,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 13200.0,
+    "amountUsd": 13200,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -20897,7 +20924,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 6000.0,
+    "amountUsd": 6000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -20920,7 +20947,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 88000.0,
+    "amountUsd": 88000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -20943,7 +20970,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 17000.0,
+    "amountUsd": 17000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -20966,7 +20993,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 21000.0,
+    "amountUsd": 21000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -20991,7 +21018,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 26400.0,
+    "amountUsd": 26400,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -21016,7 +21043,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 44000.0,
+    "amountUsd": 44000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -21039,7 +21066,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 30800.0,
+    "amountUsd": 30800,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -21062,7 +21089,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 21120.0,
+    "amountUsd": 21120,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -21085,7 +21112,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 6000.0,
+    "amountUsd": 6000,
     "factors": [
       "us_origin"
     ],
@@ -21110,7 +21137,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 19000.0,
+    "amountUsd": 19000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -21133,7 +21160,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 450000.0,
+    "amountUsd": 450000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -21156,7 +21183,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 264000.0,
+    "amountUsd": 264000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -21181,7 +21208,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 11000.0,
+    "amountUsd": 11000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -21204,7 +21231,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 22500.0,
+    "amountUsd": 22500,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -21227,7 +21254,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 6000.0,
+    "amountUsd": 6000,
     "factors": [],
     "summary": "Not stated in source",
     "sourceTitle": "Not stated in source",
@@ -21250,7 +21277,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 6500.0,
+    "amountUsd": 6500,
     "factors": [
       "transshipment"
     ],
@@ -21275,7 +21302,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 75000.0,
+    "amountUsd": 75000,
     "factors": [
       "military_end_use",
       "weak_controls"
@@ -21303,7 +21330,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 3000000.0,
+    "amountUsd": 3000000,
     "factors": [
       "military_end_use",
       "weak_controls"
@@ -21329,7 +21356,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 14000.0,
+    "amountUsd": 14000,
     "factors": [
       "transshipment"
     ],
@@ -21354,7 +21381,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 6000.0,
+    "amountUsd": 6000,
     "factors": [
       "transshipment"
     ],
@@ -21379,7 +21406,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 189000.0,
+    "amountUsd": 189000,
     "factors": [
       "transshipment"
     ],
@@ -21406,7 +21433,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 1500000.0,
+    "amountUsd": 1500000,
     "factors": [
       "military_end_use",
       "weak_controls"
@@ -21432,7 +21459,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 451000.0,
+    "amountUsd": 451000,
     "factors": [
       "transshipment"
     ],
@@ -21457,7 +21484,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 76500.0,
+    "amountUsd": 76500,
     "factors": [
       "transshipment",
       "us_origin"
@@ -21483,7 +21510,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 33000.0,
+    "amountUsd": 33000,
     "factors": [
       "transshipment",
       "us_origin"
@@ -21509,7 +21536,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 1089000.0,
+    "amountUsd": 1089000,
     "factors": [
       "transshipment"
     ],
@@ -21534,7 +21561,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 125400.0,
+    "amountUsd": 125400,
     "factors": [
       "transshipment"
     ],
@@ -21559,7 +21586,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 22000.0,
+    "amountUsd": 22000,
     "factors": [
       "transshipment"
     ],
@@ -21584,7 +21611,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 925000.0,
+    "amountUsd": 925000,
     "factors": [
       "transshipment"
     ],
@@ -21611,7 +21638,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 297000.0,
+    "amountUsd": 297000,
     "factors": [
       "transshipment"
     ],
@@ -21636,7 +21663,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 1965600.0,
+    "amountUsd": 1965600,
     "factors": [
       "transshipment"
     ],
@@ -21661,7 +21688,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 12000.0,
+    "amountUsd": 12000,
     "factors": [
       "transshipment"
     ],
@@ -21686,7 +21713,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 20000.0,
+    "amountUsd": 20000,
     "factors": [
       "transshipment"
     ],
@@ -21713,7 +21740,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 39650.0,
+    "amountUsd": 39650,
     "factors": [
       "transshipment"
     ],
@@ -21740,7 +21767,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 56000.0,
+    "amountUsd": 56000,
     "factors": [
       "transshipment"
     ],
@@ -21767,7 +21794,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 26400.0,
+    "amountUsd": 26400,
     "factors": [
       "transshipment"
     ],
@@ -21794,7 +21821,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 39600.0,
+    "amountUsd": 39600,
     "factors": [
       "transshipment"
     ],
@@ -21821,7 +21848,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 8800.0,
+    "amountUsd": 8800,
     "factors": [
       "transshipment"
     ],
@@ -21846,7 +21873,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 25500.0,
+    "amountUsd": 25500,
     "factors": [
       "transshipment"
     ],
@@ -21871,7 +21898,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 34000.0,
+    "amountUsd": 34000,
     "factors": [
       "transshipment"
     ],
@@ -21896,7 +21923,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 170000.0,
+    "amountUsd": 170000,
     "factors": [
       "transshipment"
     ],
@@ -21921,7 +21948,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 77000.0,
+    "amountUsd": 77000,
     "factors": [
       "transshipment"
     ],
@@ -21946,7 +21973,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 12600.0,
+    "amountUsd": 12600,
     "factors": [
       "transshipment"
     ],
@@ -21971,7 +21998,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 24300.0,
+    "amountUsd": 24300,
     "factors": [
       "transshipment"
     ],
@@ -21998,7 +22025,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 20000.0,
+    "amountUsd": 20000,
     "factors": [
       "transshipment"
     ],
@@ -22023,7 +22050,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 57750.0,
+    "amountUsd": 57750,
     "factors": [
       "transshipment"
     ],
@@ -22050,7 +22077,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 820000.0,
+    "amountUsd": 820000,
     "factors": [
       "transshipment"
     ],
@@ -22077,7 +22104,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 6600.0,
+    "amountUsd": 6600,
     "factors": [
       "transshipment"
     ],
@@ -22104,7 +22131,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 12000.0,
+    "amountUsd": 12000,
     "factors": [
       "transshipment"
     ],
@@ -22131,7 +22158,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 110000.0,
+    "amountUsd": 110000,
     "factors": [
       "transshipment"
     ],
@@ -22158,7 +22185,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 122100.0,
+    "amountUsd": 122100,
     "factors": [
       "transshipment"
     ],
@@ -22185,7 +22212,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 6600.0,
+    "amountUsd": 6600,
     "factors": [
       "transshipment"
     ],
@@ -22212,7 +22239,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 680000.0,
+    "amountUsd": 680000,
     "factors": [
       "transshipment"
     ],
@@ -22239,7 +22266,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 35000.0,
+    "amountUsd": 35000,
     "factors": [
       "transshipment"
     ],
@@ -22266,7 +22293,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 82500.0,
+    "amountUsd": 82500,
     "factors": [
       "transshipment"
     ],
@@ -22293,7 +22320,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 203400.0,
+    "amountUsd": 203400,
     "factors": [
       "transshipment"
     ],
@@ -22318,7 +22345,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 77000.0,
+    "amountUsd": 77000,
     "factors": [
       "transshipment"
     ],
@@ -22343,7 +22370,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 255750.0,
+    "amountUsd": 255750,
     "factors": [
       "transshipment"
     ],
@@ -22368,7 +22395,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 9000.0,
+    "amountUsd": 9000,
     "factors": [
       "transshipment"
     ],
@@ -22393,7 +22420,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 65000.0,
+    "amountUsd": 65000,
     "factors": [
       "transshipment"
     ],
@@ -22420,7 +22447,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 36000.0,
+    "amountUsd": 36000,
     "factors": [
       "transshipment"
     ],
@@ -22447,7 +22474,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 15000000.0,
+    "amountUsd": 15000000,
     "factors": [
       "military_end_use",
       "weak_controls"
@@ -22475,7 +22502,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 4000000.0,
+    "amountUsd": 4000000,
     "factors": [
       "military_end_use",
       "weak_controls"
@@ -22503,7 +22530,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 3000000.0,
+    "amountUsd": 3000000,
     "factors": [
       "military_end_use",
       "weak_controls"
@@ -22529,7 +22556,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 82500.0,
+    "amountUsd": 82500,
     "factors": [
       "transshipment"
     ],
@@ -22554,7 +22581,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 7000.0,
+    "amountUsd": 7000,
     "factors": [
       "transshipment"
     ],
@@ -22579,7 +22606,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 8000.0,
+    "amountUsd": 8000,
     "factors": [
       "transshipment"
     ],
@@ -22604,7 +22631,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 19800.0,
+    "amountUsd": 19800,
     "factors": [
       "transshipment"
     ],
@@ -22629,7 +22656,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 22000.0,
+    "amountUsd": 22000,
     "factors": [
       "transshipment"
     ],
@@ -22654,7 +22681,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 221250.0,
+    "amountUsd": 221250,
     "factors": [
       "transshipment"
     ],
@@ -22681,7 +22708,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 17000.0,
+    "amountUsd": 17000,
     "factors": [
       "transshipment",
       "us_origin"
@@ -22708,7 +22735,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Logistics enforcement action",
-    "amountUsd": 17000.0,
+    "amountUsd": 17000,
     "factors": [],
     "summary": "Logistics enforcement action involving Nippon Express.",
     "sourceTitle": "Workbook logistics enforcement row",
@@ -22731,7 +22758,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 123000.0,
+    "amountUsd": 123000,
     "factors": [
       "transshipment"
     ],
@@ -22758,7 +22785,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 74800.0,
+    "amountUsd": 74800,
     "factors": [
       "transshipment"
     ],
@@ -22783,7 +22810,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 11000.0,
+    "amountUsd": 11000,
     "factors": [
       "transshipment"
     ],
@@ -22808,7 +22835,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 61600.0,
+    "amountUsd": 61600,
     "factors": [
       "transshipment"
     ],
@@ -22833,7 +22860,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 19800.0,
+    "amountUsd": 19800,
     "factors": [
       "transshipment"
     ],
@@ -22858,7 +22885,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 11600.0,
+    "amountUsd": 11600,
     "factors": [
       "transshipment"
     ],
@@ -22883,7 +22910,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 37500.0,
+    "amountUsd": 37500,
     "factors": [
       "transshipment"
     ],
@@ -22908,7 +22935,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 100000.0,
+    "amountUsd": 100000,
     "factors": [
       "transshipment"
     ],
@@ -22933,7 +22960,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 5500.0,
+    "amountUsd": 5500,
     "factors": [
       "transshipment"
     ],
@@ -22958,7 +22985,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 6600.0,
+    "amountUsd": 6600,
     "factors": [
       "transshipment"
     ],
@@ -22983,7 +23010,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 19250.0,
+    "amountUsd": 19250,
     "factors": [
       "transshipment"
     ],
@@ -23008,7 +23035,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 44000.0,
+    "amountUsd": 44000,
     "factors": [
       "transshipment"
     ],
@@ -23033,7 +23060,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 8000.0,
+    "amountUsd": 8000,
     "factors": [
       "transshipment"
     ],
@@ -23058,7 +23085,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 1540000.0,
+    "amountUsd": 1540000,
     "factors": [
       "transshipment"
     ],
@@ -23085,7 +23112,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 18000.0,
+    "amountUsd": 18000,
     "factors": [
       "transshipment"
     ],
@@ -23110,7 +23137,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 200000.0,
+    "amountUsd": 200000,
     "factors": [
       "transshipment"
     ],
@@ -23137,7 +23164,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 40000.0,
+    "amountUsd": 40000,
     "factors": [
       "transshipment"
     ],
@@ -23162,7 +23189,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 42000.0,
+    "amountUsd": 42000,
     "factors": [
       "transshipment"
     ],
@@ -23189,7 +23216,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 17500.0,
+    "amountUsd": 17500,
     "factors": [
       "transshipment"
     ],
@@ -23216,7 +23243,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 185000.0,
+    "amountUsd": 185000,
     "factors": [
       "transshipment"
     ],
@@ -23241,7 +23268,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 400000.0,
+    "amountUsd": 400000,
     "factors": [
       "transshipment"
     ],
@@ -23266,7 +23293,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 10400.0,
+    "amountUsd": 10400,
     "factors": [
       "transshipment"
     ],
@@ -23291,7 +23318,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 101500.0,
+    "amountUsd": 101500,
     "factors": [
       "transshipment"
     ],
@@ -23316,7 +23343,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 500000.0,
+    "amountUsd": 500000,
     "factors": [
       "military_end_use",
       "weak_controls"
@@ -23342,7 +23369,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 50000.0,
+    "amountUsd": 50000,
     "factors": [
       "transshipment"
     ],
@@ -23367,7 +23394,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 33000.0,
+    "amountUsd": 33000,
     "factors": [
       "transshipment"
     ],
@@ -23392,7 +23419,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 83200.0,
+    "amountUsd": 83200,
     "factors": [
       "transshipment"
     ],
@@ -23417,7 +23444,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 454000.0,
+    "amountUsd": 454000,
     "factors": [
       "transshipment"
     ],
@@ -23442,7 +23469,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 82500.0,
+    "amountUsd": 82500,
     "factors": [
       "transshipment"
     ],
@@ -23467,7 +23494,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 6000.0,
+    "amountUsd": 6000,
     "factors": [
       "transshipment"
     ],
@@ -23492,7 +23519,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 101000.0,
+    "amountUsd": 101000,
     "factors": [
       "transshipment"
     ],
@@ -23519,7 +23546,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 123500.0,
+    "amountUsd": 123500,
     "factors": [
       "transshipment"
     ],
@@ -23544,7 +23571,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 142450.0,
+    "amountUsd": 142450,
     "factors": [
       "transshipment"
     ],
@@ -23571,7 +23598,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 31000.0,
+    "amountUsd": 31000,
     "factors": [
       "transshipment"
     ],
@@ -23598,7 +23625,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 18000.0,
+    "amountUsd": 18000,
     "factors": [
       "transshipment"
     ],
@@ -23623,7 +23650,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 330000.0,
+    "amountUsd": 330000,
     "factors": [
       "transshipment"
     ],
@@ -23648,7 +23675,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 36000.0,
+    "amountUsd": 36000,
     "factors": [
       "transshipment"
     ],
@@ -23673,7 +23700,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 143000.0,
+    "amountUsd": 143000,
     "factors": [
       "transshipment"
     ],
@@ -23698,7 +23725,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 19500.0,
+    "amountUsd": 19500,
     "factors": [
       "transshipment"
     ],
@@ -23725,7 +23752,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 12000.0,
+    "amountUsd": 12000,
     "factors": [
       "transshipment"
     ],
@@ -23752,7 +23779,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 18000.0,
+    "amountUsd": 18000,
     "factors": [
       "transshipment"
     ],
@@ -23777,7 +23804,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 44000.0,
+    "amountUsd": 44000,
     "factors": [
       "transshipment"
     ],
@@ -23802,7 +23829,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 904500.0,
+    "amountUsd": 904500,
     "factors": [
       "transshipment"
     ],
@@ -23829,7 +23856,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 700000.0,
+    "amountUsd": 700000,
     "factors": [
       "transshipment"
     ],
@@ -23856,7 +23883,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 16500.0,
+    "amountUsd": 16500,
     "factors": [
       "transshipment"
     ],
@@ -23881,7 +23908,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 49500.0,
+    "amountUsd": 49500,
     "factors": [
       "transshipment"
     ],
@@ -23908,7 +23935,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 10000.0,
+    "amountUsd": 10000,
     "factors": [
       "transshipment"
     ],
@@ -23933,7 +23960,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 150000.0,
+    "amountUsd": 150000,
     "factors": [
       "transshipment"
     ],
@@ -23958,7 +23985,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 95000.0,
+    "amountUsd": 95000,
     "factors": [
       "transshipment"
     ],
@@ -23985,7 +24012,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 46750.0,
+    "amountUsd": 46750,
     "factors": [
       "transshipment"
     ],
@@ -24010,7 +24037,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 39000.0,
+    "amountUsd": 39000,
     "factors": [
       "transshipment"
     ],
@@ -24037,7 +24064,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 33000.0,
+    "amountUsd": 33000,
     "factors": [
       "military_end_use",
       "transshipment"
@@ -24065,7 +24092,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 10000.0,
+    "amountUsd": 10000,
     "factors": [
       "transshipment"
     ],
@@ -24090,7 +24117,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 14000.0,
+    "amountUsd": 14000,
     "factors": [
       "transshipment"
     ],
@@ -24115,7 +24142,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 123000.0,
+    "amountUsd": 123000,
     "factors": [
       "transshipment"
     ],
@@ -24142,7 +24169,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 265000.0,
+    "amountUsd": 265000,
     "factors": [
       "transshipment"
     ],
@@ -24167,7 +24194,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 214500.0,
+    "amountUsd": 214500,
     "factors": [
       "transshipment"
     ],
@@ -24194,7 +24221,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 510000.0,
+    "amountUsd": 510000,
     "factors": [
       "transshipment"
     ],
@@ -24221,7 +24248,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 5000000.0,
+    "amountUsd": 5000000,
     "factors": [
       "military_end_use",
       "weak_controls"
@@ -24247,7 +24274,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 10000.0,
+    "amountUsd": 10000,
     "factors": [
       "transshipment"
     ],
@@ -24272,7 +24299,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 77000.0,
+    "amountUsd": 77000,
     "factors": [
       "transshipment"
     ],
@@ -24297,7 +24324,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 17500.0,
+    "amountUsd": 17500,
     "factors": [
       "transshipment"
     ],
@@ -24322,7 +24349,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 183500.0,
+    "amountUsd": 183500,
     "factors": [
       "transshipment"
     ],
@@ -24348,7 +24375,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Logistics enforcement action",
-    "amountUsd": 40000.0,
+    "amountUsd": 40000,
     "factors": [],
     "summary": "Logistics enforcement action involving FedEx.",
     "sourceTitle": "Workbook logistics enforcement row",
@@ -24370,7 +24397,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Logistics enforcement action",
-    "amountUsd": 18000.0,
+    "amountUsd": 18000,
     "factors": [],
     "summary": "Logistics enforcement action involving Deutsche Post.",
     "sourceTitle": "Workbook logistics enforcement row",
@@ -24391,7 +24418,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 45000.0,
+    "amountUsd": 45000,
     "factors": [
       "transshipment"
     ],
@@ -24416,7 +24443,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 6000.0,
+    "amountUsd": 6000,
     "factors": [
       "transshipment"
     ],
@@ -24441,7 +24468,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 6300.0,
+    "amountUsd": 6300,
     "factors": [
       "transshipment"
     ],
@@ -24468,7 +24495,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 2500000.0,
+    "amountUsd": 2500000,
     "factors": [
       "military_end_use",
       "weak_controls"
@@ -24494,7 +24521,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 500000.0,
+    "amountUsd": 500000,
     "factors": [
       "military_end_use",
       "us_origin"
@@ -24520,7 +24547,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 60000.0,
+    "amountUsd": 60000,
     "factors": [
       "transshipment"
     ],
@@ -24547,7 +24574,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 16200.0,
+    "amountUsd": 16200,
     "factors": [
       "transshipment"
     ],
@@ -24574,7 +24601,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 125000.0,
+    "amountUsd": 125000,
     "factors": [
       "transshipment"
     ],
@@ -24599,7 +24626,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 50000.0,
+    "amountUsd": 50000,
     "factors": [
       "transshipment"
     ],
@@ -24626,7 +24653,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 8000000.0,
+    "amountUsd": 8000000,
     "factors": [
       "military_end_use",
       "weak_controls"
@@ -24654,7 +24681,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 15000000.0,
+    "amountUsd": 15000000,
     "factors": [
       "military_end_use",
       "weak_controls"
@@ -24682,7 +24709,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 5000000.0,
+    "amountUsd": 5000000,
     "factors": [
       "military_end_use",
       "weak_controls"
@@ -24708,7 +24735,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 35500.0,
+    "amountUsd": 35500,
     "factors": [
       "transshipment"
     ],
@@ -24733,7 +24760,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 60000.0,
+    "amountUsd": 60000,
     "factors": [
       "management_awareness",
       "transshipment"
@@ -24761,7 +24788,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 32500.0,
+    "amountUsd": 32500,
     "factors": [
       "transshipment"
     ],
@@ -24786,7 +24813,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 17500.0,
+    "amountUsd": 17500,
     "factors": [
       "transshipment"
     ],
@@ -24811,7 +24838,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 222000.0,
+    "amountUsd": 222000,
     "factors": [
       "transshipment"
     ],
@@ -24838,7 +24865,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 121000.0,
+    "amountUsd": 121000,
     "factors": [
       "transshipment"
     ],
@@ -24865,7 +24892,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 560000.0,
+    "amountUsd": 560000,
     "factors": [
       "transshipment"
     ],
@@ -24890,7 +24917,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 51000.0,
+    "amountUsd": 51000,
     "factors": [
       "transshipment"
     ],
@@ -24915,7 +24942,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 15300.0,
+    "amountUsd": 15300,
     "factors": [
       "transshipment"
     ],
@@ -24940,7 +24967,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 40000.0,
+    "amountUsd": 40000,
     "factors": [
       "transshipment"
     ],
@@ -24965,7 +24992,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 54000.0,
+    "amountUsd": 54000,
     "factors": [
       "transshipment"
     ],
@@ -24990,7 +25017,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 6000.0,
+    "amountUsd": 6000,
     "factors": [
       "transshipment"
     ],
@@ -25015,7 +25042,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 25000.0,
+    "amountUsd": 25000,
     "factors": [
       "transshipment"
     ],
@@ -25042,7 +25069,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 262500.0,
+    "amountUsd": 262500,
     "factors": [
       "transshipment"
     ],
@@ -25067,7 +25094,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 15000.0,
+    "amountUsd": 15000,
     "factors": [
       "military_end_use",
       "transshipment"
@@ -25095,7 +25122,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 14000.0,
+    "amountUsd": 14000,
     "factors": [
       "transshipment"
     ],
@@ -25122,7 +25149,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 697500.0,
+    "amountUsd": 697500,
     "factors": [
       "transshipment"
     ],
@@ -25147,7 +25174,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 55000.0,
+    "amountUsd": 55000,
     "factors": [
       "transshipment"
     ],
@@ -25172,7 +25199,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 300000.0,
+    "amountUsd": 300000,
     "factors": [
       "us_origin"
     ],
@@ -25197,7 +25224,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 44000.0,
+    "amountUsd": 44000,
     "factors": [
       "transshipment"
     ],
@@ -25222,7 +25249,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 20700.0,
+    "amountUsd": 20700,
     "factors": [
       "transshipment"
     ],
@@ -25249,7 +25276,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 40000.0,
+    "amountUsd": 40000,
     "factors": [
       "transshipment"
     ],
@@ -25276,7 +25303,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 150000.0,
+    "amountUsd": 150000,
     "factors": [
       "military_end_use",
       "transshipment"
@@ -25302,7 +25329,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 275000.0,
+    "amountUsd": 275000,
     "factors": [
       "transshipment"
     ],
@@ -25329,7 +25356,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 422000.0,
+    "amountUsd": 422000,
     "factors": [
       "transshipment"
     ],
@@ -25354,7 +25381,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 30000.0,
+    "amountUsd": 30000,
     "factors": [
       "transshipment"
     ],
@@ -25379,7 +25406,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 200000.0,
+    "amountUsd": 200000,
     "factors": [
       "transshipment"
     ],
@@ -25404,7 +25431,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 7000.0,
+    "amountUsd": 7000,
     "factors": [
       "transshipment"
     ],
@@ -25431,7 +25458,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 266750.0,
+    "amountUsd": 266750,
     "factors": [
       "transshipment"
     ],
@@ -25458,7 +25485,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 351000.0,
+    "amountUsd": 351000,
     "factors": [
       "transshipment"
     ],
@@ -25485,7 +25512,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 57000.0,
+    "amountUsd": 57000,
     "factors": [
       "transshipment"
     ],
@@ -25512,7 +25539,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 239500.0,
+    "amountUsd": 239500,
     "factors": [
       "transshipment"
     ],
@@ -25537,7 +25564,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 27000.0,
+    "amountUsd": 27000,
     "factors": [
       "transshipment"
     ],
@@ -25562,7 +25589,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 5000.0,
+    "amountUsd": 5000,
     "factors": [
       "transshipment"
     ],
@@ -25587,7 +25614,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 38000.0,
+    "amountUsd": 38000,
     "factors": [
       "transshipment"
     ],
@@ -25612,7 +25639,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 7000.0,
+    "amountUsd": 7000,
     "factors": [
       "transshipment"
     ],
@@ -25637,7 +25664,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 13000.0,
+    "amountUsd": 13000,
     "factors": [
       "transshipment"
     ],
@@ -25664,7 +25691,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 36000.0,
+    "amountUsd": 36000,
     "factors": [
       "transshipment"
     ],
@@ -25689,7 +25716,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 35000.0,
+    "amountUsd": 35000,
     "factors": [
       "transshipment"
     ],
@@ -25716,7 +25743,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 264000.0,
+    "amountUsd": 264000,
     "factors": [
       "transshipment"
     ],
@@ -25743,7 +25770,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 5000.0,
+    "amountUsd": 5000,
     "factors": [
       "transshipment"
     ],
@@ -25770,7 +25797,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 11000.0,
+    "amountUsd": 11000,
     "factors": [
       "transshipment"
     ],
@@ -25797,7 +25824,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 400000.0,
+    "amountUsd": 400000,
     "factors": [
       "transshipment"
     ],
@@ -25822,7 +25849,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 35000.0,
+    "amountUsd": 35000,
     "factors": [
       "transshipment"
     ],
@@ -25847,7 +25874,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 50000.0,
+    "amountUsd": 50000,
     "factors": [
       "transshipment"
     ],
@@ -25872,7 +25899,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 20000.0,
+    "amountUsd": 20000,
     "factors": [
       "transshipment"
     ],
@@ -25899,7 +25926,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 180000.0,
+    "amountUsd": 180000,
     "factors": [
       "transshipment"
     ],
@@ -25924,7 +25951,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 27000.0,
+    "amountUsd": 27000,
     "factors": [
       "transshipment"
     ],
@@ -25951,7 +25978,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 5000.0,
+    "amountUsd": 5000,
     "factors": [
       "transshipment"
     ],
@@ -25978,7 +26005,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 44000.0,
+    "amountUsd": 44000,
     "factors": [
       "transshipment",
       "us_origin"
@@ -26004,7 +26031,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 5000.0,
+    "amountUsd": 5000,
     "factors": [
       "transshipment"
     ],
@@ -26029,7 +26056,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 2000000.0,
+    "amountUsd": 2000000,
     "factors": [
       "military_end_use",
       "weak_controls"
@@ -26057,7 +26084,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 178500.0,
+    "amountUsd": 178500,
     "factors": [
       "transshipment"
     ],
@@ -26084,7 +26111,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 225000.0,
+    "amountUsd": 225000,
     "factors": [
       "military_end_use",
       "weak_controls"
@@ -26110,7 +26137,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 165000.0,
+    "amountUsd": 165000,
     "factors": [
       "transshipment"
     ],
@@ -26135,7 +26162,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 223000.0,
+    "amountUsd": 223000,
     "factors": [
       "transshipment"
     ],
@@ -26162,7 +26189,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 5000.0,
+    "amountUsd": 5000,
     "factors": [
       "transshipment"
     ],
@@ -26187,7 +26214,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 399000.0,
+    "amountUsd": 399000,
     "factors": [
       "transshipment"
     ],
@@ -26214,7 +26241,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 171500.0,
+    "amountUsd": 171500,
     "factors": [
       "military_end_use",
       "transshipment"
@@ -26240,7 +26267,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 8000.0,
+    "amountUsd": 8000,
     "factors": [
       "transshipment"
     ],
@@ -26265,7 +26292,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 5000.0,
+    "amountUsd": 5000,
     "factors": [
       "transshipment"
     ],
@@ -26290,7 +26317,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 22500.0,
+    "amountUsd": 22500,
     "factors": [
       "transshipment"
     ],
@@ -26317,7 +26344,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 55000.0,
+    "amountUsd": 55000,
     "factors": [
       "transshipment"
     ],
@@ -26342,7 +26369,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 187000.0,
+    "amountUsd": 187000,
     "factors": [
       "transshipment"
     ],
@@ -26369,7 +26396,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 200000.0,
+    "amountUsd": 200000,
     "factors": [
       "transshipment"
     ],
@@ -26394,7 +26421,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 159000.0,
+    "amountUsd": 159000,
     "factors": [
       "transshipment"
     ],
@@ -26421,7 +26448,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 10000.0,
+    "amountUsd": 10000,
     "factors": [
       "military_end_use",
       "transshipment"
@@ -26447,7 +26474,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 508612492.0,
+    "amountUsd": 508612492,
     "factors": [
       "management_awareness",
       "no_license"
@@ -26457,7 +26484,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 15.0,
+    "violationCount": 15,
     "sanctionsRegime": "WMDPSR, NKSR",
     "egregious": "Yes"
   },
@@ -26474,7 +26501,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "No voluntary self-disclosure",
     "posture": "OFAC civil penalty/settlement",
-    "amountUsd": 5348685.0,
+    "amountUsd": 5348685,
     "factors": [
       "management_awareness",
       "no_license"
@@ -26484,7 +26511,7 @@ window.SANCTIONS_CASES = [
     "sourceUrl": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     "recordType": "Workbook normalized case",
     "codingStatus": "Workbook-coded for model",
-    "violationCount": 15.0,
+    "violationCount": 15,
     "sanctionsRegime": "WMDPSR, NKSR",
     "egregious": "Yes"
   },
@@ -26501,7 +26528,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 30000.0,
+    "amountUsd": 30000,
     "factors": [
       "transshipment"
     ],
@@ -26526,7 +26553,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 22000.0,
+    "amountUsd": 22000,
     "factors": [
       "transshipment"
     ],
@@ -26551,7 +26578,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 12000.0,
+    "amountUsd": 12000,
     "factors": [
       "transshipment"
     ],
@@ -26576,7 +26603,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 12000.0,
+    "amountUsd": 12000,
     "factors": [
       "transshipment"
     ],
@@ -26601,7 +26628,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 65000.0,
+    "amountUsd": 65000,
     "factors": [
       "transshipment"
     ],
@@ -26628,7 +26655,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 13000.0,
+    "amountUsd": 13000,
     "factors": [
       "transshipment"
     ],
@@ -26655,7 +26682,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 24000000.0,
+    "amountUsd": 24000000,
     "factors": [
       "military_end_use",
       "weak_controls"
@@ -26683,7 +26710,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 8000000.0,
+    "amountUsd": 8000000,
     "factors": [
       "military_end_use",
       "weak_controls"
@@ -26711,7 +26738,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 25000000.0,
+    "amountUsd": 25000000,
     "factors": [
       "military_end_use",
       "weak_controls"
@@ -26737,7 +26764,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 18000.0,
+    "amountUsd": 18000,
     "factors": [
       "transshipment"
     ],
@@ -26764,7 +26791,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 182000.0,
+    "amountUsd": 182000,
     "factors": [
       "transshipment"
     ],
@@ -26790,7 +26817,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Logistics enforcement action",
-    "amountUsd": 5000.0,
+    "amountUsd": 5000,
     "factors": [],
     "summary": "Logistics enforcement action involving Expeditors International of Washington.",
     "sourceTitle": "Workbook logistics enforcement row",
@@ -26811,7 +26838,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 44000.0,
+    "amountUsd": 44000,
     "factors": [
       "transshipment"
     ],
@@ -26836,7 +26863,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 40000.0,
+    "amountUsd": 40000,
     "factors": [
       "transshipment"
     ],
@@ -26861,7 +26888,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 22000.0,
+    "amountUsd": 22000,
     "factors": [
       "transshipment"
     ],
@@ -26888,7 +26915,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 33000.0,
+    "amountUsd": 33000,
     "factors": [
       "transshipment"
     ],
@@ -26915,7 +26942,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 11000.0,
+    "amountUsd": 11000,
     "factors": [
       "transshipment"
     ],
@@ -26942,7 +26969,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 1760000.0,
+    "amountUsd": 1760000,
     "factors": [
       "transshipment"
     ],
@@ -26969,7 +26996,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 8000.0,
+    "amountUsd": 8000,
     "factors": [
       "transshipment"
     ],
@@ -26996,7 +27023,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 25000.0,
+    "amountUsd": 25000,
     "factors": [
       "transshipment"
     ],
@@ -27023,7 +27050,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 6000.0,
+    "amountUsd": 6000,
     "factors": [
       "transshipment"
     ],
@@ -27048,7 +27075,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 18000.0,
+    "amountUsd": 18000,
     "factors": [
       "transshipment"
     ],
@@ -27073,7 +27100,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 30000.0,
+    "amountUsd": 30000,
     "factors": [
       "transshipment"
     ],
@@ -27098,7 +27125,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 135000.0,
+    "amountUsd": 135000,
     "factors": [
       "transshipment"
     ],
@@ -27123,7 +27150,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 508000.0,
+    "amountUsd": 508000,
     "factors": [
       "transshipment"
     ],
@@ -27148,7 +27175,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 20000.0,
+    "amountUsd": 20000,
     "factors": [
       "transshipment"
     ],
@@ -27175,7 +27202,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 25000.0,
+    "amountUsd": 25000,
     "factors": [
       "transshipment"
     ],
@@ -27200,7 +27227,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 186000.0,
+    "amountUsd": 186000,
     "factors": [
       "transshipment"
     ],
@@ -27225,7 +27252,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 95000.0,
+    "amountUsd": 95000,
     "factors": [
       "transshipment"
     ],
@@ -27250,7 +27277,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 50000.0,
+    "amountUsd": 50000,
     "factors": [
       "transshipment"
     ],
@@ -27275,7 +27302,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 1120000.0,
+    "amountUsd": 1120000,
     "factors": [
       "transshipment"
     ],
@@ -27302,7 +27329,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 20000000.0,
+    "amountUsd": 20000000,
     "factors": [
       "military_end_use",
       "weak_controls"
@@ -27330,7 +27357,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 210000.0,
+    "amountUsd": 210000,
     "factors": [
       "transshipment"
     ],
@@ -27355,7 +27382,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 52500.0,
+    "amountUsd": 52500,
     "factors": [
       "transshipment"
     ],
@@ -27382,7 +27409,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 2120000.0,
+    "amountUsd": 2120000,
     "factors": [
       "military_end_use",
       "transshipment"
@@ -27408,7 +27435,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 15000.0,
+    "amountUsd": 15000,
     "factors": [
       "transshipment"
     ],
@@ -27433,7 +27460,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 32000.0,
+    "amountUsd": 32000,
     "factors": [
       "transshipment"
     ],
@@ -27458,7 +27485,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 86000.0,
+    "amountUsd": 86000,
     "factors": [
       "transshipment"
     ],
@@ -27485,7 +27512,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 496000.0,
+    "amountUsd": 496000,
     "factors": [
       "transshipment"
     ],
@@ -27510,7 +27537,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 48000.0,
+    "amountUsd": 48000,
     "factors": [
       "transshipment"
     ],
@@ -27535,7 +27562,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 75000.0,
+    "amountUsd": 75000,
     "factors": [
       "transshipment"
     ],
@@ -27560,7 +27587,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 25000.0,
+    "amountUsd": 25000,
     "factors": [
       "transshipment"
     ],
@@ -27585,7 +27612,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 30000.0,
+    "amountUsd": 30000,
     "factors": [
       "transshipment"
     ],
@@ -27610,7 +27637,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 237000.0,
+    "amountUsd": 237000,
     "factors": [
       "transshipment"
     ],
@@ -27635,7 +27662,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 80000.0,
+    "amountUsd": 80000,
     "factors": [
       "transshipment"
     ],
@@ -27660,7 +27687,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 1320000.0,
+    "amountUsd": 1320000,
     "factors": [
       "transshipment"
     ],
@@ -27687,7 +27714,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 30000.0,
+    "amountUsd": 30000,
     "factors": [
       "transshipment"
     ],
@@ -27714,7 +27741,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 600000.0,
+    "amountUsd": 600000,
     "factors": [
       "military_end_use",
       "weak_controls"
@@ -27740,7 +27767,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 225000.0,
+    "amountUsd": 225000,
     "factors": [
       "transshipment"
     ],
@@ -27767,7 +27794,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 3800000.0,
+    "amountUsd": 3800000,
     "factors": [
       "military_end_use",
       "weak_controls"
@@ -27793,7 +27820,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 22000.0,
+    "amountUsd": 22000,
     "factors": [
       "transshipment"
     ],
@@ -27820,7 +27847,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 230000.0,
+    "amountUsd": 230000,
     "factors": [
       "transshipment"
     ],
@@ -27845,7 +27872,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 40000.0,
+    "amountUsd": 40000,
     "factors": [
       "transshipment"
     ],
@@ -27870,7 +27897,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 64000.0,
+    "amountUsd": 64000,
     "factors": [
       "transshipment"
     ],
@@ -27895,7 +27922,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 10000.0,
+    "amountUsd": 10000,
     "factors": [
       "transshipment"
     ],
@@ -27920,7 +27947,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 50000.0,
+    "amountUsd": 50000,
     "factors": [
       "transshipment"
     ],
@@ -27947,7 +27974,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 15000.0,
+    "amountUsd": 15000,
     "factors": [
       "transshipment"
     ],
@@ -27974,7 +28001,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 13000.0,
+    "amountUsd": 13000,
     "factors": [
       "transshipment"
     ],
@@ -27999,7 +28026,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 10000.0,
+    "amountUsd": 10000,
     "factors": [
       "transshipment"
     ],
@@ -28024,7 +28051,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 20000.0,
+    "amountUsd": 20000,
     "factors": [
       "transshipment"
     ],
@@ -28051,7 +28078,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 8000000.0,
+    "amountUsd": 8000000,
     "factors": [
       "military_end_use",
       "weak_controls"
@@ -28079,7 +28106,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 142000.0,
+    "amountUsd": 142000,
     "factors": [
       "transshipment"
     ],
@@ -28104,7 +28131,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 20000.0,
+    "amountUsd": 20000,
     "factors": [
       "transshipment"
     ],
@@ -28129,7 +28156,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 25000.0,
+    "amountUsd": 25000,
     "factors": [
       "transshipment"
     ],
@@ -28154,7 +28181,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 380000.0,
+    "amountUsd": 380000,
     "factors": [
       "us_origin"
     ],
@@ -28179,7 +28206,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 20000.0,
+    "amountUsd": 20000,
     "factors": [
       "transshipment"
     ],
@@ -28204,7 +28231,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 100000.0,
+    "amountUsd": 100000,
     "factors": [
       "military_end_use",
       "weak_controls"
@@ -28230,7 +28257,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 15000.0,
+    "amountUsd": 15000,
     "factors": [
       "transshipment"
     ],
@@ -28257,7 +28284,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 200000.0,
+    "amountUsd": 200000,
     "factors": [
       "transshipment"
     ],
@@ -28282,7 +28309,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Not stated in source",
-    "amountUsd": 150000.0,
+    "amountUsd": 150000,
     "factors": [
       "transshipment"
     ],
@@ -28308,7 +28335,7 @@ window.SANCTIONS_CASES = [
     ],
     "disclosure": "Not specified",
     "posture": "Logistics enforcement action",
-    "amountUsd": 15000.0,
+    "amountUsd": 15000,
     "factors": [],
     "summary": "Logistics enforcement action involving FedEx.",
     "sourceTitle": "Workbook logistics enforcement row",

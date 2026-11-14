@@ -1,5 +1,57 @@
 window.SOURCE_INDEX = [
   {
+    "id": "doj-release-2026-11-13-arash-einolghozati",
+    "date": "2026-11-13",
+    "agency": "DOJ",
+    "jurisdiction": "United States",
+    "actionType": "Criminal sentencing",
+    "name": "Arash Einolghozati",
+    "amountUsd": 15000,
+    "recordType": "Official DOJ sanctions enforcement release",
+    "codingStatus": "Official-source coded for model",
+    "sourceTitle": "DOJ sentencing release, November 13, 2026",
+    "sourceUrl": "https://www.justice.gov/usao-hi/pr/north-shore-man-sentenced-two-years-prison-sending-money-iran-violation-us-sanctions",
+    "summary": "DOJ reported that Arash Einolghozati pleaded guilty to transferring funds from the United States to Iran without the required OFAC license. He knowingly sent fiat currency and cryptocurrency to recipients in Iran or to recipients who would forward the funds to individuals in Iran. The sentencing announcement reported transfers totaling more than $226,000 and a November 12 sentence of 24 months in prison, three years of supervised release, and a $15,000 fine.",
+    "tags": [
+      "Iran sanctions",
+      "Funds transfers",
+      "Cryptocurrency"
+    ]
+  },
+  {
+    "id": "sanctionsexpert-360-doj-announces-270-month-sentence-for-cjng-leader-antonio-oseguera-cervantes",
+    "date": "2026-11-13",
+    "agency": "DOJ",
+    "jurisdiction": "United States",
+    "actionType": "Sentencing",
+    "name": "DOJ Announces 270-Month Sentence for CJNG Leader Antonio Oseguera Cervantes",
+    "amountUsd": null,
+    "recordType": "Sanctions Expert feed brief",
+    "codingStatus": "Third-party feed index; official-source review needed",
+    "sourceTitle": "DOJ Announces 270-Month Sentence for CJNG Leader Antonio Oseguera Cervantes",
+    "sourceUrl": "https://www.justice.gov/opa/pr/mexican-cartel-leader-known-tony-montana-sentenced-armed-drug-trafficking-part-homeland",
+    "tags": [],
+    "primarySourceUrl": "https://www.justice.gov/opa/pr/mexican-cartel-leader-known-tony-montana-sentenced-armed-drug-trafficking-part-homeland"
+  },
+  {
+    "id": "sanctionsexpert-357-ofac-and-state-designate-three-guatemalan-criminal-organizations",
+    "date": "2026-11-13",
+    "agency": "OFAC",
+    "jurisdiction": "United States",
+    "actionType": "Designation",
+    "name": "OFAC and State Designate Three Guatemalan Criminal Organizations",
+    "amountUsd": null,
+    "recordType": "Sanctions Expert feed brief",
+    "codingStatus": "Third-party feed index; official-source review needed",
+    "sourceTitle": "OFAC and State Designate Three Guatemalan Criminal Organizations",
+    "sourceUrl": "https://ofac.treasury.gov/recent-actions/20261113",
+    "tags": [
+      "U.S.: Counter Narcotics Trafficking Sanctions",
+      "U.S.: Counter Terrorism Sanctions"
+    ],
+    "primarySourceUrl": "https://ofac.treasury.gov/recent-actions/20261113"
+  },
+  {
     "id": "sanctionsexpert-354-doj-disrupts-north-korean-crypto-theft-infrastructure-and-announces-more-than-1-2-billion-in-seizure",
     "date": "2026-11-12",
     "agency": "DOJ",
@@ -15,6 +67,55 @@ window.SOURCE_INDEX = [
       "Crypto"
     ],
     "primarySourceUrl": "https://www.justice.gov/opa/pr/justice-department-announces-actions-disrupt-north-koreas-massive-theft-cryptocurrency"
+  },
+  {
+    "id": "sanctionsexpert-358-ofsi-publishes-sanctions-factsheet-for-overseas-businesses",
+    "date": "2026-11-12",
+    "agency": "OFSI",
+    "jurisdiction": "United Kingdom",
+    "actionType": "Guidance",
+    "name": "OFSI Publishes Sanctions Factsheet for Overseas Businesses",
+    "amountUsd": null,
+    "recordType": "Sanctions Expert feed brief",
+    "codingStatus": "Third-party feed index; official-source review needed",
+    "sourceTitle": "OFSI Publishes Sanctions Factsheet for Overseas Businesses",
+    "sourceUrl": "https://assets.publishing.service.gov.uk/media/6af5de05dec5c44ec17a50bc/OFSI_Overseas_Businesses_Handout.pdf",
+    "tags": [],
+    "primarySourceUrl": "https://assets.publishing.service.gov.uk/media/6af5de05dec5c44ec17a50bc/OFSI_Overseas_Businesses_Handout.pdf"
+  },
+  {
+    "id": "sanctionsexpert-359-uk-targets-russian-energy-companies-and-additional-ships",
+    "date": "2026-11-12",
+    "agency": "OFSI",
+    "jurisdiction": "United Kingdom",
+    "actionType": "Designation",
+    "name": "UK Targets Russian Energy Companies and Additional Ships",
+    "amountUsd": null,
+    "recordType": "Sanctions Expert feed brief",
+    "codingStatus": "Third-party feed index; official-source review needed",
+    "sourceTitle": "UK Targets Russian Energy Companies and Additional Ships",
+    "sourceUrl": "https://assets.publishing.service.gov.uk/media/6af5ad18cc0dbfec767a509f/Sanctions_Notice__Russia__12_November_2026.pdf",
+    "tags": [
+      "UK: Russia"
+    ],
+    "primarySourceUrl": "https://assets.publishing.service.gov.uk/media/6af5ad18cc0dbfec767a509f/Sanctions_Notice__Russia__12_November_2026.pdf"
+  },
+  {
+    "id": "sanctionsexpert-355-un-security-council-adopts-yemen-sanctions-resolution",
+    "date": "2026-11-12",
+    "agency": "UN SC",
+    "jurisdiction": "United Nations",
+    "actionType": "Regulatory Development",
+    "name": "UN Security Council Renews Yemen Sanctions and Expands Monitoring",
+    "amountUsd": null,
+    "recordType": "Sanctions Expert feed brief",
+    "codingStatus": "Third-party feed index; official-source review needed",
+    "sourceTitle": "UN Security Council Renews Yemen Sanctions and Expands Monitoring",
+    "sourceUrl": "https://press.un.org/en/2026/sc16508.doc.htm",
+    "tags": [
+      "Regulatory Developent"
+    ],
+    "primarySourceUrl": "https://press.un.org/en/2026/sc16508.doc.htm"
   },
   {
     "id": "sanctionsexpert-353-doj-announces-18-year-sentence-for-attempted-material-support-to-isis-in-idaho-church-attack-plot",
